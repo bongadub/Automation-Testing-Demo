@@ -1,0 +1,38 @@
+
+2018-09-13 10:15:46.927632 'change tab' test logs with driver = android
+
+2018-09-13 10:15:42.706000	ALL	09-13 10:15:41.933  2247  2247 D STATUSBAR-NetworkController: refreshSignalCluster: data=0 bt=false
+2018-09-13 10:15:43.089000	ALL	09-13 10:15:42.313 18973 18984 D dalvikvm: GC_FOR_ALLOC freed 4048K, 80% free 1074K/5123K, paused 29ms, total 29ms
+2018-09-13 10:15:43.107000	ALL	09-13 10:15:42.333 18973 18973 I QueryController: Matched selector: UiSelector[INSTANCE=0, SCROLLABLE=true] <<==>> [android.view.accessibility.AccessibilityNodeInfo@7446; boundsInParent: Rect(0, 0 - 480, 690); boundsInScreen: Rect(0, 110 - 480, 800); packageName: io.appium.android.apis; className: android.widget.ListView; text: null; contentDescription: null; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: true; [ACTION_CLEAR_FOCUS, ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_ACCESSIBILITY_FOCUS, ACTION_SCROLL_FORWARD]]
+2018-09-13 10:15:43.360000	ALL	09-13 10:15:42.588 18973 18978 D dalvikvm: GC_CONCURRENT freed 979K, 80% free 1075K/5123K, paused 1ms+1ms, total 13ms
+2018-09-13 10:15:43.443000	ALL	09-13 10:15:42.668 19004 19005 D dalvikvm: GC_CONCURRENT freed 295K, 16% free 9729K/11527K, paused 11ms+2ms, total 43ms
+2018-09-13 10:15:43.647000	ALL	09-13 10:15:42.873 18973 18978 D dalvikvm: GC_CONCURRENT freed 980K, 79% free 1077K/5123K, paused 0ms+1ms, total 21ms
+2018-09-13 10:15:43.713000	ALL	09-13 10:15:42.938  2247  2247 D STATUSBAR-NetworkController: refreshSignalCluster: data=0 bt=false
+2018-09-13 10:15:43.910000	ALL	09-13 10:15:43.138 18973 18978 D dalvikvm: GC_CONCURRENT freed 981K, 79% free 1076K/5123K, paused 1ms+2ms, total 14ms
+2018-09-13 10:15:44.157000	ALL	09-13 10:15:43.383 18973 18978 D dalvikvm: GC_CONCURRENT freed 980K, 80% free 1075K/5123K, paused 0ms+1ms, total 15ms
+2018-09-13 10:15:44.226000	ALL	09-13 10:15:43.458  2127  2185 V AlarmManager: waitForAlarm result :4
+2018-09-13 10:15:44.231000	ALL	09-13 10:15:43.458  2127  2185 V AlarmManager: trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+2018-09-13 10:15:44.349000	ALL	09-13 10:15:43.583  2127  2347 E WifiHW  : ##################### set firmware type 0 #####################
+2018-09-13 10:15:44.354000	ALL	09-13 10:15:43.583  2127  2347 D WifiStateMachine: setWifiEnabled : WifiNative.setFwType(0)
+2018-09-13 10:15:44.389000	ALL	09-13 10:15:43.613  2127  2346 D WifiService: startScan: false pid=2468, uid=10033
+2018-09-13 10:15:44.389000	ALL	09-13 10:15:43.618  7520  7520 I wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+2018-09-13 10:15:44.404000	ALL	09-13 10:15:43.633  2127  3916 W AlarmManager: FACTORY_ON= 0
+2018-09-13 10:15:44.458000	ALL	09-13 10:15:43.683 18973 18978 D dalvikvm: GC_CONCURRENT freed 980K, 80% free 1074K/5123K, paused 1ms+11ms, total 24ms
+2018-09-13 10:15:44.673000	ALL	09-13 10:15:43.898 19004 19005 D dalvikvm: GC_CONCURRENT freed 457K, 16% free 9726K/11527K, paused 12ms+11ms, total 57ms
+2018-09-13 10:15:44.715000	ALL	09-13 10:15:43.943  2247  2247 D STATUSBAR-NetworkController: refreshSignalCluster: data=0 bt=false
+2018-09-13 10:15:44.798000	ALL	09-13 10:15:44.023 18973 18978 D dalvikvm: GC_CONCURRENT freed 946K, 79% free 1076K/5123K, paused 11ms+1ms, total 22ms
+2018-09-13 10:15:45.058000	ALL	09-13 10:15:44.283 18973 18978 D dalvikvm: GC_CONCURRENT freed 981K, 80% free 1075K/5123K, paused 1ms+1ms, total 15ms
+2018-09-13 10:15:45.147000	ALL	09-13 10:15:44.373  2127  2185 V AlarmManager: waitForAlarm result :8
+2018-09-13 10:15:45.153000	ALL	09-13 10:15:44.378  2127  2384 W ThrottleService: unable to find stats for iface rmnet0
+2018-09-13 10:15:45.162000	ALL	09-13 10:15:44.388  2127  2384 W AlarmManager: FACTORY_ON= 0
+2018-09-13 10:15:45.277000	ALL	09-13 10:15:44.503 18973 18978 D dalvikvm: GC_CONCURRENT freed 980K, 80% free 1075K/5123K, paused 1ms+1ms, total 14ms
+2018-09-13 10:15:45.469000	ALL	09-13 10:15:44.698 18973 18978 D dalvikvm: GC_CONCURRENT freed 981K, 79% free 1078K/5123K, paused 1ms+1ms, total 14ms
+2018-09-13 10:15:45.612000	ALL	09-13 10:15:44.838  2127  2239 D BackupManagerService: Now staging backup of android
+2018-09-13 10:15:45.710000	ALL	09-13 10:15:44.938 19004 19005 D dalvikvm: GC_CONCURRENT freed 398K, 16% free 9731K/11527K, paused 12ms+21ms, total 81ms
+2018-09-13 10:15:45.838000	ALL	09-13 10:15:45.063 18973 18978 D dalvikvm: GC_CONCURRENT freed 980K, 80% free 1075K/5123K, paused 1ms+1ms, total 13ms
+2018-09-13 10:15:46.004000	ALL	09-13 10:15:45.233  2127  2129 D dalvikvm: GC_CONCURRENT freed 1730K, 26% free 23649K/31943K, paused 25ms+31ms, total 491ms
+2018-09-13 10:15:46.102000	ALL	09-13 10:15:45.328 18973 18978 D dalvikvm: GC_CONCURRENT freed 981K, 79% free 1092K/5123K, paused 1ms+1ms, total 13ms
+2018-09-13 10:15:46.225000	ALL	09-13 10:15:45.453  1841  2497 D PermissionCache: checking android.permission.READ_FRAME_BUFFER for uid=2000 => granted (467 us)
+2018-09-13 10:15:46.431000	ALL	09-13 10:15:45.658 18973 18978 D dalvikvm: GC_CONCURRENT freed 1021K, 79% free 1126K/5123K, paused 11ms+11ms, total 53ms
+2018-09-13 10:15:46.758000	ALL	09-13 10:15:45.943 18973 18978 D dalvikvm: GC_CONCURRENT freed 1053K, 79% free 1120K/5123K, paused 11ms+1ms, total 29ms
+2018-09-13 10:15:46.758000	ALL	09-13 10:15:45.948  2247  2247 D STATUSBAR-NetworkController: refreshSignalCluster: data=0 bt=false
