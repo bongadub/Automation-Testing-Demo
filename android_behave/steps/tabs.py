@@ -27,17 +27,66 @@ def step_impl(context):
     context.current_page = MenuPageObject()
 
 
-@when('the user goes to the tabs-by-id screen')
+@when('the user clicks animation button')
 def step_impl(context):
-    context.current_page.open_option('Views').open_option('Tabs').open_option('1. Content By Id')
-    context.current_page = TabsPageObject()
+	context.current_page = TabsPageObject()
+	context.current_page.animation_btn()
 
-
-@when('the user opens the second tab')
+@when('clicks Loading button')
 def step_impl(context):
-    context.current_page.tab2.click()
+	context.current_page = TabsPageObject()
+	context.current_page.loading_btn()
+
+@then('click button run')
+def step_impl(context):
+	context.current_page = TabsPageObject()
+	context.current_page.run_btn()
 
 
-@then('the second tab contains "{message}"')
-def step_impl(context, message):
-    assert message in context.current_page.content2.text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

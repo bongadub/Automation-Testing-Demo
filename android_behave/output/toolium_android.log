@@ -1,489 +1,547 @@
-DEBUG   2018-08-16 16:16:49,394 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-16 16:16:49,395 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-16 16:16:49,395 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-16 16:16:49,402 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-16 16:16:49,402 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-16 16:16:49,402 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-16 16:16:49,402 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-16 16:16:49,403 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-16 16:16:49,403 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-16 16:16:49,403 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-16 16:16:49,409 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-16 16:17:13,916 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1262
-ERROR   2018-08-16 16:17:13,917 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
-ERROR   2018-08-16 16:17:13,918 [environment] The scenario 'change tab' has failed
-DEBUG   2018-08-16 16:18:26,683 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-16 16:18:26,684 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-16 16:18:26,684 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-16 16:18:26,690 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-16 16:18:26,690 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-16 16:18:26,691 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-16 16:18:26,691 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-16 16:18:26,691 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-16 16:18:26,691 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-16 16:18:26,691 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-16 16:18:26,696 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-16 16:19:09,667 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1041
-DEBUG   2018-08-16 16:19:09,671 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-16 16:19:10,299 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/97217ee5-d5bb-4965-a4b5-e99b93e799f4/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-16 16:19:10,302 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-16 16:19:10,337 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/97217ee5-d5bb-4965-a4b5-e99b93e799f4/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-16 16:19:10,339 [driver_wrapper] Window size: 1080 x 1776
-DEBUG   2018-08-16 16:19:10,340 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-16 16:19:10,442 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/97217ee5-d5bb-4965-a4b5-e99b93e799f4/log HTTP/1.1" 200 1732250
-DEBUG   2018-08-16 16:19:10,541 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-16 16:19:10,552 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/97217ee5-d5bb-4965-a4b5-e99b93e799f4/timeouts HTTP/1.1" 200 14
-INFO    2018-08-16 16:19:10,553 [environment] Running new scenario: change tab
-INFO    2018-08-16 16:19:27,042 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-17 09:02:36,679 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-17 09:02:36,680 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-17 09:02:36,680 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-17 09:02:36,702 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-17 09:02:36,702 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-17 09:02:36,702 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-17 09:02:36,702 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-17 09:02:36,703 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-17 09:02:36,703 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-17 09:02:36,703 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-17 09:02:36,712 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:02:54,810 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-17 09:02:54,814 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:02:55,404 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/28070d94-45fc-49d4-8e0f-a6b6952652bf/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-17 09:02:55,409 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:02:55,461 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/28070d94-45fc-49d4-8e0f-a6b6952652bf/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-17 09:02:55,462 [driver_wrapper] Window size: 1440 x 2768
-DEBUG   2018-08-17 09:02:55,463 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:02:55,531 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/28070d94-45fc-49d4-8e0f-a6b6952652bf/log HTTP/1.1" 200 576977
-DEBUG   2018-08-17 09:02:55,569 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:02:55,577 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/28070d94-45fc-49d4-8e0f-a6b6952652bf/timeouts HTTP/1.1" 200 14
-INFO    2018-08-17 09:02:55,579 [environment] Running new scenario: change tab
-INFO    2018-08-17 09:03:06,638 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-17 09:05:23,570 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-17 09:05:23,571 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-17 09:05:23,571 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-17 09:05:23,576 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-17 09:05:23,577 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-17 09:05:23,577 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-17 09:05:23,577 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-17 09:05:23,577 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-17 09:05:23,577 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-17 09:05:23,577 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-17 09:05:23,581 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:05:40,659 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-17 09:05:40,661 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:05:41,338 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/b22993ef-d1bf-418a-9e17-9bf5690b9606/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-17 09:05:41,341 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:05:41,393 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/b22993ef-d1bf-418a-9e17-9bf5690b9606/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-17 09:05:41,394 [driver_wrapper] Window size: 1440 x 2768
-DEBUG   2018-08-17 09:05:41,395 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:05:41,460 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/b22993ef-d1bf-418a-9e17-9bf5690b9606/log HTTP/1.1" 200 668732
-DEBUG   2018-08-17 09:05:41,504 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:05:41,509 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/b22993ef-d1bf-418a-9e17-9bf5690b9606/timeouts HTTP/1.1" 200 14
-INFO    2018-08-17 09:05:41,510 [environment] Running new scenario: change tab
-INFO    2018-08-17 09:05:53,399 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-17 09:06:25,873 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-17 09:06:25,874 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-17 09:06:25,874 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-17 09:06:25,879 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-17 09:06:25,880 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-17 09:06:25,880 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-17 09:06:25,880 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-17 09:06:25,880 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-17 09:06:25,880 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-17 09:06:25,880 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-17 09:06:25,885 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:06:39,841 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-17 09:06:39,844 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:06:40,417 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/e6af3074-60dd-4c09-98b4-b9240514085e/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-17 09:06:40,429 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:06:40,494 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/e6af3074-60dd-4c09-98b4-b9240514085e/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-17 09:06:40,495 [driver_wrapper] Window size: 1440 x 2768
-DEBUG   2018-08-17 09:06:40,495 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:06:40,552 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/e6af3074-60dd-4c09-98b4-b9240514085e/log HTTP/1.1" 200 635800
-DEBUG   2018-08-17 09:06:40,602 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-17 09:06:40,606 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/e6af3074-60dd-4c09-98b4-b9240514085e/timeouts HTTP/1.1" 200 14
-INFO    2018-08-17 09:06:40,607 [environment] Running new scenario: change tab
-INFO    2018-08-17 09:06:50,439 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-20 11:46:49,274 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-20 11:46:49,276 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-20 11:46:49,276 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-20 11:46:49,286 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-20 11:46:49,286 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-20 11:46:49,286 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-20 11:46:49,286 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-20 11:46:49,286 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-20 11:46:49,286 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-20 11:46:49,286 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-20 11:46:49,292 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:04,584 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-20 11:47:04,587 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:05,163 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/18d43389-28e8-45d5-940f-6f6264fb29f4/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-20 11:47:05,167 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:05,246 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/18d43389-28e8-45d5-940f-6f6264fb29f4/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-20 11:47:05,247 [driver_wrapper] Window size: 1440 x 2768
-DEBUG   2018-08-20 11:47:05,247 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:05,304 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/18d43389-28e8-45d5-940f-6f6264fb29f4/log HTTP/1.1" 200 739495
-DEBUG   2018-08-20 11:47:05,351 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:05,355 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/18d43389-28e8-45d5-940f-6f6264fb29f4/timeouts HTTP/1.1" 200 14
-INFO    2018-08-20 11:47:05,357 [environment] Running new scenario: change tab
-INFO    2018-08-20 11:47:16,302 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-20 11:47:36,928 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-20 11:47:36,929 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-20 11:47:36,929 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-20 11:47:36,934 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-20 11:47:36,934 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-20 11:47:36,934 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-20 11:47:36,934 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-20 11:47:36,934 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-20 11:47:36,934 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-20 11:47:36,935 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-20 11:47:36,938 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:50,543 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-20 11:47:50,546 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:51,092 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/bdd2b4be-0466-4da8-8390-c5c1d0d6a8a3/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-20 11:47:51,097 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:51,161 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/bdd2b4be-0466-4da8-8390-c5c1d0d6a8a3/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-20 11:47:51,162 [driver_wrapper] Window size: 1440 x 2768
-DEBUG   2018-08-20 11:47:51,163 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:51,227 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/bdd2b4be-0466-4da8-8390-c5c1d0d6a8a3/log HTTP/1.1" 200 734724
-DEBUG   2018-08-20 11:47:51,275 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 11:47:51,281 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/bdd2b4be-0466-4da8-8390-c5c1d0d6a8a3/timeouts HTTP/1.1" 200 14
-INFO    2018-08-20 11:47:51,282 [environment] Running new scenario: change tab
-INFO    2018-08-20 11:48:02,701 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-20 13:27:45,431 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-20 13:27:45,432 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-20 13:27:45,432 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-20 13:27:45,438 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-20 13:27:45,438 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-20 13:27:45,438 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-20 13:27:45,438 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-20 13:27:45,438 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-20 13:27:45,438 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-20 13:27:45,439 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-20 13:27:45,444 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 13:28:07,969 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-20 13:28:07,972 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 13:28:08,547 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/5ce0e11b-35b4-42c9-ad79-0ec642ee6bd4/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-20 13:28:08,551 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 13:28:08,622 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/5ce0e11b-35b4-42c9-ad79-0ec642ee6bd4/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-20 13:28:08,622 [driver_wrapper] Window size: 1440 x 2768
-DEBUG   2018-08-20 13:28:08,623 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 13:28:08,691 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/5ce0e11b-35b4-42c9-ad79-0ec642ee6bd4/log HTTP/1.1" 200 869491
-DEBUG   2018-08-20 13:28:08,748 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-20 13:28:08,752 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/5ce0e11b-35b4-42c9-ad79-0ec642ee6bd4/timeouts HTTP/1.1" 200 14
-INFO    2018-08-20 13:28:08,753 [environment] Running new scenario: change tab
-INFO    2018-08-20 13:28:19,813 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-21 09:25:27,508 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-21 09:25:27,509 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-21 09:25:27,509 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-21 09:25:27,515 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-21 09:25:27,515 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-21 09:25:27,515 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-21 09:25:27,515 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-21 09:25:27,516 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-21 09:25:27,516 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-21 09:25:27,516 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-21 09:25:27,523 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 09:25:45,048 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-21 09:25:45,050 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 09:25:45,610 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/ae1afdeb-8c2e-4320-8e57-3d5a42774778/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-21 09:25:45,615 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 09:25:45,649 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/ae1afdeb-8c2e-4320-8e57-3d5a42774778/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-21 09:25:45,650 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-21 09:25:45,651 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 09:25:45,752 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/ae1afdeb-8c2e-4320-8e57-3d5a42774778/log HTTP/1.1" 200 871554
-DEBUG   2018-08-21 09:25:45,830 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 09:25:45,845 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/ae1afdeb-8c2e-4320-8e57-3d5a42774778/timeouts HTTP/1.1" 200 14
-INFO    2018-08-21 09:25:45,846 [environment] Running new scenario: change tab
-INFO    2018-08-21 09:25:57,875 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-21 10:48:35,401 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-21 10:48:35,402 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-21 10:48:35,402 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-21 10:48:35,407 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-21 10:48:35,407 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-21 10:48:35,407 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-21 10:48:35,407 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-21 10:48:35,407 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-21 10:48:35,408 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-21 10:48:35,408 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-21 10:48:35,413 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 10:48:35,943 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1544
-ERROR   2018-08-21 10:48:35,944 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Problem downloading app from url https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk: Error: getaddrinfo EAI_AGAIN github.com github.com:443
-ERROR   2018-08-21 10:48:35,945 [environment] The scenario 'change tab' has failed
-DEBUG   2018-08-21 10:51:37,923 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-21 10:51:37,923 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-21 10:51:37,923 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-21 10:51:37,929 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-21 10:51:37,929 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-21 10:51:37,929 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-21 10:51:37,929 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-21 10:51:37,929 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-21 10:51:37,929 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-21 10:51:37,929 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-21 10:51:37,932 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 10:51:54,518 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-21 10:51:54,520 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 10:51:54,973 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/4defc788-b145-49bf-828e-f5dae46be289/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-21 10:51:54,977 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 10:51:54,989 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/4defc788-b145-49bf-828e-f5dae46be289/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-21 10:51:54,989 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-21 10:51:54,990 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 10:51:55,035 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/4defc788-b145-49bf-828e-f5dae46be289/log HTTP/1.1" 200 615411
-DEBUG   2018-08-21 10:51:55,084 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-21 10:51:55,092 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/4defc788-b145-49bf-828e-f5dae46be289/timeouts HTTP/1.1" 200 14
-INFO    2018-08-21 10:51:55,095 [environment] Running new scenario: change tab
-INFO    2018-08-21 10:52:06,703 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-23 15:01:00,511 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-23 15:01:00,512 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-23 15:01:00,512 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-23 15:01:00,518 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-23 15:01:00,518 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-23 15:01:00,519 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-23 15:01:00,519 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-23 15:01:00,519 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-23 15:01:00,519 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-23 15:01:00,519 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-23 15:01:00,527 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:01:18,062 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-23 15:01:18,065 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:01:18,578 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/865a19c2-9e9d-4035-bb10-dc2e2dc8c287/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-23 15:01:18,582 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:01:18,612 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/865a19c2-9e9d-4035-bb10-dc2e2dc8c287/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-23 15:01:18,614 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-23 15:01:18,615 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:01:18,688 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/865a19c2-9e9d-4035-bb10-dc2e2dc8c287/log HTTP/1.1" 200 465423
-DEBUG   2018-08-23 15:01:18,724 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:01:18,736 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/865a19c2-9e9d-4035-bb10-dc2e2dc8c287/timeouts HTTP/1.1" 200 14
-INFO    2018-08-23 15:01:18,739 [environment] Running new scenario: change tab
-INFO    2018-08-23 15:01:31,802 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-23 15:45:05,149 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-23 15:45:05,150 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-23 15:45:05,150 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-23 15:45:05,155 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-23 15:45:05,155 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-23 15:45:05,155 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-23 15:45:05,155 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-23 15:45:05,155 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-23 15:45:05,155 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-23 15:45:05,156 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-23 15:45:05,160 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:45:25,764 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-23 15:45:25,767 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:45:26,231 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/c98a43dd-7764-4ebc-8425-89828a4846f1/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-23 15:45:26,236 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:45:26,257 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/c98a43dd-7764-4ebc-8425-89828a4846f1/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-23 15:45:26,258 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-23 15:45:26,259 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:45:26,308 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/c98a43dd-7764-4ebc-8425-89828a4846f1/log HTTP/1.1" 200 541580
-DEBUG   2018-08-23 15:45:26,391 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-23 15:45:26,401 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/c98a43dd-7764-4ebc-8425-89828a4846f1/timeouts HTTP/1.1" 200 14
-INFO    2018-08-23 15:45:26,404 [environment] Running new scenario: change tab
-INFO    2018-08-23 15:45:39,244 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-24 09:07:06,695 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-24 09:07:06,697 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-24 09:07:06,697 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-24 09:07:06,703 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-24 09:07:06,703 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-24 09:07:06,704 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-24 09:07:06,704 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-24 09:07:06,704 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-24 09:07:06,704 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-24 09:07:06,704 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-24 09:07:06,710 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:07:24,303 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-24 09:07:24,306 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:07:24,808 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/11353ccb-cab4-4f95-99e7-05fd41b34bc1/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-24 09:07:24,812 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:07:24,840 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/11353ccb-cab4-4f95-99e7-05fd41b34bc1/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-24 09:07:24,841 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-24 09:07:24,843 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:07:24,922 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/11353ccb-cab4-4f95-99e7-05fd41b34bc1/log HTTP/1.1" 200 402237
-DEBUG   2018-08-24 09:07:24,955 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:07:24,968 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/11353ccb-cab4-4f95-99e7-05fd41b34bc1/timeouts HTTP/1.1" 200 14
-INFO    2018-08-24 09:07:24,969 [environment] Running new scenario: change tab
-INFO    2018-08-24 09:07:37,828 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-24 09:28:03,570 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-24 09:28:03,571 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-24 09:28:03,571 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-24 09:28:03,577 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-24 09:28:03,578 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-24 09:28:03,578 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-24 09:28:03,578 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-24 09:28:03,578 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-24 09:28:03,578 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-24 09:28:03,578 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-24 09:28:03,583 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:28:19,572 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-24 09:28:19,574 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:28:19,965 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/af7d46d6-af65-4c2d-a979-d6e4efacb78c/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-24 09:28:19,968 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:28:19,980 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/af7d46d6-af65-4c2d-a979-d6e4efacb78c/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-24 09:28:19,981 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-24 09:28:19,982 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:28:20,019 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/af7d46d6-af65-4c2d-a979-d6e4efacb78c/log HTTP/1.1" 200 513318
-DEBUG   2018-08-24 09:28:20,086 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 09:28:20,096 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/af7d46d6-af65-4c2d-a979-d6e4efacb78c/timeouts HTTP/1.1" 200 14
-INFO    2018-08-24 09:28:20,100 [environment] Running new scenario: change tab
-INFO    2018-08-24 09:28:32,088 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-24 15:58:49,899 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-24 15:58:49,900 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-24 15:58:49,900 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-24 15:58:49,906 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-24 15:58:49,906 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-24 15:58:49,907 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-24 15:58:49,907 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-24 15:58:49,907 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-24 15:58:49,907 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-24 15:58:49,907 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-INFO    2018-08-24 15:58:49,907 [remote_connection] Could not connect to port 4723 on host 127.0.0.1
-INFO    2018-08-24 15:58:49,907 [remote_connection] Could not get IP address for host: 127.0.0.1
-DEBUG   2018-08-24 15:58:49,913 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 15:58:49,913 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
-WARNING 2018-08-24 15:58:49,914 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b96ac4d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
-DEBUG   2018-08-24 15:58:49,914 [connectionpool] Starting new HTTP connection (2): 127.0.0.1:4723
-DEBUG   2018-08-24 15:58:49,914 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
-WARNING 2018-08-24 15:58:49,915 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b96ac750>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
-DEBUG   2018-08-24 15:58:49,915 [connectionpool] Starting new HTTP connection (3): 127.0.0.1:4723
-DEBUG   2018-08-24 15:58:49,915 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
-WARNING 2018-08-24 15:58:49,916 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b96ac890>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
-DEBUG   2018-08-24 15:58:49,916 [connectionpool] Starting new HTTP connection (4): 127.0.0.1:4723
-ERROR   2018-08-24 15:58:49,916 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b96ac990>: Failed to establish a new connection: [Errno 111] Connection refused',))
-ERROR   2018-08-24 15:58:49,917 [environment] The scenario 'change tab' has failed
-DEBUG   2018-08-24 16:00:38,385 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-24 16:00:38,386 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-24 16:00:38,386 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-24 16:00:38,392 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-24 16:00:38,392 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-24 16:00:38,392 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-24 16:00:38,392 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-24 16:00:38,392 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-24 16:00:38,392 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-24 16:00:38,393 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-24 16:00:38,398 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 16:01:12,003 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-24 16:01:12,007 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 16:01:12,644 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/6c1fb487-d278-4a65-aa42-4dca724d7de7/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-24 16:01:12,647 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 16:01:12,683 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/6c1fb487-d278-4a65-aa42-4dca724d7de7/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-24 16:01:12,685 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-24 16:01:12,686 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 16:01:12,769 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/6c1fb487-d278-4a65-aa42-4dca724d7de7/log HTTP/1.1" 200 569047
-DEBUG   2018-08-24 16:01:12,807 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-24 16:01:12,814 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/6c1fb487-d278-4a65-aa42-4dca724d7de7/timeouts HTTP/1.1" 200 14
-INFO    2018-08-24 16:01:12,815 [environment] Running new scenario: change tab
-INFO    2018-08-24 16:01:26,076 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-27 09:02:26,302 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-27 09:02:26,303 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-27 09:02:26,303 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-27 09:02:26,309 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-27 09:02:26,310 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-27 09:02:26,310 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-27 09:02:26,310 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-27 09:02:26,310 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-27 09:02:26,310 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-27 09:02:26,310 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-INFO    2018-08-27 09:02:26,310 [remote_connection] Could not connect to port 4723 on host 127.0.0.1
-INFO    2018-08-27 09:02:26,311 [remote_connection] Could not get IP address for host: 127.0.0.1
-DEBUG   2018-08-27 09:02:26,314 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-27 09:02:26,315 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
-WARNING 2018-08-27 09:02:26,315 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbe04eba4d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
-DEBUG   2018-08-27 09:02:26,315 [connectionpool] Starting new HTTP connection (2): 127.0.0.1:4723
-DEBUG   2018-08-27 09:02:26,315 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
-WARNING 2018-08-27 09:02:26,315 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbe04eba750>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
-DEBUG   2018-08-27 09:02:26,315 [connectionpool] Starting new HTTP connection (3): 127.0.0.1:4723
-DEBUG   2018-08-27 09:02:26,316 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
-WARNING 2018-08-27 09:02:26,316 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbe04eba890>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
-DEBUG   2018-08-27 09:02:26,316 [connectionpool] Starting new HTTP connection (4): 127.0.0.1:4723
-ERROR   2018-08-27 09:02:26,316 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbe04eba990>: Failed to establish a new connection: [Errno 111] Connection refused',))
-ERROR   2018-08-27 09:02:26,317 [environment] The scenario 'change tab' has failed
-DEBUG   2018-08-27 09:03:49,478 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-27 09:03:49,479 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-27 09:03:49,479 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-27 09:03:49,490 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-27 09:03:49,491 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-27 09:03:49,491 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-27 09:03:49,491 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-27 09:03:49,491 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-27 09:03:49,491 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-27 09:03:49,491 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-27 09:03:49,499 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-27 09:04:14,152 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1055
-DEBUG   2018-08-27 09:04:14,155 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-27 09:04:14,925 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/043e3356-e0a1-4e67-9975-beee6966bf2f/appium/app/strings HTTP/1.1" 200 55826
-DEBUG   2018-08-27 09:04:14,928 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-27 09:04:14,947 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/043e3356-e0a1-4e67-9975-beee6966bf2f/window/rect HTTP/1.1" 200 50
-DEBUG   2018-08-27 09:04:14,948 [driver_wrapper] Window size: 1080 x 1920
-DEBUG   2018-08-27 09:04:14,949 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-27 09:04:15,029 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/043e3356-e0a1-4e67-9975-beee6966bf2f/log HTTP/1.1" 200 625139
-DEBUG   2018-08-27 09:04:15,080 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
-DEBUG   2018-08-27 09:04:15,096 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/043e3356-e0a1-4e67-9975-beee6966bf2f/timeouts HTTP/1.1" 200 14
-INFO    2018-08-27 09:04:15,097 [environment] Running new scenario: change tab
-INFO    2018-08-27 09:04:28,170 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-27 10:54:14,547 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-27 10:54:14,548 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-27 10:54:14,548 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-27 10:54:14,554 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-27 10:54:14,554 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-27 10:54:14,554 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-27 10:54:14,554 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-27 10:54:14,554 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-27 10:54:14,554 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-27 10:54:14,554 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-INFO    2018-08-27 10:54:14,554 [remote_connection] Could not connect to port 4723 on host 127.0.0.1
-INFO    2018-08-27 10:54:14,554 [remote_connection] Could not get IP address for host: 127.0.0.1
-ERROR   2018-08-27 10:54:14,561 [config_driver] Android driver can not be launched: <urlopen error [Errno 111] Connection refused>
-ERROR   2018-08-27 10:54:14,561 [environment] The scenario 'change tab' has failed
-DEBUG   2018-08-27 10:55:00,565 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-27 10:55:00,567 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-27 10:55:00,567 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-27 10:55:00,575 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-27 10:55:00,576 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-27 10:55:00,576 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-27 10:55:00,576 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-27 10:55:00,576 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-27 10:55:00,576 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-27 10:55:00,576 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-27 10:55:26,955 [driver_wrapper] Window size: 1080 x 1920
-INFO    2018-08-27 10:55:27,049 [environment] Running new scenario: change tab
-INFO    2018-08-27 10:55:39,428 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-28 12:51:31,856 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-28 12:51:31,857 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-28 12:51:31,857 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-28 12:51:31,863 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-28 12:51:31,863 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-28 12:51:31,863 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-28 12:51:31,863 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-28 12:51:31,863 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-28 12:51:31,863 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-28 12:51:31,863 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-28 12:51:48,711 [driver_wrapper] Window size: 1080 x 1920
-INFO    2018-08-28 12:51:48,834 [environment] Running new scenario: change tab
-INFO    2018-08-28 12:52:00,800 [environment] The scenario 'change tab' has passed
-DEBUG   2018-08-31 11:56:41,725 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
-DEBUG   2018-08-31 11:56:41,726 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
-DEBUG   2018-08-31 11:56:41,726 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
-INFO    2018-08-31 11:56:41,732 [config_driver] Creating local driver (type = android)
-DEBUG   2018-08-31 11:56:41,732 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-08-31 11:56:41,732 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-08-31 11:56:41,732 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-08-31 11:56:41,732 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-08-31 11:56:41,732 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-08-31 11:56:41,732 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-08-31 11:57:11,014 [driver_wrapper] Window size: 1080 x 1920
-INFO    2018-08-31 11:57:11,129 [environment] Running new scenario: change tab
-INFO    2018-08-31 11:57:23,665 [environment] The scenario 'change tab' has passed
-DEBUG   2018-09-13 10:15:10,051 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/properties.cfg
-DEBUG   2018-09-13 10:15:10,052 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
-DEBUG   2018-09-13 10:15:10,052 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
-INFO    2018-09-13 10:15:10,056 [config_driver] Creating local driver (type = android)
-DEBUG   2018-09-13 10:15:10,056 [config_driver] Added Appium server capability: deviceName = Android Emulator
-DEBUG   2018-09-13 10:15:10,056 [config_driver] Added Appium server capability: automationName = Appium
-DEBUG   2018-09-13 10:15:10,056 [config_driver] Added Appium server capability: browserName = 
-DEBUG   2018-09-13 10:15:10,057 [config_driver] Added Appium server capability: appWaitActivity = 
-DEBUG   2018-09-13 10:15:10,057 [config_driver] Added Appium server capability: platformName = Android
-DEBUG   2018-09-13 10:15:10,057 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
-DEBUG   2018-09-13 10:15:42,381 [driver_wrapper] Window size: 480 x 800
-INFO    2018-09-13 10:15:42,577 [environment] Running new scenario: change tab
-ERROR   2018-09-13 10:15:46,128 [environment] The scenario 'change tab' has failed
-INFO    2018-09-13 10:15:46,916 [utils] Screenshot saved in /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/output/screenshots/2018-09-13_101510_android/01_change_tab.png
-DEBUG   2018-09-13 10:15:46,921 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-14 11:07:58,733 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-14 11:07:58,733 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-14 11:07:58,733 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-14 11:07:58,737 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-14 11:07:58,738 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-14 11:07:58,738 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-14 11:07:58,738 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-14 11:07:58,738 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-14 11:07:58,738 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-14 11:07:58,738 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-14 11:08:12,927 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-14 11:08:13,079 [environment] Running new scenario: change tab
+INFO    2018-09-14 11:08:24,734 [environment] The scenario 'change tab' has passed
+DEBUG   2018-09-17 10:41:45,752 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 10:41:45,752 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 10:41:45,752 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 10:41:45,757 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 10:41:45,757 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 10:41:45,757 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 10:41:45,757 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 10:41:45,757 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 10:41:45,757 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 10:41:45,757 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 10:42:01,188 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 10:42:01,345 [environment] Running new scenario: change tab
+ERROR   2018-09-17 10:42:11,127 [environment] The scenario 'change tab' has failed
+INFO    2018-09-17 10:42:12,808 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_104145_android/01_change_tab.png
+DEBUG   2018-09-17 10:42:12,816 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 10:42:48,908 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 10:42:48,908 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 10:42:48,909 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 10:42:48,913 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 10:42:48,914 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 10:42:48,914 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 10:42:48,914 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 10:42:48,914 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 10:42:48,914 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 10:42:48,914 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 10:43:02,515 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 10:43:02,663 [environment] Running new scenario: change tab
+INFO    2018-09-17 10:43:14,309 [environment] The scenario 'change tab' has passed
+DEBUG   2018-09-17 10:44:26,099 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 10:44:26,099 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 10:44:26,099 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 10:44:26,104 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 10:44:26,104 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 10:44:26,104 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 10:44:26,104 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 10:44:26,104 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 10:44:26,104 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 10:44:26,104 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 10:44:39,814 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 10:44:39,968 [environment] Running new scenario: change tab
+ERROR   2018-09-17 10:44:39,970 [environment] The scenario 'change tab' has failed
+INFO    2018-09-17 10:44:41,816 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_104426_android/01_change_tab.png
+DEBUG   2018-09-17 10:44:41,823 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 10:47:04,825 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 10:47:04,825 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 10:47:04,826 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 10:47:04,830 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 10:47:04,830 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 10:47:04,830 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 10:47:04,830 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 10:47:04,830 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 10:47:04,831 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 10:47:04,831 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 10:47:18,583 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 10:47:18,771 [environment] Running new scenario: change tab
+ERROR   2018-09-17 10:47:18,774 [environment] The scenario 'change tab' has failed
+INFO    2018-09-17 10:47:20,371 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_104704_android/01_change_tab.png
+DEBUG   2018-09-17 10:47:20,390 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 10:56:39,204 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 10:56:39,204 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 10:56:39,204 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 10:56:39,209 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 10:56:39,209 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 10:56:39,209 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 10:56:39,209 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 10:56:39,210 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 10:56:39,210 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 10:56:39,210 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 10:56:55,616 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 10:56:55,753 [environment] Running new scenario: change tab
+ERROR   2018-09-17 10:56:55,756 [environment] The scenario 'change tab' has failed
+INFO    2018-09-17 10:56:57,458 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_105639_android/01_change_tab.png
+DEBUG   2018-09-17 10:56:57,466 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 11:00:22,926 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:00:22,926 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:00:22,926 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:00:22,931 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:00:22,931 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:00:22,931 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:00:22,931 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:00:22,931 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:00:22,931 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:00:22,931 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:00:43,147 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:00:43,293 [environment] Running new scenario: change tab
+INFO    2018-09-17 11:00:43,296 [environment] The scenario 'change tab' has passed
+DEBUG   2018-09-17 11:01:51,825 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:01:51,826 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:01:51,826 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:01:51,830 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:01:51,831 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:01:51,831 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:01:51,831 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:01:51,831 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:01:51,831 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:01:51,831 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:02:07,695 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:02:07,864 [environment] Running new scenario: change tab
+ERROR   2018-09-17 11:02:07,866 [environment] The scenario 'change tab' has failed
+INFO    2018-09-17 11:02:09,543 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_110151_android/01_change_tab.png
+DEBUG   2018-09-17 11:02:09,549 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 11:04:43,009 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:04:43,010 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:04:43,010 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:04:43,014 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:04:43,015 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:04:43,015 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:04:43,015 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:04:43,015 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:04:43,015 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:04:43,015 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:04:57,733 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:04:57,906 [environment] Running new scenario: change tab
+ERROR   2018-09-17 11:04:57,912 [environment] The scenario 'change tab' has failed
+INFO    2018-09-17 11:04:59,567 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_110443_android/01_change_tab.png
+DEBUG   2018-09-17 11:04:59,574 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 11:07:28,014 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:07:28,015 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:07:28,015 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:07:28,019 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:07:28,019 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:07:28,019 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:07:28,020 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:07:28,020 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:07:28,020 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:07:28,020 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:07:52,247 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:07:52,428 [environment] Running new scenario: change tab
+INFO    2018-09-17 11:07:52,432 [environment] The scenario 'change tab' has passed
+DEBUG   2018-09-17 11:08:21,686 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:08:21,687 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:08:21,687 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:08:21,691 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:08:21,691 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:08:21,692 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:08:21,692 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:08:21,692 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:08:21,692 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:08:21,692 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:08:41,285 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:08:41,439 [environment] Running new scenario: change tab
+INFO    2018-09-17 11:08:41,442 [environment] The scenario 'change tab' has passed
+DEBUG   2018-09-17 11:10:41,731 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:10:41,731 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:10:41,731 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:10:41,736 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:10:41,736 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:10:41,736 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:10:41,736 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:10:41,736 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:10:41,736 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:10:41,736 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:11:10,370 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:11:10,552 [environment] Running new scenario: change tab
+INFO    2018-09-17 11:11:16,095 [environment] The scenario 'change tab' has passed
+DEBUG   2018-09-17 11:20:54,486 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:20:54,487 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:20:54,487 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:20:54,491 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:20:54,491 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:20:54,492 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:20:54,492 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:20:54,492 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:20:54,492 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:20:54,492 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:21:18,861 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:21:19,045 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 11:21:24,579 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 11:21:26,143 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_112054_android/01_Run_animation.png
+DEBUG   2018-09-17 11:21:26,151 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 11:29:24,273 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:29:24,273 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:29:24,273 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:29:24,278 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:29:24,278 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:29:24,278 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:29:24,278 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:29:24,278 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:29:24,278 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:29:24,279 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:29:56,104 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:29:56,256 [environment] Running new scenario: Run animation
+INFO    2018-09-17 11:30:07,398 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 11:39:27,108 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:39:27,109 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:39:27,109 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:39:27,113 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:39:27,113 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:39:27,114 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:39:27,114 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:39:27,114 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:39:27,114 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:39:27,114 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:39:51,177 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:39:51,338 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 11:40:02,631 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 11:40:03,934 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_113927_android/01_Run_animation.png
+DEBUG   2018-09-17 11:40:03,955 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 11:41:21,451 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:41:21,451 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:41:21,452 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:41:21,456 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:41:21,457 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:41:21,457 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:41:21,457 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:41:21,457 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:41:21,457 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:41:21,457 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:41:41,716 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:41:41,889 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 11:41:53,684 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 11:41:55,121 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_114121_android/01_Run_animation.png
+DEBUG   2018-09-17 11:41:55,141 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 11:42:26,647 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:42:26,647 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:42:26,648 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:42:26,652 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:42:26,652 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:42:26,652 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:42:26,652 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:42:26,652 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:42:26,653 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:42:26,653 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:42:52,601 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:42:52,773 [environment] Running new scenario: Run animation
+INFO    2018-09-17 11:43:12,531 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 11:47:22,910 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 11:47:22,911 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 11:47:22,911 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 11:47:22,915 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 11:47:22,915 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 11:47:22,916 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 11:47:22,916 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 11:47:22,916 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 11:47:22,916 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 11:47:22,916 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 11:47:47,525 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 11:47:47,694 [environment] Running new scenario: Run animation
+INFO    2018-09-17 11:48:01,297 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 12:21:20,482 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:21:20,482 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:21:20,482 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:21:20,487 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:21:20,488 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:21:20,488 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 12:21:20,490 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 12:21:20,491 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 12:21:20,491 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 12:21:20,491 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 12:21:20,491 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 12:21:20,491 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 12:21:20,491 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 12:21:37,721 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 12:21:37,825 [environment] Running new scenario: Run animation
+INFO    2018-09-17 12:21:52,473 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 12:22:11,889 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:22:11,889 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:22:11,889 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:22:11,894 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:22:11,895 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:22:11,895 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 12:22:11,897 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 12:22:11,897 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 12:22:11,897 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 12:22:11,897 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 12:22:11,897 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 12:22:11,897 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 12:22:11,898 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 12:22:25,807 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 12:22:25,935 [environment] Running new scenario: Run animation
+INFO    2018-09-17 12:22:39,572 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 12:23:16,205 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:23:16,205 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:23:16,205 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:23:16,210 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:23:16,210 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:23:16,210 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 12:23:16,212 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 12:23:16,213 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 12:23:16,213 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 12:23:16,213 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 12:23:16,213 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 12:23:16,213 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 12:23:16,213 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 12:23:33,243 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 12:23:33,376 [environment] Running new scenario: Run animation
+INFO    2018-09-17 12:23:47,108 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 12:39:53,295 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:39:53,296 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:39:53,296 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:41:08,474 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:41:08,474 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:41:08,474 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:42:30,206 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:42:30,207 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:42:30,207 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:44:01,206 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:44:01,207 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:44:01,207 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-17 12:46:48,284 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 12:46:48,285 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 12:46:48,285 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 12:46:48,289 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 12:46:48,290 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 12:46:48,290 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 12:46:48,290 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 12:46:48,290 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 12:46:48,290 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 12:46:48,290 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 12:47:06,786 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 12:47:06,915 [environment] Running new scenario: Run animation
+INFO    2018-09-17 12:47:13,928 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:00:30,567 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:00:30,568 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:00:30,568 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:00:30,573 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:00:30,573 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:00:30,573 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:00:30,573 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:00:30,573 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:00:30,573 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:00:30,573 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:00:46,436 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:00:46,548 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:00:59,583 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:02:48,911 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:02:48,912 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:02:48,912 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:02:48,916 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:02:48,917 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:02:48,917 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:02:48,917 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:02:48,917 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:02:48,917 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:02:48,917 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:03:07,615 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:03:07,742 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:03:33,546 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:24:56,523 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:24:56,523 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:24:56,523 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:24:56,528 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:24:56,528 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:24:56,528 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:24:56,528 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:24:56,528 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:24:56,528 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:24:56,528 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:25:14,722 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:25:14,875 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:25:51,556 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:26:18,385 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:26:18,385 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:26:18,385 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:26:18,390 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:26:18,390 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:26:18,390 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:26:18,390 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:26:18,390 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:26:18,390 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:26:18,390 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:26:37,024 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:26:37,137 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 13:27:13,539 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 13:27:15,245 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_132618_android/01_Run_animation.png
+DEBUG   2018-09-17 13:27:15,252 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 13:27:53,252 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:27:53,252 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:27:53,252 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:27:53,257 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:27:53,257 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:27:53,257 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:27:53,257 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:27:53,257 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:27:53,257 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:27:53,257 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:28:14,825 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:28:14,951 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:28:50,339 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:38:00,088 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:38:00,088 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:38:00,089 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:38:00,095 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:38:00,095 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:38:00,095 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:38:00,095 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:38:00,095 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:38:00,095 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:38:00,095 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:38:19,485 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:38:19,605 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:39:02,668 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:40:59,010 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:40:59,011 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:40:59,011 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:40:59,016 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:40:59,016 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:40:59,016 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:40:59,016 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:40:59,016 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:40:59,016 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:40:59,016 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:41:20,794 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:41:20,909 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:42:03,190 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 13:43:00,466 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:43:00,466 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:43:00,466 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:43:00,471 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:43:00,471 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:43:00,471 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:43:00,471 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:43:00,472 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:43:00,472 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:43:00,472 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:43:16,947 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:43:17,050 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 13:43:36,921 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 13:43:38,510 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_134300_android/01_Run_animation.png
+DEBUG   2018-09-17 13:43:38,519 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 13:44:37,568 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:44:37,569 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:44:37,569 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:44:37,573 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:44:37,573 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:44:37,574 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:44:37,574 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:44:37,574 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:44:37,574 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:44:37,574 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:44:51,597 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:44:51,742 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 13:45:17,042 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 13:45:18,530 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_134437_android/01_Run_animation.png
+DEBUG   2018-09-17 13:45:18,537 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 13:47:55,446 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 13:47:55,447 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 13:47:55,447 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 13:47:55,451 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 13:47:55,452 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 13:47:55,452 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 13:47:55,452 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 13:47:55,452 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 13:47:55,452 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 13:47:55,452 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 13:48:14,540 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 13:48:14,669 [environment] Running new scenario: Run animation
+INFO    2018-09-17 13:48:57,979 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 14:46:52,071 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 14:46:52,071 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 14:46:52,071 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 14:46:52,076 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 14:46:52,076 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 14:46:52,076 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 14:46:52,076 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 14:46:52,076 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 14:46:52,076 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 14:46:52,077 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 14:47:14,501 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 14:47:14,658 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 14:47:25,083 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 14:47:26,639 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_144652_android/01_Run_animation.png
+DEBUG   2018-09-17 14:47:26,647 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 14:47:59,235 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 14:47:59,236 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 14:47:59,236 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 14:47:59,240 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 14:47:59,240 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 14:47:59,240 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 14:47:59,241 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 14:47:59,241 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 14:47:59,241 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 14:47:59,241 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 14:48:13,356 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 14:48:13,479 [environment] Running new scenario: Run animation
+INFO    2018-09-17 14:48:57,268 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 14:50:38,233 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 14:50:38,233 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 14:50:38,233 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 14:50:38,238 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 14:50:38,238 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 14:50:38,238 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 14:50:38,238 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 14:50:38,238 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 14:50:38,239 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 14:50:38,239 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 14:50:52,976 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 14:50:53,077 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 14:51:18,203 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 14:51:19,857 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_145038_android/01_Run_animation.png
+DEBUG   2018-09-17 14:51:19,864 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 14:54:15,915 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 14:54:15,915 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 14:54:15,915 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 14:54:15,920 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 14:54:15,920 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 14:54:15,920 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 14:54:15,920 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 14:54:15,920 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 14:54:15,921 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 14:54:15,921 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 14:54:32,295 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 14:54:32,447 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 14:54:57,517 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 14:54:59,121 [utils] Screenshot saved in /home/kineticskunk/test_automation/toolium-examples/android_behave/output/screenshots/2018-09-17_145415_android/01_Run_animation.png
+DEBUG   2018-09-17 14:54:59,127 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-17 14:55:26,159 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 14:55:26,160 [config_parser] Reading properties from file: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 14:55:26,160 [config_parser] Properties config file not found: /home/kineticskunk/test_automation/toolium-examples/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 14:55:26,164 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 14:55:26,164 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 14:55:26,165 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 14:55:26,165 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 14:55:26,166 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 14:55:26,166 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 14:55:26,166 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 14:55:40,934 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 14:55:41,076 [environment] Running new scenario: Run animation
+INFO    2018-09-17 14:55:54,600 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-17 15:00:33,175 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-17 15:00:33,175 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-17 15:00:33,175 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-17 15:00:33,180 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-17 15:00:33,181 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-17 15:00:33,181 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-17 15:00:33,181 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-17 15:00:33,181 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-17 15:00:33,181 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-17 15:00:33,181 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-17 15:00:47,894 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-17 15:00:48,048 [environment] Running new scenario: Run animation
+ERROR   2018-09-17 15:01:13,128 [environment] The scenario 'Run animation' has failed
+INFO    2018-09-17 15:01:14,718 [utils] Screenshot saved in /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/output/screenshots/2018-09-17_150033_android/01_Run_animation.png
+DEBUG   2018-09-17 15:01:14,726 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
