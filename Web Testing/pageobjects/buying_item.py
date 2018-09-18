@@ -52,8 +52,6 @@ class Buying_ItemPageObject(PageObject):
         self.login_button = Button(By.ID, 'SubmitLogin')
 
         self.message = MessagePageObject()
-        
-
 
     def open(self):
         """ Open login url in browser
@@ -88,22 +86,17 @@ class Buying_ItemPageObject(PageObject):
        #hover over the women tab
     def hover(self):
         self.element = self.driver.find_element(By.XPATH, '//*[@id="block_top_menu"]/ul/li[1]/a')
-        
-
         self.hover = ActionChains(self.driver).move_to_element(self.element).perform()
-        time.sleep(3)
         
+        time.sleep(3)
         return self
 
         #hover over women tab and move cursor to blouses and click
     def click_tops(self):
         self.click_element =  self.driver.find_element(By.XPATH, '//*[@id="block_top_menu"]/ul/li[1]/ul/li[1]/ul/li[2]/a')
-
         self.hover = ActionChains(self.driver).move_to_element(self.click_element).click(self.click_element).perform()
-        
-       
+               
         time.sleep(3)
-
         return self
 
     def addItem(self):
@@ -112,9 +105,7 @@ class Buying_ItemPageObject(PageObject):
 
         #Hover to blouse and click add to cart button
         self.item = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/h5/a')
-
         self.button = ActionChains(self.driver).move_to_element(self.item).perform()
-
         self.add_to_cart = self.driver.find_element(By.XPATH, '//*[@id="center_column"]/ul/li/div/div[2]/div[2]/a[1]').click()
         time.sleep(3)
 
