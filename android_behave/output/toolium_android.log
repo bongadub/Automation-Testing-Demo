@@ -545,3 +545,21 @@ INFO    2018-09-17 15:00:48,048 [environment] Running new scenario: Run animatio
 ERROR   2018-09-17 15:01:13,128 [environment] The scenario 'Run animation' has failed
 INFO    2018-09-17 15:01:14,718 [utils] Screenshot saved in /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/output/screenshots/2018-09-17_150033_android/01_Run_animation.png
 DEBUG   2018-09-17 15:01:14,726 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2018-09-18 16:26:25,878 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-18 16:26:25,879 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-18 16:26:25,879 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-18 16:26:25,884 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-18 16:26:25,884 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-18 16:26:25,884 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-18 16:26:25,884 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-18 16:26:25,885 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-18 16:26:25,888 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-18 16:26:25,888 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-18 16:26:25,889 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-18 16:26:25,889 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-18 16:26:25,889 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-18 16:26:25,889 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-18 16:26:25,889 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-18 16:26:43,030 [driver_wrapper] Window size: 1440 x 2560
+INFO    2018-09-18 16:26:43,101 [environment] Running new scenario: Run animation
+ERROR   2018-09-18 16:26:58,105 [environment] The scenario 'Run animation' has failed
