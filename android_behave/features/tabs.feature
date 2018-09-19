@@ -1,5 +1,5 @@
 @Animation
-Feature: Animation
+Feature: Views
 
   Scenario: Run animation
     Given the menu is open
