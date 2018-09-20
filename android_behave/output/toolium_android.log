@@ -102,3 +102,79 @@ DEBUG   2018-09-19 09:06:03,571 [config_driver] Added Appium server capability: 
 DEBUG   2018-09-19 09:06:19,182 [driver_wrapper] Window size: 1080 x 1920
 INFO    2018-09-19 09:06:19,352 [environment] Running new scenario: Run views animation
 INFO    2018-09-19 09:06:33,628 [environment] The scenario 'Run views animation' has passed
+DEBUG   2018-09-19 13:00:04,097 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:00:04,098 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:00:04,098 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-19 13:00:04,104 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-19 13:00:04,104 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-19 13:00:04,104 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-19 13:00:04,104 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-19 13:00:04,104 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-19 13:00:04,104 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-19 13:00:04,104 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-19 13:00:24,689 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-19 13:00:24,855 [environment] Running new scenario: Run animation
+INFO    2018-09-19 13:01:11,291 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-19 13:01:12,446 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:01:12,447 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:01:12,447 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-19 13:01:12,455 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-19 13:01:12,456 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-19 13:01:12,456 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-19 13:01:12,456 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-19 13:01:12,456 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-19 13:01:12,456 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-19 13:01:12,456 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-19 13:01:33,970 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-19 13:01:34,069 [environment] Running new scenario: Run animation
+INFO    2018-09-19 13:01:49,866 [environment] The scenario 'Run animation' has passed
+DEBUG   2018-09-19 13:01:51,060 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:01:51,060 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:01:51,061 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-19 13:01:51,065 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-19 13:01:51,065 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-19 13:01:51,066 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-19 13:01:51,066 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-19 13:01:51,066 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-19 13:01:51,066 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-19 13:01:51,066 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-19 13:02:10,969 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-19 13:02:11,059 [environment] Running new scenario: Run views animation
+INFO    2018-09-19 13:02:28,110 [environment] The scenario 'Run views animation' has passed
+DEBUG   2018-09-19 13:03:28,017 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:03:28,018 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:03:28,018 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:06:47,517 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:06:47,518 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:06:47,518 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:08:26,921 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:08:26,922 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:08:26,922 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:08:31,276 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:08:31,276 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:08:31,276 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:09:44,704 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:09:44,705 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:09:44,705 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:10:21,881 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:10:21,881 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:10:21,881 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:14:03,898 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:14:03,898 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:14:03,899 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-19 13:14:15,325 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-19 13:14:15,326 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-19 13:14:15,326 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-20 12:24:31,702 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-20 12:24:31,702 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-20 12:24:31,703 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-20 12:24:31,708 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-20 12:24:56,883 [driver_wrapper] Window size: 1080 x 1920
+INFO    2018-09-20 12:24:57,013 [environment] Running new scenario: scroll through tabs
+INFO    2018-09-20 12:25:11,314 [environment] The scenario 'scroll through tabs' has passed
