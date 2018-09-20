@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DEBUG   2018-09-18 17:03:41,012 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/properties.cfg
 DEBUG   2018-09-18 17:03:41,013 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
 DEBUG   2018-09-18 17:03:41,013 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/AutomationDemo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
@@ -178,3 +179,5 @@ DEBUG   2018-09-20 12:24:31,709 [config_driver] Added Appium server capability: 
 DEBUG   2018-09-20 12:24:56,883 [driver_wrapper] Window size: 1080 x 1920
 INFO    2018-09-20 12:24:57,013 [environment] Running new scenario: scroll through tabs
 INFO    2018-09-20 12:25:11,314 [environment] The scenario 'scroll through tabs' has passed
+=======
+>>>>>>> c639c30df1a800f9ad6c15a3616631a143e4bcab
