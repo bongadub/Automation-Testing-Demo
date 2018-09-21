@@ -72,3 +72,20 @@ DEBUG   2018-09-21 11:29:47,286 [config_driver] Added Appium server capability: 
 DEBUG   2018-09-21 11:30:01,745 [driver_wrapper] Window size: 1440 x 2560
 INFO    2018-09-21 11:30:01,815 [environment] Running new scenario: scroll through tabs
 INFO    2018-09-21 11:30:17,347 [environment] The scenario 'scroll through tabs' has passed
+DEBUG   2018-09-21 12:14:22,418 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-21 12:14:22,420 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-21 12:14:22,420 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-21 12:14:22,421 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-21 12:14:22,422 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-21 12:14:22,422 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-21 12:14:22,423 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-21 12:14:22,426 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-21 12:14:22,426 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-21 12:14:22,427 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-21 12:14:22,427 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-21 12:14:22,427 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-21 12:14:22,427 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-21 12:14:22,427 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2018-09-21 12:14:45,832 [driver_wrapper] Window size: 1440 x 2560
+INFO    2018-09-21 12:14:45,899 [environment] Running new scenario: scroll through tabs
+INFO    2018-09-21 12:15:01,053 [environment] The scenario 'scroll through tabs' has passed
