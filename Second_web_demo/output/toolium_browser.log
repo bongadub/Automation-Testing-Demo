@@ -1,0 +1,92 @@
+
+2018-09-25 10:29:48.707646 'successful login' test logs with driver = chrome
+
+2018-09-25 10:29:47.929000	SEVERE	https://www.phptravels.net/account/ - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+
+2018-09-25 10:30:11.912263 'successful logout' test logs with driver = chrome
+
+2018-09-25 10:30:11.084000	SEVERE	https://www.phptravels.net/account/ - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+
+2018-09-25 11:00:16.004070 'successful login' test logs with driver = chrome
+
+2018-09-25 11:00:10.508000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2018-09-25 11:00:10.804000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - Refused to apply style from 'https://opensource-demo.orangehrmlive.com/themes/orange/css/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2018-09-25 11:00:12.572000	SEVERE	https://opensource-demo.orangehrmlive.com/favicon.ico - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+
+2018-09-25 11:00:33.664870 'successful login' test logs with driver = chrome
+
+2018-09-25 11:00:28.169000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2018-09-25 11:00:28.465000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - Refused to apply style from 'https://opensource-demo.orangehrmlive.com/themes/orange/css/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2018-09-25 11:00:32.311000	SEVERE	https://opensource-demo.orangehrmlive.com/favicon.ico - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+
+2018-09-25 11:34:49.193750 'successful login' test logs with driver = chrome
+
+2018-09-25 11:34:36.837000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 11:34:40.774000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-25 11:36:06.178527 'successful login' test logs with driver = chrome
+
+2018-09-25 11:35:55.786000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 11:36:06.026000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-25 11:56:23.209127 'successful login' test logs with driver = chrome
+
+2018-09-25 11:56:05.737000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 11:56:09.144000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-25 12:17:51.483441 'successful login' test logs with driver = chrome
+
+2018-09-25 12:17:24.148000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 12:17:34.744000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-25 15:00:12.162857 'Manage users' test logs with driver = chrome
+
+2018-09-25 14:59:58.226000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+2018-09-25 15:00:03.700000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/admin/saveSystemUser - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2018-09-25 15:00:03.979000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/admin/saveSystemUser - Refused to apply style from 'https://opensource-demo.orangehrmlive.com/themes/orange/css/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2018-09-25 15:00:07.006000	SEVERE	https://opensource-demo.orangehrmlive.com/favicon.ico - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+
+2018-09-25 15:00:40.134658 'Manage users' test logs with driver = chrome
+
+2018-09-25 15:00:34.630000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2018-09-25 15:00:34.923000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - Refused to apply style from 'https://opensource-demo.orangehrmlive.com/themes/orange/css/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2018-09-25 15:00:38.057000	SEVERE	https://opensource-demo.orangehrmlive.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+2018-09-25 15:12:35.341103 'Manage users' test logs with driver = chrome
+
+2018-09-25 15:12:08.975000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 15:12:18.382000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-25 15:13:40.515169 'Manage users' test logs with driver = chrome
+
+2018-09-25 15:13:15.605000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 15:13:24.211000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-25 15:15:38.723567 'Manage users' test logs with driver = chrome
+
+2018-09-25 15:15:14.036000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-25 15:15:22.484000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-26 09:53:32.049800 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-26 09:53:19.916000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-26 09:54:57.123668 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-26 09:54:36.322000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-26 09:55:16.197584 'Manage users' test logs with driver = chrome
+
+2018-09-26 09:55:10.981000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-26 09:59:18.510240 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-26 09:59:06.312000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-26 09:59:54.604166 'Manage users' test logs with driver = chrome
+
+2018-09-26 09:59:32.722000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-26 10:08:46.907369 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-26 10:08:05.324000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.

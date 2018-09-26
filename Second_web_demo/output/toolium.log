@@ -1,0 +1,1062 @@
+DEBUG   2018-09-25 10:25:53,947 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:25:53,947 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:25:53,951 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:25:53,952 [config_driver] Chrome driver path given in properties: 
+ERROR   2018-09-25 10:25:53,964 [config_driver] Chrome driver can not be launched: Message: '' executable may have wrong permissions. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+ERROR   2018-09-25 10:25:53,965 [environment] The scenario 'successful login' has failed
+DEBUG   2018-09-25 10:25:53,968 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:25:53,968 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:25:53,970 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:25:53,970 [config_driver] Chrome driver path given in properties: 
+ERROR   2018-09-25 10:25:53,976 [config_driver] Chrome driver can not be launched: Message: '' executable may have wrong permissions. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+ERROR   2018-09-25 10:25:53,978 [environment] The scenario 'successful logout' has failed
+DEBUG   2018-09-25 10:26:40,181 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:26:40,182 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:26:40,186 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:26:40,186 [config_driver] Chrome driver path given in properties: 
+ERROR   2018-09-25 10:26:40,199 [config_driver] Chrome driver can not be launched: Message: '' executable may have wrong permissions. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+ERROR   2018-09-25 10:26:40,200 [environment] The scenario 'successful login' has failed
+DEBUG   2018-09-25 10:26:40,207 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:26:40,207 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:26:40,209 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:26:40,209 [config_driver] Chrome driver path given in properties: 
+ERROR   2018-09-25 10:26:40,217 [config_driver] Chrome driver can not be launched: Message: '' executable may have wrong permissions. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+ERROR   2018-09-25 10:26:40,220 [environment] The scenario 'successful logout' has failed
+DEBUG   2018-09-25 10:27:17,848 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:27:17,849 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:27:17,853 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:27:17,853 [config_driver] Chrome driver path given in properties: 
+ERROR   2018-09-25 10:27:17,866 [config_driver] Chrome driver can not be launched: Message: '' executable may have wrong permissions. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+ERROR   2018-09-25 10:27:17,867 [environment] The scenario 'successful login' has failed
+DEBUG   2018-09-25 10:27:17,870 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:27:17,870 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:27:17,872 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:27:17,872 [config_driver] Chrome driver path given in properties: 
+ERROR   2018-09-25 10:27:17,879 [config_driver] Chrome driver can not be launched: Message: '' executable may have wrong permissions. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+ERROR   2018-09-25 10:27:17,881 [environment] The scenario 'successful logout' has failed
+DEBUG   2018-09-25 10:28:23,306 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:28:23,306 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:28:23,310 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:28:23,310 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:28:25,937 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:28:26,043 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:28:26,044 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 10:28:34,194 [login] Login with user 'user@phptravels.com'
+ERROR   2018-09-25 10:28:39,209 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-09-25 10:28:39,214 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:28:39,353 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_102823_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:28:39,355 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:28:39,425 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:28:39,426 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:28:39,428 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:28:39,428 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:28:41,037 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:28:41,141 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:28:41,143 [environment] Running new scenario: successful logout
+DEBUG   2018-09-25 10:28:47,075 [login] Login with user 'user@phptravels.com'
+ERROR   2018-09-25 10:28:52,142 [page_element] Page element of type 'InputText' with locator ('id', 'username') not found
+ERROR   2018-09-25 10:28:52,144 [environment] The scenario 'successful logout' has failed
+INFO    2018-09-25 10:28:52,289 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_102823_chrome/02_successful_logout.png
+DEBUG   2018-09-25 10:28:52,291 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:29:36,827 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:29:36,827 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:29:36,831 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:29:36,831 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:29:38,443 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:29:38,548 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:29:38,550 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 10:29:44,410 [login] Login with user 'user@phptravels.com'
+ERROR   2018-09-25 10:29:48,568 [page_element] Page element of type 'Text' with locator ('id', 'flash') not found or is not visible after 2 seconds
+ERROR   2018-09-25 10:29:48,572 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:29:48,702 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_102936_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:29:48,704 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:29:48,776 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:29:48,776 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:29:48,778 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:29:48,778 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:29:50,358 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:29:50,464 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:29:50,465 [environment] Running new scenario: successful logout
+DEBUG   2018-09-25 10:30:01,045 [login] Login with user 'user@phptravels.com'
+ERROR   2018-09-25 10:30:11,762 [page_element] Page element of type 'Button' with locator ('xpath', "//div[@id='content']//a[contains(@class,'button')]") not found or is not clickable after 10 seconds
+ERROR   2018-09-25 10:30:11,766 [environment] The scenario 'successful logout' has failed
+INFO    2018-09-25 10:30:11,907 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_102936_chrome/02_successful_logout.png
+DEBUG   2018-09-25 10:30:11,909 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:32:29,306 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:32:29,306 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:32:29,310 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:32:29,310 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:32:30,925 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:32:31,032 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:32:31,035 [environment] Running new scenario: successful login
+ERROR   2018-09-25 10:32:31,042 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:32:31,208 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_103229_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:32:31,209 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:32:31,274 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:32:31,274 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:32:31,276 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:32:31,276 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:32:32,902 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:32:33,006 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:32:33,008 [environment] Running new scenario: successful logout
+ERROR   2018-09-25 10:32:33,010 [environment] The scenario 'successful logout' has failed
+INFO    2018-09-25 10:32:33,171 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_103229_chrome/02_successful_logout.png
+DEBUG   2018-09-25 10:32:33,173 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:33:26,604 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:33:26,604 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:33:26,608 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:33:26,608 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:33:28,200 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:33:28,307 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:33:28,310 [environment] Running new scenario: successful login
+ERROR   2018-09-25 10:33:28,317 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:33:28,483 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_103326_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:33:28,484 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:34:28,243 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:34:28,243 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:34:28,247 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:34:28,247 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:34:29,834 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:34:29,940 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:34:29,943 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 10:34:35,954 [login] Login with user 'user@phptravels.com'
+INFO    2018-09-25 10:34:46,381 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 10:48:52,866 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:48:52,867 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:48:52,871 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:48:52,871 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:48:54,487 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:48:54,595 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:48:54,598 [environment] Running new scenario: successful login
+ERROR   2018-09-25 10:48:59,692 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:48:59,827 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_104852_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:48:59,829 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:49:50,597 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:49:50,597 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:49:50,601 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:49:50,601 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:49:52,232 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:49:52,340 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:49:52,343 [environment] Running new scenario: successful login
+ERROR   2018-09-25 10:49:57,413 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:49:57,550 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_104950_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:49:57,551 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:51:25,939 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:51:25,940 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:51:25,944 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:51:25,944 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:51:27,549 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:51:27,652 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:51:27,654 [environment] Running new scenario: successful login
+ERROR   2018-09-25 10:51:32,725 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 10:51:32,873 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_105125_chrome/01_successful_login.png
+DEBUG   2018-09-25 10:51:32,874 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 10:52:14,075 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:52:14,075 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:52:14,079 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:52:14,080 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:52:15,701 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:52:15,807 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:52:15,809 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 10:52:19,425 [login] Login with user 'user@phptravels.com'
+INFO    2018-09-25 10:52:30,448 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 10:53:15,689 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:53:15,689 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:53:15,693 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:53:15,693 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:53:17,276 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:53:17,381 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:53:17,382 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 10:53:20,998 [login] Login with user 'Admin'
+INFO    2018-09-25 10:53:34,741 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 10:59:02,255 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 10:59:02,256 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 10:59:02,259 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 10:59:02,260 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 10:59:03,869 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 10:59:03,977 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 10:59:03,980 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 10:59:07,624 [login] Login with user 'Admin'
+INFO    2018-09-25 10:59:15,055 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 11:00:07,652 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:00:07,653 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:00:07,657 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:00:07,657 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:00:09,271 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:00:09,375 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:00:09,376 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:00:10,824 [login] Login with user 'Admin'
+ERROR   2018-09-25 11:00:15,865 [page_element] Page element of type 'InputText' with locator ('name', 'txtUsername') not found
+ERROR   2018-09-25 11:00:15,867 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 11:00:16,000 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_110007_chrome/01_successful_login.png
+DEBUG   2018-09-25 11:00:16,001 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 11:00:25,321 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:00:25,321 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:00:25,325 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:00:25,325 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:00:26,933 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:00:27,039 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:00:27,042 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:00:28,483 [login] Login with user 'Admin'
+ERROR   2018-09-25 11:00:33,519 [page_element] Page element of type 'InputText' with locator ('name', 'txtUsername') not found
+ERROR   2018-09-25 11:00:33,523 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 11:00:33,660 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_110025_chrome/01_successful_login.png
+DEBUG   2018-09-25 11:00:33,661 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 11:00:51,555 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:00:51,555 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:00:51,559 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:00:51,559 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:00:53,171 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:00:53,278 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:00:53,279 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:00:57,571 [login] Login with user 'Admin'
+INFO    2018-09-25 11:01:07,442 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 11:01:55,397 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:01:55,398 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:01:55,401 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:01:55,402 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:01:56,983 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:01:57,089 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:01:57,092 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:02:00,643 [login] Login with user 'Admin'
+INFO    2018-09-25 11:02:09,937 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 11:34:32,245 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:34:32,246 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:34:32,250 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:34:32,250 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:34:33,877 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:34:33,983 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:34:33,986 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:34:38,338 [login] Login with user 'Admin'
+ERROR   2018-09-25 11:34:49,053 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 11:34:49,189 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_113432_chrome/01_successful_login.png
+DEBUG   2018-09-25 11:34:49,191 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 11:35:51,332 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:35:51,332 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:35:51,336 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:35:51,336 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:35:52,928 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:35:53,040 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:35:53,042 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:35:56,658 [login] Login with user 'Admin'
+ERROR   2018-09-25 11:36:06,024 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 11:36:06,173 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_113551_chrome/01_successful_login.png
+DEBUG   2018-09-25 11:36:06,175 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 11:36:35,620 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:36:35,621 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:36:35,625 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:36:35,625 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:36:37,243 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:36:37,350 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:36:37,353 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:36:41,140 [login] Login with user 'Admin'
+INFO    2018-09-25 11:36:52,806 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 11:37:30,989 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:37:30,989 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:37:30,994 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:37:30,994 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:37:32,593 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:37:32,698 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:37:32,699 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:37:36,362 [login] Login with user 'Admin'
+INFO    2018-09-25 11:37:52,504 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 11:42:28,398 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:42:28,399 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:42:28,403 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:42:28,403 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:42:30,026 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:42:30,133 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:42:30,136 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:42:34,986 [login] Login with user 'Admin'
+INFO    2018-09-25 11:42:51,085 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 11:56:01,292 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:56:01,292 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:56:01,296 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:56:01,297 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:56:02,894 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:56:03,002 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:56:03,004 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:56:06,630 [login] Login with user 'Admin'
+ERROR   2018-09-25 11:56:23,074 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 11:56:23,205 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_115601_chrome/01_successful_login.png
+DEBUG   2018-09-25 11:56:23,206 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 11:57:27,774 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 11:57:27,775 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 11:57:27,779 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 11:57:27,779 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 11:57:29,403 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 11:57:29,512 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 11:57:29,517 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 11:57:33,475 [login] Login with user 'Admin'
+INFO    2018-09-25 11:57:51,237 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:00:19,085 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:00:19,085 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:00:19,089 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:00:19,089 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:00:20,718 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:00:20,822 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:00:20,823 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:00:24,707 [login] Login with user 'Admin'
+INFO    2018-09-25 12:00:41,585 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:03:06,934 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:03:06,934 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:03:06,938 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:03:06,938 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:03:08,558 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:03:08,665 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:03:08,668 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:03:13,443 [login] Login with user 'Admin'
+INFO    2018-09-25 12:03:32,504 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:06:03,032 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:06:03,032 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:06:03,036 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:06:03,036 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:06:04,663 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:06:04,768 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:06:04,770 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:06:08,374 [login] Login with user 'Admin'
+INFO    2018-09-25 12:06:30,758 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:13:12,274 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:13:12,274 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:13:12,278 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:13:12,278 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:13:13,896 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:13:14,002 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:13:14,005 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:13:17,838 [login] Login with user 'Admin'
+INFO    2018-09-25 12:13:38,917 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:14:00,585 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:14:00,586 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:14:00,590 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:14:00,590 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:14:02,221 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:14:02,332 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:14:02,335 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:14:06,072 [login] Login with user 'Admin'
+INFO    2018-09-25 12:14:28,506 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:17:19,641 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:17:19,641 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:17:19,645 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:17:19,645 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:17:21,269 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:17:21,376 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:17:21,379 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:17:25,258 [login] Login with user 'Admin'
+ERROR   2018-09-25 12:17:51,333 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 12:17:51,478 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_121719_chrome/01_successful_login.png
+DEBUG   2018-09-25 12:17:51,479 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 12:18:40,273 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:18:40,274 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:18:40,278 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:18:40,278 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:18:41,922 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:18:42,030 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:18:42,035 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:18:45,947 [login] Login with user 'Admin'
+INFO    2018-09-25 12:19:09,325 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:20:59,370 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:20:59,371 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:20:59,375 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:20:59,375 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:21:01,012 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:21:01,118 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:21:01,119 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:21:05,619 [login] Login with user 'Admin'
+INFO    2018-09-25 12:21:32,402 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:27:43,546 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:27:43,546 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:27:43,550 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:27:43,550 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:27:45,166 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:27:45,274 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:27:45,276 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:27:49,092 [login] Login with user 'Admin'
+INFO    2018-09-25 12:28:17,289 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:28:42,927 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:28:42,927 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:28:42,931 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:28:42,931 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:28:44,535 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:28:44,638 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:28:44,639 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:28:48,125 [login] Login with user 'Admin'
+INFO    2018-09-25 12:29:18,495 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:31:07,146 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:31:07,146 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:31:07,150 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:31:07,150 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:31:08,796 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:31:08,903 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:31:08,904 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:31:12,622 [login] Login with user 'Admin'
+INFO    2018-09-25 12:31:48,310 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:33:26,380 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:33:26,381 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:33:26,385 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:33:26,385 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:33:27,989 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:33:28,093 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:33:28,095 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:33:32,042 [login] Login with user 'Admin'
+ERROR   2018-09-25 12:33:36,075 [environment] The scenario 'successful login' has failed
+DEBUG   2018-09-25 12:33:36,085 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-25 12:33:58,575 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:33:58,575 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:33:58,580 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:33:58,580 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:34:00,238 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:34:00,344 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:34:00,346 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:34:04,751 [login] Login with user 'Admin'
+INFO    2018-09-25 12:34:45,399 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:41:09,412 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:41:09,413 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:41:09,417 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:41:09,417 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:41:11,023 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:41:11,131 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:41:11,133 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:41:14,923 [login] Login with user 'Admin'
+INFO    2018-09-25 12:42:00,530 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 12:46:00,815 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:46:00,815 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:46:00,819 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:46:00,819 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:46:02,456 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:46:02,560 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:46:02,562 [environment] Running new scenario: successful login
+ERROR   2018-09-25 12:46:02,564 [environment] The scenario 'successful login' has failed
+INFO    2018-09-25 12:46:02,722 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_124600_chrome/01_successful_login.png
+DEBUG   2018-09-25 12:46:02,724 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 12:46:29,357 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 12:46:29,357 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 12:46:29,362 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 12:46:29,362 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 12:46:30,982 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 12:46:31,089 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 12:46:31,093 [environment] Running new scenario: successful login
+DEBUG   2018-09-25 12:46:36,073 [assign_leave] Login with user 'Admin'
+INFO    2018-09-25 12:47:21,091 [environment] The scenario 'successful login' has passed
+DEBUG   2018-09-25 13:40:09,547 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:40:09,547 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+DEBUG   2018-09-25 13:41:29,497 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:41:29,497 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:41:29,502 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:41:29,502 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:41:31,112 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:41:31,220 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:41:31,224 [environment] Running new scenario: Manage users
+ERROR   2018-09-25 13:41:31,229 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 13:41:31,390 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_134129_chrome/01_Manage_users.png
+DEBUG   2018-09-25 13:41:31,392 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 13:42:03,062 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:42:03,062 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:42:03,068 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:42:03,068 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:42:04,712 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:42:04,818 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:42:04,819 [environment] Running new scenario: Manage users
+ERROR   2018-09-25 13:42:04,823 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 13:42:04,993 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_134203_chrome/01_Manage_users.png
+DEBUG   2018-09-25 13:42:04,994 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 13:42:25,066 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:42:25,066 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:42:25,071 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:42:25,071 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:42:26,686 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:42:26,790 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:42:26,791 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 13:42:29,944 [user_management] Login with user 'Admin'
+INFO    2018-09-25 13:42:37,157 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 13:44:14,318 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:44:14,318 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:44:14,323 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:44:14,323 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:44:15,960 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:44:16,064 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:44:16,066 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 13:44:19,717 [user_management] Login with user 'Admin'
+INFO    2018-09-25 13:44:29,298 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 13:49:54,803 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:49:54,803 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:49:54,808 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:49:54,808 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:49:56,421 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:49:56,524 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:49:56,526 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 13:50:00,250 [user_management] Login with user 'Admin'
+INFO    2018-09-25 13:50:09,687 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 13:50:35,155 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:50:35,155 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:50:35,160 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:50:35,160 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:50:36,775 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:50:36,881 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:50:36,882 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 13:50:40,487 [user_management] Login with user 'Admin'
+INFO    2018-09-25 13:50:49,757 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 13:51:39,731 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:51:39,731 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:51:39,736 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:51:39,736 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:51:41,339 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:51:41,443 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:51:41,445 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 13:51:44,608 [user_management] Login with user 'Admin'
+INFO    2018-09-25 13:52:00,990 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 13:52:35,731 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 13:52:35,731 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 13:52:35,736 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 13:52:35,736 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 13:52:37,358 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 13:52:37,463 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 13:52:37,464 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 13:52:46,616 [user_management] Login with user 'Admin'
+INFO    2018-09-25 13:53:01,561 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:01:23,838 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:01:23,838 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:01:23,842 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:01:23,843 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:01:25,500 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:01:25,606 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:01:25,609 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-25 14:01:30,700 [assign_leave] Login with user 'Admin'
+INFO    2018-09-25 14:02:20,861 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-25 14:08:36,834 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:08:36,835 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:08:36,839 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:08:36,840 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:08:38,463 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:08:38,570 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:08:38,573 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:08:42,967 [user_management] Login with user 'Admin'
+ERROR   2018-09-25 14:08:45,612 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-25 14:08:45,614 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-25 14:09:29,600 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:09:29,600 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:09:29,606 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:09:29,606 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:09:31,197 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:09:31,305 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:09:31,307 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:09:35,405 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:09:52,588 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:27:39,281 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:27:39,282 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:27:39,286 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:27:39,286 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:27:40,890 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:27:41,000 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:27:41,003 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:27:45,559 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:28:05,868 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:28:54,228 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:28:54,228 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:28:54,232 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:28:54,233 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:28:55,864 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:28:55,970 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:28:55,973 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:29:00,236 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:29:19,555 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:34:48,957 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:34:48,957 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:34:48,962 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:34:48,962 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:34:50,585 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:34:50,689 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:34:50,690 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:34:55,072 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:35:17,792 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:35:36,609 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:35:36,609 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:35:36,614 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:35:36,615 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:35:38,269 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:35:38,373 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:35:38,374 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:35:42,558 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:36:05,055 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:40:00,169 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:40:00,169 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:40:00,174 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:40:00,174 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:40:01,797 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:40:01,903 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:40:01,905 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:40:06,993 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:40:29,850 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:46:17,797 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:46:17,797 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:46:17,802 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:46:17,802 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:46:19,416 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:46:19,524 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:46:19,528 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:46:23,612 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:46:48,058 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:47:51,102 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:47:51,102 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:47:51,107 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:47:51,107 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:47:52,745 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:47:52,849 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:47:52,850 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:47:57,227 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:48:22,177 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:57:18,839 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:57:18,839 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:57:18,844 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:57:18,844 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:57:20,477 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:57:20,584 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:57:20,588 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:57:24,987 [user_management] Login with user 'Admin'
+INFO    2018-09-25 14:57:54,117 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 14:59:44,556 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 14:59:44,556 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 14:59:44,561 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 14:59:44,561 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 14:59:46,190 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 14:59:46,294 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 14:59:46,296 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 14:59:50,747 [user_management] Login with user 'Admin'
+ERROR   2018-09-25 15:00:12,017 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 15:00:12,158 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_145944_chrome/01_Manage_users.png
+DEBUG   2018-09-25 15:00:12,159 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 15:00:31,812 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:00:31,813 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:00:31,817 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:00:31,817 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:00:33,428 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:00:33,535 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:00:33,537 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:00:34,931 [user_management] Login with user 'Admin'
+ERROR   2018-09-25 15:00:39,995 [page_element] Page element of type 'InputText' with locator ('name', 'txtUsername') not found
+ERROR   2018-09-25 15:00:39,999 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 15:00:40,130 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_150031_chrome/01_Manage_users.png
+DEBUG   2018-09-25 15:00:40,132 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 15:01:07,897 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:01:07,898 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:01:07,903 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:01:07,903 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:01:09,528 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:01:09,632 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:01:09,633 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:01:14,068 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:01:46,068 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:02:12,544 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:02:12,544 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:02:12,549 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:02:12,549 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:02:14,171 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:02:14,275 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:02:14,276 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:02:18,569 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:02:53,171 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:12:04,411 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:12:04,411 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:12:04,416 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:12:04,416 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:12:06,053 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:12:06,157 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:12:06,158 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:12:11,010 [user_management] Login with user 'Admin'
+ERROR   2018-09-25 15:12:35,190 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 15:12:35,336 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_151204_chrome/01_Manage_users.png
+DEBUG   2018-09-25 15:12:35,337 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 15:13:11,119 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:13:11,119 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:13:11,123 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:13:11,124 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:13:12,722 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:13:12,826 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:13:12,829 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:13:16,960 [user_management] Login with user 'Admin'
+ERROR   2018-09-25 15:13:40,356 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 15:13:40,509 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_151311_chrome/01_Manage_users.png
+DEBUG   2018-09-25 15:13:40,511 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 15:15:09,724 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:15:09,725 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:15:09,730 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:15:09,731 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:15:11,327 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:15:11,431 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:15:11,433 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:15:15,355 [user_management] Login with user 'Admin'
+ERROR   2018-09-25 15:15:38,583 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-25 15:15:38,719 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-25_151509_chrome/01_Manage_users.png
+DEBUG   2018-09-25 15:15:38,720 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-25 15:23:05,470 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:23:05,470 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:23:05,475 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:23:05,475 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:23:07,095 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:23:07,199 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:23:07,200 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:23:11,353 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:23:45,828 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:26:51,749 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:26:51,749 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:26:51,754 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:26:51,754 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:26:53,358 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:26:53,461 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:26:53,463 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:26:59,203 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:27:33,336 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:28:54,413 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:28:54,413 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:28:54,418 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:28:54,418 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:28:56,062 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:28:56,166 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:28:56,168 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:29:00,582 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:29:37,505 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:37:07,455 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:37:07,455 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:37:07,460 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:37:07,460 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:37:09,076 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:37:09,184 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:37:09,187 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:37:13,977 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:37:51,084 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:38:34,008 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:38:34,008 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:38:34,013 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:38:34,013 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:38:35,624 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:38:35,727 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:38:35,729 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:38:39,841 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:39:20,881 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:49:11,024 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:49:11,024 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:49:11,029 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:49:11,029 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:49:12,644 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:49:12,748 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:49:12,751 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:49:17,773 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:49:54,177 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 15:50:27,286 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 15:50:27,286 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 15:50:27,291 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 15:50:27,291 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 15:50:28,888 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 15:50:28,993 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 15:50:28,996 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 15:50:34,080 [user_management] Login with user 'Admin'
+INFO    2018-09-25 15:51:08,421 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 16:13:16,801 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 16:13:16,802 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 16:13:16,806 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 16:13:16,806 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 16:13:18,421 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 16:13:18,525 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 16:13:18,526 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 16:13:23,006 [user_management] Login with user 'Admin'
+INFO    2018-09-25 16:13:57,730 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 16:19:23,346 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 16:19:23,346 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 16:19:23,350 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 16:19:23,350 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 16:19:24,995 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 16:19:25,102 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 16:19:25,105 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-25 16:19:29,483 [assign_leave] Login with user 'Admin'
+INFO    2018-09-25 16:20:16,697 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-25 16:20:16,762 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 16:20:16,763 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 16:20:16,766 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 16:20:16,766 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 16:20:18,392 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 16:20:18,497 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 16:20:18,498 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 16:20:22,587 [user_management] Login with user 'Admin'
+INFO    2018-09-25 16:20:57,551 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-25 16:27:36,436 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 16:27:36,436 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 16:27:36,440 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 16:27:36,440 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 16:27:38,069 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 16:27:38,174 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 16:27:38,177 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-25 16:27:42,606 [assign_leave] Login with user 'Admin'
+INFO    2018-09-25 16:28:27,710 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-25 16:28:27,775 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-25 16:28:27,775 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-25 16:28:27,777 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-25 16:28:27,778 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-25 16:28:29,390 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-25 16:28:29,494 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-25 16:28:29,496 [environment] Running new scenario: Manage users
+DEBUG   2018-09-25 16:28:34,517 [user_management] Login with user 'Admin'
+INFO    2018-09-25 16:29:11,682 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 09:20:03,949 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:20:03,950 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:20:03,956 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:20:03,956 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:20:06,602 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:20:06,712 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:20:06,717 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:20:10,663 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 09:20:57,317 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 09:20:57,383 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:20:57,384 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:20:57,385 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:20:57,386 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:20:58,969 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:20:59,076 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:20:59,080 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:21:03,635 [user_management] Login with user 'Admin'
+INFO    2018-09-26 09:21:38,449 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 09:44:52,567 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:44:52,568 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:44:52,574 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:44:52,575 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:44:55,208 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:44:55,316 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:44:55,318 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:45:00,027 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 09:45:45,469 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 09:45:45,534 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:45:45,534 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:45:45,536 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:45:45,537 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:45:47,132 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:45:47,240 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:45:47,244 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:45:51,934 [user_management] Login with user 'Admin'
+INFO    2018-09-26 09:46:31,348 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 09:46:44,392 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:46:44,392 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:46:44,396 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:46:44,396 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:46:45,991 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:46:46,098 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:46:46,101 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:46:50,893 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 09:47:37,709 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 09:47:37,778 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:47:37,778 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:47:37,780 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:47:37,781 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:47:39,375 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:47:39,482 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:47:39,484 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:47:44,334 [user_management] Login with user 'Admin'
+INFO    2018-09-26 09:48:19,437 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 09:51:07,686 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:51:07,686 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:51:07,690 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:51:07,690 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:51:09,318 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:51:09,423 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:51:09,426 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:51:14,272 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 09:51:59,440 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 09:51:59,509 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:51:59,509 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:51:59,511 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:51:59,511 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:52:01,112 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:52:01,219 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:52:01,224 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:52:06,079 [user_management] Login with user 'Admin'
+INFO    2018-09-26 09:52:53,523 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 09:53:06,602 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:53:06,602 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:53:06,606 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:53:06,606 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:53:08,185 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:53:08,293 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:53:08,297 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:53:12,625 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 09:53:31,910 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 09:53:32,045 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-26_095306_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 09:53:32,047 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 09:53:32,121 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:53:32,121 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:53:32,124 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:53:32,124 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:53:33,731 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:53:33,838 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:53:33,842 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:53:38,970 [user_management] Login with user 'Admin'
+INFO    2018-09-26 09:54:13,729 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 09:54:21,550 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:54:21,551 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:54:21,555 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:54:21,555 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:54:23,140 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:54:23,246 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:54:23,249 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:54:28,829 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 09:54:56,979 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 09:54:57,118 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-26_095421_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 09:54:57,120 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 09:54:57,196 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:54:57,197 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:54:57,199 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:54:57,200 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:54:58,799 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:54:58,905 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:54:58,909 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:55:03,772 [user_management] Login with user 'Admin'
+ERROR   2018-09-26 09:55:16,005 [environment] The scenario 'Manage users' has failed
+INFO    2018-09-26 09:55:16,193 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-26_095421_chrome/02_Manage_users.png
+DEBUG   2018-09-26 09:55:16,194 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 09:58:52,259 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:58:52,259 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:58:52,263 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:58:52,263 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:58:53,873 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:58:53,981 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:58:53,984 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 09:58:59,047 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 09:59:18,360 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 09:59:18,505 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-26_095852_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 09:59:18,507 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 09:59:18,582 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 09:59:18,582 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 09:59:18,585 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 09:59:18,585 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 09:59:20,197 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 09:59:20,302 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 09:59:20,304 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 09:59:25,469 [user_management] Login with user 'Admin'
+ERROR   2018-09-26 09:59:54,595 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-26 09:59:54,600 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 10:07:51,609 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:07:51,609 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:07:51,613 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:07:51,613 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:07:53,223 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:07:53,331 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:07:53,333 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 10:07:57,923 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 10:08:46,761 [page_element] Page element of type 'Button' with locator ('xpath', '//*[@id="confirmOkButton"]') not found or is not clickable after 10 seconds
+ERROR   2018-09-26 10:08:46,765 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 10:08:46,902 [utils] Screenshot saved in /home/kineticskunk/Desktop/toolium-template-master/output/screenshots/2018-09-26_100751_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 10:08:46,904 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 10:08:46,973 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:08:46,973 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:08:46,976 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:08:46,976 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:08:48,581 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:08:48,688 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:08:48,690 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:08:54,046 [user_management] Login with user 'Admin'
+ERROR   2018-09-26 10:09:26,390 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-26 10:09:26,392 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-26 10:16:13,865 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:16:13,866 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:16:13,869 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:16:13,869 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:16:15,477 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:16:15,585 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:16:15,588 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 10:16:20,239 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 10:17:05,070 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 10:17:05,136 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:17:05,136 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:17:05,138 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:17:05,138 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:17:06,742 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:17:06,849 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:17:06,853 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:17:11,431 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:17:45,915 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 10:28:09,907 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:28:09,907 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:28:09,911 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:28:09,911 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:28:11,506 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:28:11,611 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:28:11,613 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 10:28:15,829 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 10:29:00,778 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 10:29:00,844 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:29:00,844 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:29:00,846 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:29:00,847 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:29:02,458 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:29:02,567 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:29:02,571 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:29:06,962 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:29:41,750 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 10:30:14,043 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:30:14,044 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:30:14,048 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:30:14,049 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:30:15,650 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:30:15,755 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:30:15,756 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:30:20,761 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:30:55,196 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 10:33:02,588 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:33:02,588 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:33:02,593 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:33:02,593 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:33:04,192 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:33:04,299 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:33:04,302 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:33:08,914 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:33:43,285 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 10:39:19,233 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:39:19,233 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:39:19,238 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:39:19,238 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:39:20,834 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:39:20,941 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:39:20,945 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:39:25,335 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:40:01,768 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 10:40:49,280 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:40:49,281 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:40:49,285 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:40:49,285 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:40:50,905 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:40:51,012 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:40:51,014 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:40:55,250 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:41:29,350 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 10:41:48,247 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 10:41:48,247 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 10:41:48,252 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 10:41:48,252 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 10:41:49,861 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 10:41:49,969 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 10:41:49,973 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 10:41:54,564 [user_management] Login with user 'Admin'
+INFO    2018-09-26 10:42:28,713 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 11:40:02,555 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 11:40:02,555 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 11:40:02,560 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 11:40:02,560 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 11:40:04,155 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 11:40:04,259 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 11:40:04,261 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 11:40:08,927 [user_management] Login with user 'Admin'
+INFO    2018-09-26 11:40:43,149 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 11:49:52,139 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 11:49:52,139 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 11:49:52,143 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 11:49:52,144 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 11:49:53,750 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 11:49:53,860 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 11:49:53,863 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 11:50:00,267 [user_management] Login with user 'Admin'
+INFO    2018-09-26 11:50:35,369 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 13:58:30,989 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/toolium-template-master/conf/properties.cfg
+DEBUG   2018-09-26 13:58:30,989 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/toolium-template-master/conf/local-properties.cfg
+INFO    2018-09-26 13:58:30,994 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 13:58:30,994 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 13:58:32,592 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 13:58:32,700 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 13:58:32,704 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 13:58:37,691 [user_management] Login with user 'Admin'
+INFO    2018-09-26 13:59:11,985 [environment] The scenario 'Manage users' has passed
