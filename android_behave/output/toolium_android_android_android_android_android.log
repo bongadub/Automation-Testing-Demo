@@ -84,3 +84,25 @@ DEBUG   2018-09-21 15:08:37,240 [config_driver] Added Appium server capability: 
 DEBUG   2018-09-21 15:08:51,730 [driver_wrapper] Window size: 1440 x 2560
 INFO    2018-09-21 15:08:51,818 [environment] Running new scenario: Run views animation
 INFO    2018-09-21 15:09:06,148 [environment] The scenario 'Run views animation' has passed
+DEBUG   2018-09-26 15:32:19,863 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2018-09-26 15:32:19,864 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-26 15:32:19,864 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-26 15:32:19,864 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-26 15:32:19,864 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-26 15:32:19,864 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-26 15:32:19,864 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-26 15:32:19,865 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-26 15:32:19,865 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+DEBUG   2018-09-26 15:32:19,865 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2018-09-26 15:32:19,865 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2018-09-26 15:32:19,867 [config_driver] Creating local driver (type = android)
+DEBUG   2018-09-26 15:32:19,867 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2018-09-26 15:32:19,868 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2018-09-26 15:32:19,868 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2018-09-26 15:32:19,868 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2018-09-26 15:32:19,868 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2018-09-26 15:32:19,868 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2018-09-26 15:32:19,868 [remote_connection] Could not connect to port 4723 on host 127.0.0.1
+INFO    2018-09-26 15:32:19,868 [remote_connection] Could not get IP address for host: 127.0.0.1
+ERROR   2018-09-26 15:32:19,869 [config_driver] Android driver can not be launched: <urlopen error [Errno 111] Connection refused>
+ERROR   2018-09-26 15:32:19,870 [environment] The scenario 'Run views animation' has failed
