@@ -1060,3 +1060,12 @@ DEBUG   2018-09-26 13:58:32,700 [driver_wrapper] Window size: 1535 x 876
 INFO    2018-09-26 13:58:32,704 [environment] Running new scenario: Manage users
 DEBUG   2018-09-26 13:58:37,691 [user_management] Login with user 'Admin'
 INFO    2018-09-26 13:59:11,985 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 15:41:50,256 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 15:41:50,257 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 15:41:50,261 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 15:41:50,261 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 15:41:51,905 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-26 15:41:51,907 [environment] Running new scenario: Add an employee
+DEBUG   2018-09-26 15:41:56,140 [user_management] Login with user 'Admin'
+ERROR   2018-09-26 15:41:58,948 [environment] The scenario 'Add an employee' has failed
+DEBUG   2018-09-26 15:41:58,951 [utils] Reading logs from 'client, server' and writing them to log files
