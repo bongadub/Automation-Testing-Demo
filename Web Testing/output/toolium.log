@@ -1,0 +1,8 @@
+DEBUG   2018-09-26 15:32:29,709 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2018-09-26 15:32:29,709 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2018-09-26 15:32:29,713 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 15:32:29,713 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 15:32:31,330 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-26 15:32:31,332 [environment] Running new scenario: Login Feature
+ERROR   2018-09-26 15:32:38,809 [environment] The scenario 'Login Feature' has failed
+DEBUG   2018-09-26 15:32:38,810 [utils] Reading logs from 'client, server' and writing them to log files
