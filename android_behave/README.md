@@ -1,10 +1,13 @@
 
 # ANDROID AUTOMATION TESTING
 
+
 **Prerequisites**
 =================
 
+
 # Install Appium
+
 
 **Steps to install Appium**
 ===========================
