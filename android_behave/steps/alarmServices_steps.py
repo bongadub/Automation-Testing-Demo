@@ -19,36 +19,45 @@ from toolium.pageobjects.page_object import PageObject
 from selenium.common.exceptions import NoSuchElementException
 
 from toolium.pageelements import *
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
-from appium.webdriver.common.mobileby import MobileBy
-from selenium.webdriver.support import expected_conditions as EC
 import selenium.webdriver.support.expected_conditions as WAITCON
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import WebDriverException
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 from toolium.pageelements import InputText, Button
-from selenium.webdriver.support.ui import WebDriverWait
 
 import random
 import string
 import time
 
-from appium.webdriver.common.mobileby import MobileBy
-from toolium.pageobjects.page_object import PageObject
+from selenium.webdriver.common.by import By
+from behave import given, when, then
+from android_behave.pageobjects.menu import MenuPageObject
+from android_behave.pageobjects.alarmServices import TabsPageObject
 
 
-class MenuPageObject(PageObject):
-    option_locator = 'new UiScrollable(new UiSelector().scrollable(true).instance(0))' \
-                     '.scrollIntoView(new UiSelector().text("{}").instance(0));'
+# @given('the menu is open')
+# def step_impl(context):
+#     context.current_page = MenuPageObject()
 
-    def open_option(self, option):
-        """Search a menu option and click on it
+@when('the user goes to Alarm Services')
+def step_impl(context):
+    context.current_page.open_option('App').open_option('Alarm').open_option('Alarm Service')
+    context.current_page = TabsPageObject()
 
-        :param option: str with menu option
-        :returns: this page object instance
-        """
-        self.driver.find_element(MobileBy.ANDROID_UIAUTOMATOR, self.option_locator.format(option)).click()
-        return self
+@when('the user starts the alarm service')
+def step_impl(context):
+    context.current_page = TabsPageObject()
+    context.current_page.startAlarm()
+
+@when('the user stops the alarm service')
+def step_impl(context):
+    context.current_page = TabsPageObject()
+    context.current_page.stopAlarm()
+
+@then('the second tab contains "{message}"')
+def step_impl(context, message):
+    assert message in context.current_page.content2.text
