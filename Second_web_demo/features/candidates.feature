@@ -3,7 +3,7 @@ Feature: Adding a candidate
 
   Scenario: adding a candidate
     Given the login page is open
-     When the user logs with username "Admin" and password "admin123"
+     When the admin logs with username "Admin" and password "admin123"
      Then the user hovers over recruitment tab
 
     Given the user clicks on candidates
