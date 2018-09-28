@@ -25,7 +25,7 @@ STEPS TO RUN THE TEST ON UBUNTU
 
 Clone the github repository into your working directory
 
-		* git clone https://github.com/Xolani-Mxoxozi/Automation-Testing-Demo.git
+		* git clone https:https://github.com/bongadub/Automation-Testing-Demo.git
 
 TO RUN THE DEMO
 ================
