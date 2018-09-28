@@ -135,7 +135,7 @@ STEPS TO RUN THE TEST ON UBUNTU OS
 
 Clone the github repository into your working directory
 
-      * git clone https://github.com/Xolani-Mxoxozi/Automation-Testing-Demo.git
+      * git clone https://github.com/bongadub/Automation-Testing-Demo.git
 
 TO RUN THE DEMO
 ================
@@ -156,4 +156,3 @@ Second_web_demo:
 
 android_behave
       *behave android_behave/*
-To be able to run the demos, you must open the project folders and read the *README* files 
