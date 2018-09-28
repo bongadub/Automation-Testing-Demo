@@ -1,4 +1,4 @@
-# Automation-Testing-Demo
+Automation-Testing-Demo
 
 #INTRODUCTION
 
