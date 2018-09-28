@@ -1,6 +1,6 @@
 # AUTOMATION-TESTING-DEMO
 
-INTRODUCTION
+# INTRODUCTION
 
 This file contains information on how to set up and run tests on your machine
 for toolium Web Testing and Mobile Testing.
@@ -8,7 +8,7 @@ In order for the tests to run on your local machine please follow the steps belo
 
 #STEPS FOR SETTING UP YOUR MACHINE
 
-*STEPS TO INSTALL APPIUM*
+# STEPS TO INSTALL APPIUM
 =========================
  Install node.js without using sudo-
 
