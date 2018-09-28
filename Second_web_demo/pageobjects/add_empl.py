@@ -38,7 +38,7 @@ from toolium.pageelements import InputText, Button
 from toolium.pageobjects.page_object import PageObject
 
 
-class AssignLeavePageObject(PageObject):
+class AddEmployeePageObject(PageObject):
     def init_page_elements(self):
         self.username = InputText(By.XPATH, '//*[@id="txtUsername"]')
         self.password = InputText(By.XPATH, '//*[@id="txtPassword"]')
@@ -67,37 +67,25 @@ class AssignLeavePageObject(PageObject):
         :returns: secure area page object instance
         """
         self.logger.debug("Login with user '%s'", user['username'])
-        time.sleep(5)
         self.username.text = user['username']
         self.password.text = user['password']
         self.login_button.click()
         time.sleep(5)
 
-    def assign_leave(self):
-        self.assign_leave_btn = self.driver.find_element(By.XPATH, '//*[@id="dashboard-quick-launch-panel-menu_holder"]/table/tbody/tr/td[1]/div/a').click()
+    def pim_tab(self):
+        self.pim_click = self.driver.find_element(By.XPATH, '//*[@id="menu_pim_viewPimModule"]').click()
         time.sleep(3)
         return self
 
-    def leave_details(self):
-        self.empl_name = self.driver.find_element(By.XPATH, '//*[@id="assignleave_txtEmployee_empName"]').send_keys('J')
-        time.sleep(2)
-        self.list = self.driver.find_element(By.XPATH, '/html/body/div[6]/ul/li[1]').click()
-        time.sleep(2)
-        self.leave_type = self.driver.find_element(By.XPATH, '//*[@id="assignleave_txtLeaveType"]/option[@value=1]').click()
-        time.sleep(2)
-        self.from_date = self.driver.find_element(By.XPATH, '//*[@id="assignleave_txtFromDate"]').click()
-        time.sleep(2)
-        self.start_date = self.driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[4]/a').click()
-        time.sleep(2)
-        self.to_date = self.driver.find_element(By.XPATH, '//*[@id="assignleave_txtToDate"]').click()
-        time.sleep(5)
-        self.end_date = self.driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[5]/a').click()
-        time.sleep(5)
-        self.button = Button(By.XPATH, '//*[@id="assignBtn"]').click()
-        time.sleep(5)
-
-    def ok_btn(self):
-        self.OK_button = Button(By.XPATH, '//*[@id="confirmOkButton"]').click()
-        time.sleep(5)
+    def add_employee(self):
+        self.employee = self.driver.find_element(By.XPATH, '//*[@id="menu_pim_addEmployee"]').click()
+        time.sleep(3)
+        return self
+    
+    def empl_details(self):
+        self.first_name = self.driver.find_element(By.XPATH, '//*[@id="firstName"]').send_keys('Steve')
+        self.last_name = self.driver.find_element(By.XPATH, '//*[@id="lastName"]').send_keys('Smith')
+        self.save_btn = Button(By.XPATH, '//*[@id="btnSave"]').click()
+        time.sleep(3)
         return self
         

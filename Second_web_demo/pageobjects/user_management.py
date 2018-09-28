@@ -40,8 +40,8 @@ from toolium.pageobjects.page_object import PageObject
 
 class UserPageObject(PageObject):
     def init_page_elements(self):
-        self.username = InputText(By.NAME, 'txtUsername')
-        self.password = InputText(By.NAME, 'txtPassword')
+        self.username = InputText(By.XPATH, '//*[@id="txtUsername"]')
+        self.password = InputText(By.XPATH, '//*[@id="txtPassword"]')
         self.login_button = Button(By.XPATH, '//*[@id="btnLogin"]')
 
     def open(self):
@@ -85,9 +85,9 @@ class UserPageObject(PageObject):
     def add_user(self):
         self.user_role = self.driver.find_element(By.XPATH, '//*[@id="systemUser_userType"]/option[@value=2]').click()
         time.sleep(2)
-        self.employee_name = self.driver.find_element(By.XPATH, '//*[@id="systemUser_employeeName_empName"]').send_keys('Reeja R Rajan')
+        self.employee_name = self.driver.find_element(By.XPATH, '//*[@id="systemUser_employeeName_empName"]').send_keys('Robert Craig')
         time.sleep(2)
-        self.username = self.driver.find_element(By.XPATH, '//*[@id="systemUser_userName"]').send_keys('reeja.r')
+        self.username = self.driver.find_element(By.XPATH, '//*[@id="systemUser_userName"]').send_keys('robert.craig')
         time.sleep(2)
         self.status = self.driver.find_element(By.XPATH, '//*[@id="systemUser_status"]/option[@value=1]').click()
         time.sleep(2)
