@@ -7,6 +7,7 @@ for toolium Web Testing and Mobile Testing.
 In order for the tests to run on your local machine please follow the steps below.
 
 #STEPS FOR SETTING UP YOUR MACHINE
+
 *STEPS TO INSTALL APPIUM*
 =========================
  Install node.js without using sudo-
