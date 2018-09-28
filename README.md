@@ -69,7 +69,7 @@ Install Java, jdk and jre-
     * npm install -g appium-doctor
  
 
-# Step to install Selenium   
+# Steps to install Selenium   
 
 # Install Python Pip
 
@@ -104,7 +104,7 @@ To ensure chromedriver is successfully installed check on the terminal wih the b
     *which chromedriver
 
 
-# Install Genymotion (Android Emulator)
+# Steps to install Genymotion (Android Emulator)
    
 Step 1. Download Genymotion (Android Emulator) link:https://www.genymotion.com/fun-zone/
 
@@ -128,8 +128,8 @@ Step 5. Select Android virtual device available to install from the list
 Step 6. Install virtual device you want, but recommended is Samsung Galaxy S5 -4.4.4 for this test.
 
 
-STEPS TO RUN THE TEST ON UBUNTU
-================================
+STEPS TO RUN THE TEST ON UBUNTU OS
+==================================
 
 # Create a directory on your machine that you will be working from
 
@@ -146,7 +146,7 @@ TO RUN THE DEMO
 
 # Run the command
 
-The tests will run from the parent folder.
+The tests will be executed from the parent folder.
 
 Web Testing:
       *behave Web\ Testing/
