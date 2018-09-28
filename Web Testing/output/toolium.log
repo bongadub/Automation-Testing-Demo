@@ -29,3 +29,31 @@ DEBUG   2018-09-27 19:50:16,988 [driver_wrapper] Window size: 1366 x 744
 INFO    2018-09-27 19:50:16,990 [environment] Running new scenario: Login Feature
 ERROR   2018-09-27 19:50:25,939 [environment] The scenario 'Login Feature' has failed
 DEBUG   2018-09-27 19:50:25,943 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-28 08:14:25,644 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2018-09-28 08:14:25,645 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2018-09-28 08:14:25,653 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:14:25,653 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:14:28,363 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:14:28,365 [environment] Running new scenario: Login Feature
+INFO    2018-09-28 08:14:43,936 [environment] The scenario 'Login Feature' has passed
+DEBUG   2018-09-28 08:14:44,000 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2018-09-28 08:14:44,001 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2018-09-28 08:14:44,003 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:14:44,003 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:14:45,841 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:14:45,843 [environment] Running new scenario: Process of buying an item
+INFO    2018-09-28 08:15:55,765 [environment] The scenario 'Process of buying an item' has passed
+DEBUG   2018-09-28 08:54:50,132 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2018-09-28 08:54:50,132 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2018-09-28 08:54:50,137 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:54:50,137 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:54:51,776 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:54:51,778 [environment] Running new scenario: Login Feature
+INFO    2018-09-28 08:55:07,307 [environment] The scenario 'Login Feature' has passed
+DEBUG   2018-09-28 08:55:07,372 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2018-09-28 08:55:07,372 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2018-09-28 08:55:07,374 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:55:07,375 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:55:09,002 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:55:09,005 [environment] Running new scenario: Process of buying an item
+INFO    2018-09-28 08:56:14,477 [environment] The scenario 'Process of buying an item' has passed

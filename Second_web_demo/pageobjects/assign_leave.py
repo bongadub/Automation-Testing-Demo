@@ -40,8 +40,8 @@ from toolium.pageobjects.page_object import PageObject
 
 class AssignLeavePageObject(PageObject):
     def init_page_elements(self):
-        self.username = InputText(By.NAME, 'txtUsername')
-        self.password = InputText(By.NAME, 'txtPassword')
+        self.username = InputText(By.XPATH, '//*[@id="txtUsername"]')
+        self.password = InputText(By.XPATH, '//*[@id="txtPassword"]')
         self.login_button = Button(By.XPATH, '//*[@id="btnLogin"]')
 
     def open(self):
@@ -67,7 +67,6 @@ class AssignLeavePageObject(PageObject):
         :returns: secure area page object instance
         """
         self.logger.debug("Login with user '%s'", user['username'])
-        time.sleep(5)
         self.username.text = user['username']
         self.password.text = user['password']
         self.login_button.click()

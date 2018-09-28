@@ -91,10 +91,51 @@
 
 2018-09-26 10:08:05.324000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
 
-2018-09-27 19:35:43.968522 'adding a candidate' test logs with driver = chrome
+2018-09-26 16:22:32.674683 'Assign leaves to employees' test logs with driver = chrome
 
-2018-09-27 19:35:43.091000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-26 16:22:26.018000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
 
-2018-09-27 19:36:35.481323 'checking available vacancies' test logs with driver = chrome
+2018-09-26 16:31:59.885388 'Assign leaves to employees' test logs with driver = chrome
 
-2018-09-27 19:36:34.609000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-26 16:31:42.583000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-26 16:31:52.704000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-27 11:43:41.024901 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-27 11:42:48.385000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-27 11:42:58.504000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-27 11:46:01.030555 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-27 11:45:06.406000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-27 11:45:10.961000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-27 11:47:25.612860 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-27 11:46:31.390000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-27 11:46:35.604000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-27 11:49:04.939171 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-27 11:48:13.196000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-27 11:48:22.365000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-27 12:00:25.247776 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-27 11:59:58.530000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-27 12:00:05.511000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-28 08:27:01.400917 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-28 08:26:41.004000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-28 08:26:49.171000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-28 08:29:22.679157 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-28 08:28:59.661000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-28 08:29:03.476000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.
+
+2018-09-28 08:45:36.383141 'Assign leaves to employees' test logs with driver = chrome
+
+2018-09-28 08:45:21.371000	SEVERE	https://opensource-demo.orangehrmlive.com/index.php/auth/login/login - [DOM] Found 2 elements with non-unique id #csrf_token: (More info: https://goo.gl/9p2vKq) %o %o
+2018-09-28 08:45:29.244000	WARNING	https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js 3 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.

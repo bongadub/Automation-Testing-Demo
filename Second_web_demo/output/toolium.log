@@ -1069,134 +1069,829 @@ INFO    2018-09-26 15:41:51,907 [environment] Running new scenario: Add an emplo
 DEBUG   2018-09-26 15:41:56,140 [user_management] Login with user 'Admin'
 ERROR   2018-09-26 15:41:58,948 [environment] The scenario 'Add an employee' has failed
 DEBUG   2018-09-26 15:41:58,951 [utils] Reading logs from 'client, server' and writing them to log files
-DEBUG   2018-09-26 15:43:49,013 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-26 15:43:49,013 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-26 15:43:49,017 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-26 15:43:49,017 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-26 15:43:50,654 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-26 15:43:50,657 [environment] Running new scenario: Add an employee
-DEBUG   2018-09-26 15:43:54,913 [user_management] Login with user 'Admin'
-INFO    2018-09-26 15:44:07,207 [environment] The scenario 'Add an employee' has passed
-DEBUG   2018-09-26 15:44:07,275 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-26 15:44:07,275 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-26 15:44:07,277 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-26 15:44:07,278 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-26 15:44:08,885 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-26 15:44:08,888 [environment] Running new scenario: Assign leaves to employees
-DEBUG   2018-09-26 15:44:14,180 [assign_leave] Login with user 'Admin'
-INFO    2018-09-26 15:44:59,048 [environment] The scenario 'Assign leaves to employees' has passed
-DEBUG   2018-09-26 15:44:59,109 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-26 15:44:59,110 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-26 15:44:59,111 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-26 15:44:59,112 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-26 15:45:00,688 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-26 15:45:00,694 [environment] Running new scenario: Manage users
-DEBUG   2018-09-26 15:45:05,032 [user_management] Login with user 'Admin'
-INFO    2018-09-26 15:45:41,516 [environment] The scenario 'Manage users' has passed
-DEBUG   2018-09-26 16:17:10,055 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-26 16:17:10,055 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-26 16:17:10,059 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-26 16:17:10,060 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-26 16:17:11,685 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-26 16:17:11,690 [environment] Running new scenario: Add an employee
-DEBUG   2018-09-26 16:17:16,221 [user_management] Login with user 'Admin'
-ERROR   2018-09-26 16:17:33,879 [environment] The scenario 'Add an employee' has failed
-DEBUG   2018-09-26 16:17:33,882 [utils] Reading logs from 'client, server' and writing them to log files
-DEBUG   2018-09-26 16:17:35,672 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-26 16:17:35,672 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-26 16:17:35,676 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-26 16:17:35,677 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-26 16:17:37,302 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-26 16:17:37,303 [environment] Running new scenario: Add an employee
-DEBUG   2018-09-26 16:17:41,506 [user_management] Login with user 'Admin'
-DEBUG   2018-09-27 19:34:15,182 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:34:15,183 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:34:15,187 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:34:15,188 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:34:16,803 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:34:16,807 [environment] Running new scenario: Add an employee
-DEBUG   2018-09-27 19:34:20,257 [user_management] Login with user 'Admin'
-INFO    2018-09-27 19:34:40,078 [environment] The scenario 'Add an employee' has passed
-DEBUG   2018-09-27 19:34:40,142 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:34:40,142 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:34:40,145 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:34:40,146 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:34:41,713 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:34:41,715 [environment] Running new scenario: Assign leaves to employees
-DEBUG   2018-09-27 19:34:44,975 [assign_leave] Login with user 'Admin'
-INFO    2018-09-27 19:35:37,616 [environment] The scenario 'Assign leaves to employees' has passed
-DEBUG   2018-09-27 19:35:37,682 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:35:37,682 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:35:37,683 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:35:37,684 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:35:39,264 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:35:39,267 [environment] Running new scenario: adding a candidate
-ERROR   2018-09-27 19:35:43,770 [environment] The scenario 'adding a candidate' has failed
-INFO    2018-09-27 19:35:43,965 [utils] Screenshot saved in /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_193415_chrome/01_adding_a_candidate.png
-DEBUG   2018-09-27 19:35:43,966 [utils] Reading logs from 'browser, driver' and writing them to log files
-DEBUG   2018-09-27 19:35:44,034 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:35:44,034 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:35:44,037 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:35:44,037 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:35:45,568 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:35:45,570 [environment] Running new scenario: Manage users
-DEBUG   2018-09-27 19:35:48,895 [user_management] Login with user 'Admin'
-INFO    2018-09-27 19:36:30,306 [environment] The scenario 'Manage users' has passed
-DEBUG   2018-09-27 19:36:30,373 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:36:30,373 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:36:30,376 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:36:30,376 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:36:31,954 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:36:31,956 [environment] Running new scenario: checking available vacancies
-ERROR   2018-09-27 19:36:35,292 [environment] The scenario 'checking available vacancies' has failed
-INFO    2018-09-27 19:36:35,476 [utils] Screenshot saved in /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_193415_chrome/02_checking_available_vacancies.png
-DEBUG   2018-09-27 19:36:35,478 [utils] Reading logs from 'browser, driver' and writing them to log files
-DEBUG   2018-09-27 19:38:17,145 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:38:17,145 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:38:17,149 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:38:17,150 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:38:18,720 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:38:18,723 [environment] Running new scenario: Add an employee
-DEBUG   2018-09-27 19:38:22,089 [user_management] Login with user 'Admin'
-ERROR   2018-09-27 19:38:23,867 [environment] The scenario 'Add an employee' has failed
-DEBUG   2018-09-27 19:38:23,870 [utils] Reading logs from 'client, server' and writing them to log files
-DEBUG   2018-09-27 19:39:27,981 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:39:27,982 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:39:27,986 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:39:27,986 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:39:29,563 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:39:29,567 [environment] Running new scenario: Add an employee
-DEBUG   2018-09-27 19:39:32,699 [user_management] Login with user 'Admin'
-INFO    2018-09-27 19:39:52,349 [environment] The scenario 'Add an employee' has passed
-DEBUG   2018-09-27 19:39:52,413 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:39:52,414 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:39:52,417 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:39:52,417 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:39:53,975 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:39:53,977 [environment] Running new scenario: Assign leaves to employees
-DEBUG   2018-09-27 19:39:57,262 [assign_leave] Login with user 'Admin'
-INFO    2018-09-27 19:40:47,722 [environment] The scenario 'Assign leaves to employees' has passed
-DEBUG   2018-09-27 19:40:47,787 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:40:47,788 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:40:47,791 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:40:47,791 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:40:49,372 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:40:49,375 [environment] Running new scenario: adding a candidate
-DEBUG   2018-09-27 19:40:52,691 [user_management] Login with user 'Admin'
-INFO    2018-09-27 19:41:45,904 [environment] The scenario 'adding a candidate' has passed
-DEBUG   2018-09-27 19:41:45,971 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:41:45,971 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:41:45,975 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:41:45,975 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:41:47,555 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:41:47,558 [environment] Running new scenario: Manage users
-DEBUG   2018-09-27 19:41:50,836 [user_management] Login with user 'Admin'
-INFO    2018-09-27 19:42:32,465 [environment] The scenario 'Manage users' has passed
-DEBUG   2018-09-27 19:42:32,532 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
-DEBUG   2018-09-27 19:42:32,532 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
-INFO    2018-09-27 19:42:32,535 [config_driver] Creating local driver (type = chrome)
-DEBUG   2018-09-27 19:42:32,535 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
-DEBUG   2018-09-27 19:42:34,128 [driver_wrapper] Window size: 1366 x 744
-INFO    2018-09-27 19:42:34,131 [environment] Running new scenario: checking available vacancies
-DEBUG   2018-09-27 19:42:37,426 [user_management] Login with user 'Admin'
-INFO    2018-09-27 19:43:07,339 [environment] The scenario 'checking available vacancies' has passed
+DEBUG   2018-09-26 16:02:45,539 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:02:45,540 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:02:45,544 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:02:45,544 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:02:47,133 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:02:47,240 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:02:47,243 [environment] Running new scenario: Add an employee
+DEBUG   2018-09-26 16:02:52,256 [user_management] Login with user 'Admin'
+INFO    2018-09-26 16:03:06,801 [environment] The scenario 'Add an employee' has passed
+DEBUG   2018-09-26 16:03:06,869 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:03:06,869 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:03:06,872 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:03:06,872 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:03:08,456 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:03:08,562 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:03:08,565 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:03:13,583 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 16:03:43,132 [environment] The scenario 'Assign leaves to employees' has failed
+DEBUG   2018-09-26 16:03:43,135 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-26 16:17:36,844 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:17:36,844 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:17:36,848 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:17:36,848 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:17:38,467 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:17:38,573 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:17:38,575 [environment] Running new scenario: Add an employee
+DEBUG   2018-09-26 16:17:43,929 [user_management] Login with user 'Admin'
+INFO    2018-09-26 16:17:56,470 [environment] The scenario 'Add an employee' has passed
+DEBUG   2018-09-26 16:17:56,536 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:17:56,536 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:17:56,541 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:17:56,541 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:17:58,123 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:17:58,228 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:17:58,230 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:18:03,645 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 16:18:48,269 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 16:18:48,337 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:18:48,338 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:18:48,342 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:18:48,343 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:18:50,005 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:18:50,109 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:18:50,111 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 16:18:55,643 [user_management] Login with user 'Admin'
+INFO    2018-09-26 16:19:30,127 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 16:22:21,293 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:22:21,294 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:22:21,297 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:22:21,297 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:22:22,916 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:22:23,023 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:22:23,028 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:22:27,418 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 16:22:32,506 [page_element] Page element of type 'InputText' with locator ('name', '//*[@id="txtPassword"]') not found
+ERROR   2018-09-26 16:22:32,508 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 16:22:32,669 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-26_162221_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 16:22:32,671 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 16:22:32,739 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:22:32,740 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:22:32,741 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:22:32,742 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:22:34,330 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:22:34,436 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:22:34,439 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 16:22:40,654 [user_management] Login with user 'Admin'
+ERROR   2018-09-26 16:22:42,708 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-26 16:22:42,709 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-26 16:24:03,063 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:24:03,063 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:24:03,067 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:24:03,067 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:24:04,645 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:24:04,752 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:24:04,754 [environment] Running new scenario: Assign leaves to employees
+ERROR   2018-09-26 16:24:09,830 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 16:24:09,957 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-26_162403_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 16:24:09,959 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 16:24:10,024 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:24:10,024 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:24:10,026 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:24:10,026 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:24:11,635 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:24:11,742 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:24:11,744 [environment] Running new scenario: Manage users
+ERROR   2018-09-26 16:24:15,655 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-26 16:24:15,657 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-26 16:24:59,381 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:24:59,382 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:24:59,385 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:24:59,386 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:25:01,017 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:25:01,123 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:25:01,126 [environment] Running new scenario: Assign leaves to employees
+ERROR   2018-09-26 16:25:06,156 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 16:25:06,291 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-26_162459_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 16:25:06,292 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 16:25:06,356 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:25:06,357 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:25:06,359 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:25:06,359 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:25:07,939 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:25:08,046 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:25:08,049 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 16:25:13,081 [user_management] Login with user 'Admin'
+ERROR   2018-09-26 16:25:14,247 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-26 16:25:14,251 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-26 16:28:36,150 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:28:36,150 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:28:36,154 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:28:36,154 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:28:37,781 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:28:37,889 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:28:37,893 [environment] Running new scenario: Assign leaves to employees
+ERROR   2018-09-26 16:28:42,988 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 16:28:43,118 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-26_162836_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 16:28:43,120 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 16:30:01,375 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:30:01,375 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:30:01,379 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:30:01,379 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:30:02,975 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:30:03,080 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:30:03,083 [environment] Running new scenario: Assign leaves to employees
+ERROR   2018-09-26 16:30:08,136 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 16:30:08,277 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-26_163001_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 16:30:08,279 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 16:31:37,149 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:31:37,149 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:31:37,153 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:31:37,153 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:31:38,749 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:31:38,858 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:31:38,862 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:31:45,114 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 16:31:59,704 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-26 16:31:59,881 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-26_163137_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-26 16:31:59,883 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-26 16:32:17,807 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:32:17,807 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:32:17,811 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:32:17,811 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:32:19,408 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:32:19,514 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:32:19,517 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:32:25,664 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 16:33:10,653 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 16:34:34,011 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:34:34,012 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:34:34,015 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:34:34,015 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:34:35,610 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:34:35,717 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:34:35,720 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:34:40,477 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-26 16:34:46,320 [environment] The scenario 'Assign leaves to employees' has failed
+DEBUG   2018-09-26 16:34:46,321 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-26 16:34:51,729 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:34:51,729 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:34:51,733 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:34:51,733 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:34:53,328 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:34:53,437 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:34:53,441 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:34:57,681 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 16:35:43,751 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 16:35:43,820 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:35:43,820 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:35:43,823 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:35:43,823 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:35:45,403 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:35:45,510 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:35:45,512 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 16:35:49,814 [user_management] Login with user 'Admin'
+INFO    2018-09-26 16:36:24,369 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-26 16:55:18,044 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:55:18,044 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:55:18,048 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:55:18,048 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:55:19,641 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:55:19,749 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:55:19,752 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-26 16:55:26,883 [assign_leave] Login with user 'Admin'
+INFO    2018-09-26 16:56:11,970 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-26 16:56:12,034 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-26 16:56:12,034 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-26 16:56:12,036 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-26 16:56:12,037 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-26 16:56:13,645 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-26 16:56:13,749 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-26 16:56:13,750 [environment] Running new scenario: Manage users
+DEBUG   2018-09-26 16:56:18,819 [user_management] Login with user 'Admin'
+INFO    2018-09-26 16:56:53,329 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 08:22:30,668 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 08:22:30,669 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 08:22:30,673 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 08:22:30,673 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 08:22:32,271 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 08:22:32,376 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 08:22:32,377 [environment] Running new scenario: Add a new employee
+ERROR   2018-09-27 08:22:32,381 [environment] The scenario 'Add a new employee' has failed
+INFO    2018-09-27 08:22:32,546 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_082230_chrome/01_Add_a_new_employee.png
+DEBUG   2018-09-27 08:22:32,547 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-27 08:23:09,294 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 08:23:09,294 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 08:23:09,298 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 08:23:09,298 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 08:23:10,886 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 08:23:10,994 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 08:23:10,998 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 08:23:16,187 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 08:23:23,498 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 08:28:47,457 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 08:28:47,457 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 08:28:47,461 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 08:28:47,461 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 08:28:49,056 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 08:28:49,162 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 08:28:49,164 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 08:28:52,865 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 08:29:05,809 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 08:35:41,909 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 08:35:41,909 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 08:35:41,913 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 08:35:41,913 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 08:35:43,506 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 08:35:43,614 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 08:35:43,618 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 08:35:47,992 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 08:36:04,454 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 08:49:30,695 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 08:49:30,695 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 08:49:30,699 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 08:49:30,699 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 08:49:32,295 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 08:49:32,400 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 08:49:32,403 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 08:49:39,910 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 08:50:03,491 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 08:52:29,343 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 08:52:29,343 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 08:52:29,347 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 08:52:29,348 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 08:52:30,941 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 08:52:31,049 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 08:52:31,053 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 08:52:35,935 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 08:52:57,954 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 09:54:39,206 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 09:54:39,206 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 09:54:39,210 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 09:54:39,210 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 09:54:40,811 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 09:54:40,918 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 09:54:40,920 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 09:54:46,217 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 09:55:08,834 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 10:15:17,159 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 10:15:17,159 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 10:15:17,163 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 10:15:17,163 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 10:15:18,788 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 10:15:18,895 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 10:15:18,898 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 10:15:23,943 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 10:15:48,333 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 10:18:24,774 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 10:18:24,774 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 10:18:24,778 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 10:18:24,778 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 10:18:26,390 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 10:18:26,496 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 10:18:26,499 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 10:18:31,872 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 10:18:53,601 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 10:18:53,665 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 10:18:53,665 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 10:18:53,669 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 10:18:53,669 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 10:18:55,278 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 10:18:55,385 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 10:18:55,387 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 10:18:59,646 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 10:19:44,936 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 10:19:44,999 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 10:19:44,999 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 10:19:45,001 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 10:19:45,002 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 10:19:46,598 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 10:19:46,705 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 10:19:46,709 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 10:19:51,973 [user_management] Login with user 'Admin'
+INFO    2018-09-27 10:20:26,419 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 11:25:04,843 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:25:04,843 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:25:04,847 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:25:04,848 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:25:06,460 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:25:06,566 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:25:06,568 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 11:25:11,196 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 11:25:33,240 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 11:41:10,110 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:41:10,110 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:41:10,115 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:41:10,115 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:41:11,725 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:41:11,832 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:41:11,837 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 11:41:17,033 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 11:42:01,607 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 11:42:42,994 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:42:42,995 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:42:43,000 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:42:43,000 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:42:44,612 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:42:44,720 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:42:44,722 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 11:42:50,912 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-27 11:43:40,875 [page_element] Page element of type 'Button' with locator ('xpath', '//*[@id="confirmOkButton"]') not found or is not clickable after 10 seconds
+ERROR   2018-09-27 11:43:40,880 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-27 11:43:41,020 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_114242_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-27 11:43:41,021 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-27 11:45:01,014 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:45:01,014 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:45:01,019 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:45:01,019 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:45:02,640 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:45:02,744 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:45:02,747 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 11:45:08,262 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-27 11:46:00,877 [page_element] Page element of type 'Button' with locator ('xpath', '//*[@id="confirmOkButton"]') not found or is not clickable after 10 seconds
+ERROR   2018-09-27 11:46:00,882 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-27 11:46:01,026 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_114501_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-27 11:46:01,027 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-27 11:46:25,949 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:46:25,949 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:46:25,954 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:46:25,954 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:46:27,590 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:46:27,698 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:46:27,700 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 11:46:32,935 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-27 11:47:25,456 [page_element] Page element of type 'Button' with locator ('xpath', '//*[@id="confirmOkButton"]') not found or is not clickable after 10 seconds
+ERROR   2018-09-27 11:47:25,460 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-27 11:47:25,609 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_114625_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-27 11:47:25,610 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-27 11:48:07,898 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:48:07,898 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:48:07,903 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:48:07,903 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:48:09,519 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:48:09,627 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:48:09,631 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 11:48:14,867 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-27 11:49:04,773 [page_element] Page element of type 'Button' with locator ('xpath', '//*[@id="confirmOkButton"]') not found or is not clickable after 10 seconds
+ERROR   2018-09-27 11:49:04,778 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-27 11:49:04,935 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_114807_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-27 11:49:04,937 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-27 11:51:16,193 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:51:16,193 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:51:16,198 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:51:16,198 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:51:17,808 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:51:17,913 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:51:17,915 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 11:51:22,094 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 11:52:07,188 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 11:59:50,100 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 11:59:50,100 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 11:59:50,105 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 11:59:50,105 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 11:59:51,701 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 11:59:51,807 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 11:59:51,811 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 12:00:02,560 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-27 12:00:25,104 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-27 12:00:25,243 [utils] Screenshot saved in /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/output/screenshots/2018-09-27_115950_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-27 12:00:25,245 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-27 12:03:12,291 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 12:03:12,291 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 12:03:12,295 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 12:03:12,296 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 12:03:13,925 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 12:03:14,034 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 12:03:14,038 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 12:03:22,001 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 12:04:16,662 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 12:05:02,222 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 12:05:02,222 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 12:05:02,226 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 12:05:02,227 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 12:05:03,853 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 12:05:03,961 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 12:05:03,963 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 12:05:09,841 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 12:05:35,329 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 12:05:35,403 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 12:05:35,403 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 12:05:35,408 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 12:05:35,409 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 12:05:37,002 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 12:05:37,108 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 12:05:37,110 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 12:05:42,952 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 12:06:33,774 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 12:06:33,839 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 12:06:33,839 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 12:06:33,841 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 12:06:33,841 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 12:06:35,429 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 12:06:35,536 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 12:06:35,539 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 12:06:41,585 [user_management] Login with user 'Admin'
+INFO    2018-09-27 12:07:17,312 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 12:17:45,224 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 12:17:45,224 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 12:17:45,229 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 12:17:45,229 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 12:17:46,833 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 12:17:46,939 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 12:17:46,942 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 12:17:51,268 [user_management] Login with user 'Admin'
+INFO    2018-09-27 12:18:26,741 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 12:21:33,903 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 12:21:33,903 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 12:21:33,908 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 12:21:33,908 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 12:21:35,514 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 12:21:35,622 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 12:21:35,625 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 12:21:40,238 [user_management] Login with user 'Admin'
+INFO    2018-09-27 12:22:16,627 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 14:36:45,068 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:36:45,068 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:36:45,072 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:36:45,072 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:36:46,676 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:36:46,783 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:36:46,788 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 14:36:50,797 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 14:37:11,884 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 14:37:11,954 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:37:11,954 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:37:11,957 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:37:11,957 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:37:13,560 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:37:13,665 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:37:13,666 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 14:37:17,602 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 14:38:02,375 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 14:38:02,442 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:38:02,443 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:38:02,447 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:38:02,447 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:38:04,031 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:38:04,139 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:38:04,141 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 14:38:08,111 [user_management] Login with user 'Admin'
+INFO    2018-09-27 14:38:42,464 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 14:41:19,373 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:41:19,373 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:41:19,378 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:41:19,379 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:41:20,979 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:41:21,087 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:41:21,091 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 14:41:25,992 [user_management] Login with user 'Admin'
+INFO    2018-09-27 14:42:00,129 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 14:42:20,199 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:42:20,199 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:42:20,204 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:42:20,204 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:42:21,819 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:42:21,925 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:42:21,927 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 14:42:26,279 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 14:42:47,617 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 14:46:49,351 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:46:49,351 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:46:49,355 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:46:49,355 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:46:50,992 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:46:51,100 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:46:51,103 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 14:46:55,290 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 14:47:19,140 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 14:48:13,083 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:48:13,083 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:48:13,087 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:48:13,087 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:48:14,721 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:48:14,825 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:48:14,826 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 14:48:19,651 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 14:48:41,030 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 14:48:51,382 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:48:51,382 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+DEBUG   2018-09-27 14:48:56,940 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:48:56,940 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:48:56,945 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:48:56,946 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:48:58,584 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:48:58,692 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:48:58,695 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 14:49:03,695 [user_management] Login with user 'Admin'
+INFO    2018-09-27 14:49:37,673 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 14:50:59,902 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 14:50:59,902 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 14:50:59,908 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 14:50:59,908 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 14:51:01,529 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 14:51:01,633 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 14:51:01,634 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 14:51:05,949 [user_management] Login with user 'Admin'
+INFO    2018-09-27 14:51:41,964 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-27 17:20:07,217 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 17:20:07,217 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 17:20:07,221 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 17:20:07,221 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 17:20:08,818 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 17:20:08,925 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 17:20:08,929 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 17:20:12,796 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 17:20:34,336 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 17:20:34,403 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 17:20:34,403 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 17:20:34,406 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 17:20:34,407 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 17:20:36,034 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 17:20:36,137 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 17:20:36,139 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 17:20:40,587 [assign_leave] Login with user 'Admin'
+ERROR   2018-09-27 17:22:32,098 [environment] The scenario 'Assign leaves to employees' has failed
+DEBUG   2018-09-27 17:22:32,100 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-27 17:22:36,677 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 17:22:36,677 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 17:22:36,681 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 17:22:36,681 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 17:22:38,282 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 17:22:38,385 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 17:22:38,386 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-27 17:22:42,106 [add_empl] Login with user 'Admin'
+INFO    2018-09-27 17:23:03,453 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-27 17:23:03,520 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 17:23:03,520 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 17:23:03,523 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 17:23:03,523 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 17:23:05,137 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 17:23:05,243 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 17:23:05,245 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-27 17:23:09,335 [assign_leave] Login with user 'Admin'
+INFO    2018-09-27 17:23:54,134 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-27 17:23:54,197 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-27 17:23:54,197 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-27 17:23:54,201 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-27 17:23:54,201 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-27 17:23:55,798 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2018-09-27 17:23:55,902 [driver_wrapper] Window size: 1535 x 876
+INFO    2018-09-27 17:23:55,905 [environment] Running new scenario: Manage users
+DEBUG   2018-09-27 17:23:59,814 [user_management] Login with user 'Admin'
+INFO    2018-09-27 17:24:34,070 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:21:31,233 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:21:31,233 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:21:31,237 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:21:31,238 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:21:32,855 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:21:32,857 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:21:36,267 [add_empl] Login with user 'Admin'
+ERROR   2018-09-28 08:21:46,939 [environment] The scenario 'Add a new employee' has failed
+DEBUG   2018-09-28 08:21:46,941 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-28 08:26:09,218 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:26:09,219 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:26:09,224 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:26:09,224 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:26:10,813 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:26:10,815 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:26:14,592 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:26:36,476 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:26:36,541 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:26:36,542 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:26:36,544 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:26:36,544 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:26:38,189 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:26:38,194 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:26:41,869 [add_empl] Login with user 'Admin'
+ERROR   2018-09-28 08:27:01,299 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-28 08:27:01,397 [utils] Screenshot saved in /home/xolanimxoxozi/Downloads/Second_web_demo/output/screenshots/2018-09-28_082609_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-28 08:27:01,398 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-28 08:27:01,471 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:27:01,471 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:27:01,473 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:27:01,473 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:27:03,112 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:27:03,114 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:27:06,779 [add_empl] Login with user 'Admin'
+ERROR   2018-09-28 08:27:37,068 [environment] The scenario 'Manage users' has failed
+DEBUG   2018-09-28 08:27:37,070 [utils] Reading logs from 'client, server' and writing them to log files
+DEBUG   2018-09-28 08:28:09,623 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:28:09,623 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:28:09,627 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:28:09,628 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:28:11,282 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:28:11,284 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:28:15,662 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:28:37,499 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:28:55,312 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:28:55,313 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:28:55,320 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:28:55,321 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:28:56,915 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:28:56,917 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:29:00,500 [add_empl] Login with user 'Admin'
+ERROR   2018-09-28 08:29:22,557 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-28 08:29:22,673 [utils] Screenshot saved in /home/xolanimxoxozi/Downloads/Second_web_demo/output/screenshots/2018-09-28_082855_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-28 08:29:22,675 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-28 08:30:21,147 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:30:21,147 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:30:21,152 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:30:21,152 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:30:22,745 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:30:22,748 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:30:26,128 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:31:11,513 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-28 08:31:29,010 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:31:29,010 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:31:29,016 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:31:29,016 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:31:30,659 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:31:30,661 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:31:34,316 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:32:08,332 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:32:20,205 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:32:20,206 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:32:20,210 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:32:20,210 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:32:21,814 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:32:21,817 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:32:25,497 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:32:46,711 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:32:46,774 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:32:46,774 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:32:46,776 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:32:46,776 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:32:48,405 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:32:48,407 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:32:51,696 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:33:36,365 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-28 08:33:36,436 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:33:36,436 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:33:36,439 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:33:36,439 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:33:38,083 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:33:38,085 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:33:41,719 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:34:15,590 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:42:33,237 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:42:33,238 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:42:33,242 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:42:33,242 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:42:34,869 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:42:34,875 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:42:38,530 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:42:59,806 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:43:06,846 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:43:06,846 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:43:06,852 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:43:06,852 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:43:08,451 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:43:08,454 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:43:12,062 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:43:56,779 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-28 08:44:02,530 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:44:02,531 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:44:02,537 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:44:02,537 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:44:04,171 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:44:04,173 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:44:07,493 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:44:45,153 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:44:50,448 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:44:50,449 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:44:50,453 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:44:50,453 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:44:52,085 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:44:52,087 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:44:55,675 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:45:16,962 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:45:17,027 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:45:17,028 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:45:17,031 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:45:17,032 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:45:18,644 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:45:18,648 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:45:21,986 [add_empl] Login with user 'Admin'
+ERROR   2018-09-28 08:45:36,225 [environment] The scenario 'Assign leaves to employees' has failed
+INFO    2018-09-28 08:45:36,380 [utils] Screenshot saved in /home/xolanimxoxozi/Downloads/Second_web_demo/output/screenshots/2018-09-28_084450_chrome/01_Assign_leaves_to_employees.png
+DEBUG   2018-09-28 08:45:36,381 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2018-09-28 08:45:36,461 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:45:36,461 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:45:36,466 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:45:36,467 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:45:38,216 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:45:38,219 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:45:42,353 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:46:16,708 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:47:03,697 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:47:03,697 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:47:03,702 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:47:03,702 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:47:05,328 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:47:05,330 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:47:08,820 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:47:30,240 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:47:30,310 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:47:30,310 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:47:30,313 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:47:30,313 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:47:31,956 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:47:31,958 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:47:35,631 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:48:20,321 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-28 08:48:20,387 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:48:20,388 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:48:20,390 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:48:20,391 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:48:22,061 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:48:22,065 [environment] Running new scenario: adding a candidate
+DEBUG   2018-09-28 08:48:25,569 [user_management] Login with user 'Admin'
+INFO    2018-09-28 08:49:12,978 [environment] The scenario 'adding a candidate' has passed
+DEBUG   2018-09-28 08:49:13,041 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:49:13,041 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:49:13,044 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:49:13,044 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:49:14,671 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:49:14,673 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:49:18,221 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:49:54,320 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:49:54,388 [config_parser] Reading properties from file: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:49:54,389 [config_parser] Properties config file not found: /home/xolanimxoxozi/Downloads/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:49:54,392 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:49:54,393 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:49:56,027 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:49:56,030 [environment] Running new scenario: checking available vacancies
+DEBUG   2018-09-28 08:49:59,632 [user_management] Login with user 'Admin'
+INFO    2018-09-28 08:50:22,845 [environment] The scenario 'checking available vacancies' has passed
+DEBUG   2018-09-28 08:51:26,980 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:51:26,980 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:51:26,986 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:51:26,986 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:51:28,666 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:51:28,668 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:51:32,355 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:51:53,488 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:51:53,556 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:51:53,557 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:51:53,558 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:51:53,559 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:51:55,192 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:51:55,194 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:51:58,615 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:52:42,855 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-28 08:52:42,920 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:52:42,920 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:52:42,925 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:52:42,925 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:52:44,566 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:52:44,568 [environment] Running new scenario: adding a candidate
+DEBUG   2018-09-28 08:52:47,693 [user_management] Login with user 'Admin'
+INFO    2018-09-28 08:53:33,067 [environment] The scenario 'adding a candidate' has passed
+DEBUG   2018-09-28 08:53:33,133 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:53:33,134 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:53:33,137 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:53:33,138 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:53:34,771 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:53:34,773 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:53:38,220 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:54:12,496 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:54:12,562 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:54:12,563 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:54:12,568 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:54:12,568 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:54:14,174 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:54:14,176 [environment] Running new scenario: checking available vacancies
+DEBUG   2018-09-28 08:54:17,591 [user_management] Login with user 'Admin'
+INFO    2018-09-28 08:54:41,122 [environment] The scenario 'checking available vacancies' has passed
+DEBUG   2018-09-28 08:56:32,784 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:56:32,785 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:56:32,792 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:56:32,792 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:56:34,431 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:56:34,434 [environment] Running new scenario: Add a new employee
+DEBUG   2018-09-28 08:56:38,010 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:56:58,810 [environment] The scenario 'Add a new employee' has passed
+DEBUG   2018-09-28 08:56:58,881 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:56:58,881 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:56:58,884 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:56:58,884 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:57:00,477 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:57:00,478 [environment] Running new scenario: Assign leaves to employees
+DEBUG   2018-09-28 08:57:03,667 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:57:48,143 [environment] The scenario 'Assign leaves to employees' has passed
+DEBUG   2018-09-28 08:57:48,208 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:57:48,208 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:57:48,211 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:57:48,211 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:57:49,815 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:57:49,818 [environment] Running new scenario: adding a candidate
+DEBUG   2018-09-28 08:57:52,979 [user_management] Login with user 'Admin'
+INFO    2018-09-28 08:58:39,916 [environment] The scenario 'adding a candidate' has passed
+DEBUG   2018-09-28 08:58:39,980 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:58:39,980 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:58:39,983 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:58:39,984 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:58:41,609 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:58:41,612 [environment] Running new scenario: Manage users
+DEBUG   2018-09-28 08:58:45,991 [add_empl] Login with user 'Admin'
+INFO    2018-09-28 08:59:20,848 [environment] The scenario 'Manage users' has passed
+DEBUG   2018-09-28 08:59:20,925 [config_parser] Reading properties from file: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/properties.cfg
+DEBUG   2018-09-28 08:59:20,926 [config_parser] Properties config file not found: /home/xolanimxoxozi/Desktop/Demo_presentation/Automation-Testing-Demo/Second_web_demo/conf/local-properties.cfg
+INFO    2018-09-28 08:59:20,931 [config_driver] Creating local driver (type = chrome)
+DEBUG   2018-09-28 08:59:20,932 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+DEBUG   2018-09-28 08:59:22,583 [driver_wrapper] Window size: 1366 x 744
+INFO    2018-09-28 08:59:22,585 [environment] Running new scenario: checking available vacancies
+DEBUG   2018-09-28 08:59:26,029 [user_management] Login with user 'Admin'
+INFO    2018-09-28 08:59:49,100 [environment] The scenario 'checking available vacancies' has passed
