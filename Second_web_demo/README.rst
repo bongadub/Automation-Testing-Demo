@@ -1,77 +1,158 @@
-Toolium Template
+# AUTOMATION-TESTING-DEMO
+
+# INTRODUCTION
+
+This file contains information on how to set up and run tests on your machine
+for toolium Web Testing and Mobile Testing.
+In order for the tests to run on your local machine please follow the steps below.
+
+# STEPS FOR SETTING UP YOUR MACHINE
+
+# STEPS TO INSTALL APPIUM
+=========================
+ Install node.js without using sudo-
+
+Download latest nodejs https://nodejs.org/download/release/latest/
+
+Install it under/usr/local
+
+    *cd /usr/local tar --strip-components 1 -xzf /home/username/Downloads/node-v8.2.1-linux-x64.tar.gz
+
+    
+Check the installation using:
+
+    * node -v
+
+Install Java, jdk and jre-
+
+    * sudo apt-get update
+    * sudo apt-get install default-jre
+    * sudo apt-get install default-jdk
+    //to install oracle jdk
+    * sudo add-apt-repository ppa:webupd8team/java
+    * sudo apt-get update
+    * sudo apt-get install oracle-java8-installer
+
+ Set JAVA HOME path
+ 
+    //open bashrc file 
+    * gedit ~/.bashrc
+    * export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+    * export PATH=${PATH}:${JAVA_HOME}/bin
+     //run following command to verify the path
+    * echo $JAVA_HOME
+    * echo $PATH
+ Command to check if java is installed:
+
+ 	  * which java 
+
+ Download android studio and set the ANDROID HOME path
+ 
+ To open android studio open terminal and install android android sdk
+ 
+    * cd android-studio/bin ./studio.sh
+   
+  Once android sdk is installed, Set ANDROID HOME path using:
+     
+    * gedit /.bashrc
+    * //add following lines at the end of the file and then save
+    * export ANDROID_HOME=/home/user_name/Android/Sdk
+    * export PATH=$PATH:/home/user_name/Android/Sdk/tools
+    * export PATH=$PATH:/home/user_name/Android/Sdk/platform-tools
+  
+ Install appium globally
+ 
+    * npm install -g appium
+     
+ Install appium-doctor to troubleshoot errors
+ 
+    * npm install -g appium-doctor
+ 
+
+# Steps to install Selenium   
+
+# Install Python Pip
+
+
+    * sudo apt-get install python-pip python-dev build-essential
+    * sudo -H pip install --upgrade pip
+
+# Install Python  Virtualenv
+
+     * sudo -H pip install --upgrade virtualenv
+
+# Install toolium
+
+     * sudo -H pip install toolium
+     * sudo -H pip install git+https://github.com/behave/behave
+
+
+# Install chromedriver 
+
+Your current directory should be "$HOME" as illustrated below:
+
+cd "$HOME"
+wget -O "chromedriver_linux64.zip" "https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip"
+unzip -o "chromedriver_linux64.zip"
+sudo cp "chromedriver" "/usr/local/bin/chromedriver"
+sudo chmod +x "/usr/local/bin/chromedriver"
+rm -f "chromedriver"
+rm -f "chromedriver_linux64.zip"
+
+To ensure chromedriver is successfully installed check on the terminal wih the below command:
+
+    *which chromedriver
+
+
+# Steps to install Genymotion (Android Emulator)
+   
+Step 1. Download Genymotion (Android Emulator) link:https://www.genymotion.com/fun-zone/
+
+Step 2. Open terminal (ctrl+alt+t) and type below command to install virtualbox 
+
+sudo apt-get install virtualbox
+
+Step 3. Now go to location where you downloaded Genymotion and run below command
+
+chmod +x genymotion-2.2.2_x64.bin(check the version of genymotion you downloaded and replace 
+"genymotion-2.2.2_x64.bin" with it.)
+
+and after this
+
+./genymotion-2.2.2_x64.bin(your downloaded version)
+
+Step 4. Open Genymotion and create virtual device first
+
+Step 5. Select Android virtual device available to install from the list
+
+Step 6. Install virtual device you want, but recommended is Samsung Galaxy S5 -4.4.4 for this test.
+
+
+STEPS TO RUN THE TEST ON UBUNTU OS
+==================================
+
+# Create a directory on your machine that you will be working from
+
+Clone the github repository into your working directory
+
+      * git clone https://github.com/bongadub/Automation-Testing-Demo.git
+
+TO RUN THE DEMO
 ================
 
-Base project to start using `Toolium <https://github.com/Telefonica/toolium>`_ for your testing automation projects
-(web, Android or iOS).
+# open the demo in terminal
 
-The toolium-template example test is a behave web test. There are more examples of web, Android or iOS tests (with or
-without using behave) in `toolium-examples <https://github.com/Telefonica/toolium-examples>`_.
+      * Working directory
 
-Getting Started
----------------
+# Run the command
 
-The requirements to install Toolium are `Python 2.7 or 3.3+ <http://www.python.org>`_ and
-`pip <https://pypi.python.org/pypi/pip>`_. If you use Python 2.7.9+, you don't need to install pip separately.
+The tests will be executed from the parent folder.
 
-Clone `toolium-template <https://github.com/Telefonica/toolium-template>`_ repository and install requirements. It's
-highly recommendable to use a virtualenv.
+Web Testing:
+      *behave Web\ Testing/
 
-.. code:: console
+Second_web_demo:
+      *behave Second_web_demo/*
 
-    $ git clone https://github.com/Telefonica/toolium-template.git
-    $ cd toolium-template
-    $ pip install -r requirements.txt
-
-Running Tests
--------------
-
-By default, example tests are configured to run in chrome locally, so chrome must be installed in your machine and the
-chrome driver must be downloaded and configured:
-
-- Download `chromedriver_*.zip <http://chromedriver.storage.googleapis.com/index.html>`_
-- Unzip file and save the executable in a local folder
-- Configure driver path in *[Driver]* section in `conf/properties.cfg` file ::
-
-    [Driver]
-    chrome_driver_path: C:\Drivers\chromedriver.exe
-
-To run all tests:
-
-.. code:: console
-
-    $ behave
-
-To run a single test:
-
-.. code:: console
-
-    $ behave -n 'successful login'
-
-Customizing Template
---------------------
-
-Before creating your tests, you should personalize the template:
-
-1. Clone toolium-template repository
-
-.. code:: console
-
-    $ git clone git@github.com:Telefonica/toolium-template.git <your_repository_name>
-
-2. Compact all template commits in one preserving the author
-
-.. code:: console
-
-    $ cd <your_repository_name>
-    $ git reset $(git commit-tree HEAD^{tree} -m "Toolium template")
-    $ git -c user.name="Ruben Gonzalez Alonso" -c user.email=rgonalo@gmail.com commit --amend --reset-author --no-edit
-
-3. Create a new clean repository in your github user/organization
-
-4. Replace origin and push changes yo your repository
-
-.. code:: console
-
-    $ git remote rm origin
-    $ git remote add origin git@github.com:<your_github_organization_or_user>/<your_repository_name>.git
-    $ git push -u origin master
+android_behave
+      *behave android_behave/*
