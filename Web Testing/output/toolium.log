@@ -57,3 +57,110 @@ DEBUG   2018-09-28 08:55:07,375 [config_driver] Chrome driver path given in prop
 DEBUG   2018-09-28 08:55:09,002 [driver_wrapper] Window size: 1366 x 744
 INFO    2018-09-28 08:55:09,005 [environment] Running new scenario: Process of buying an item
 INFO    2018-09-28 08:56:14,477 [environment] The scenario 'Process of buying an item' has passed
+DEBUG   2019-03-05 15:39:04,679 [config_parser] Reading properties from file: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2019-03-05 15:39:04,679 [config_parser] Properties config file not found: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2019-03-05 15:39:04,683 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-03-05 15:39:04,683 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+ERROR   2019-03-05 15:39:04,688 [config_driver] Chrome driver can not be launched: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+DEBUG   2019-03-05 15:46:03,982 [config_parser] Reading properties from file: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2019-03-05 15:46:03,982 [config_parser] Properties config file not found: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2019-03-05 15:46:03,986 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-03-05 15:46:03,986 [config_driver] Chrome driver path given in properties: /usr/local/bin/chromedriver
+ERROR   2019-03-05 15:46:03,991 [config_driver] Chrome driver can not be launched: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+DEBUG   2019-03-05 15:48:03,178 [config_parser] Reading properties from file: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2019-03-05 15:48:03,178 [config_parser] Properties config file not found: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2019-03-05 15:48:03,182 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-03-05 15:48:03,182 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2019-03-05 15:48:04,189 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:53593
+DEBUG   2019-03-05 15:48:04,741 [connectionpool] http://127.0.0.1:53593 "POST /session HTTP/1.1" 200 856
+DEBUG   2019-03-05 15:48:04,846 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/window/current/position HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:04,846 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-03-05 15:48:04,951 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/window/current/size HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:04,952 [connectionpool] http://127.0.0.1:53593 "GET /session/2d1e1dd5681fc4e28883895b9580aa6f/window/current/size HTTP/1.1" 200 96
+DEBUG   2019-03-05 15:48:04,953 [driver_wrapper] Window size: 1920 x 1080
+DEBUG   2019-03-05 15:48:04,953 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/timeouts/implicit_wait HTTP/1.1" 200 72
+INFO    2019-03-05 15:48:04,954 [environment] Running new scenario: Login Feature
+DEBUG   2019-03-05 15:48:09,838 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/url HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:14,866 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:15,005 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element/0.3706770150840555-1/value HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:15,022 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:15,107 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element/0.3706770150840555-2/value HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:18,112 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:18,126 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:18,142 [connectionpool] http://127.0.0.1:53593 "GET /session/2d1e1dd5681fc4e28883895b9580aa6f/element/0.3706770150840555-3/displayed HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:18,151 [connectionpool] http://127.0.0.1:53593 "GET /session/2d1e1dd5681fc4e28883895b9580aa6f/element/0.3706770150840555-3/enabled HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:18,152 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:18,160 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:19,910 [connectionpool] http://127.0.0.1:53593 "POST /session/2d1e1dd5681fc4e28883895b9580aa6f/element/0.3706770150840555-3/click HTTP/1.1" 200 72
+INFO    2019-03-05 15:48:22,914 [environment] The scenario 'Login Feature' has passed
+DEBUG   2019-03-05 15:48:22,970 [connectionpool] http://127.0.0.1:53593 "DELETE /session/2d1e1dd5681fc4e28883895b9580aa6f HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:22,986 [config_parser] Reading properties from file: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/properties.cfg
+DEBUG   2019-03-05 15:48:22,986 [config_parser] Properties config file not found: /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/conf/local-properties.cfg
+INFO    2019-03-05 15:48:22,988 [config_driver] Creating local driver (type = chrome)
+DEBUG   2019-03-05 15:48:22,988 [config_driver] Chrome driver path given in properties: /usr/bin/chromedriver
+DEBUG   2019-03-05 15:48:23,993 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:32995
+DEBUG   2019-03-05 15:48:24,567 [connectionpool] http://127.0.0.1:32995 "POST /session HTTP/1.1" 200 856
+DEBUG   2019-03-05 15:48:24,672 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/window/current/position HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:24,673 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2019-03-05 15:48:24,778 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/window/current/size HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:24,780 [connectionpool] http://127.0.0.1:32995 "GET /session/ed86c5677bcd070e6746788efe919e99/window/current/size HTTP/1.1" 200 96
+DEBUG   2019-03-05 15:48:24,780 [driver_wrapper] Window size: 1920 x 1080
+DEBUG   2019-03-05 15:48:24,782 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/timeouts/implicit_wait HTTP/1.1" 200 72
+INFO    2019-03-05 15:48:24,783 [environment] Running new scenario: Process of buying an item
+DEBUG   2019-03-05 15:48:29,214 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/url HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:29,243 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:29,382 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element/0.7154714973027552-1/value HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:29,399 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:29,485 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element/0.7154714973027552-2/value HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:32,490 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:32,505 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:32,520 [connectionpool] http://127.0.0.1:32995 "GET /session/ed86c5677bcd070e6746788efe919e99/element/0.7154714973027552-3/displayed HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:32,530 [connectionpool] http://127.0.0.1:32995 "GET /session/ed86c5677bcd070e6746788efe919e99/element/0.7154714973027552-3/enabled HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:32,531 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:32,539 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:33,998 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element/0.7154714973027552-3/click HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:37,017 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 101
+DEBUG   2019-03-05 15:48:37,040 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/moveto HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:40,057 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 101
+DEBUG   2019-03-05 15:48:40,081 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/moveto HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:40,097 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/moveto HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:43,972 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/click HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:46,981 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/execute HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:46,996 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 103
+DEBUG   2019-03-05 15:48:47,029 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/moveto HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:47,048 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 103
+DEBUG   2019-03-05 15:48:47,123 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element/0.32487012563810636-2/click HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:50,140 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 103
+DEBUG   2019-03-05 15:48:53,560 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element/0.32487012563810636-3/click HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:48:56,580 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 102
+DEBUG   2019-03-05 15:48:59,638 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element/0.1817960576351858-1/click HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:49:02,643 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG   2019-03-05 15:49:02,666 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:03,178 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:03,690 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:04,205 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:04,717 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:05,230 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:05,742 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:06,254 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:06,765 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:07,278 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:07,789 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:08,301 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:08,811 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:09,322 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:09,834 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:10,346 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:10,858 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:11,369 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:11,881 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+DEBUG   2019-03-05 15:49:12,392 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/element HTTP/1.1" 200 343
+ERROR   2019-03-05 15:49:12,893 [page_element] Page element of type 'Button' with locator ('name', 'processAddress') not found or is not clickable after 10 seconds
+ERROR   2019-03-05 15:49:12,895 [environment] The scenario 'Process of buying an item' has failed
+DEBUG   2019-03-05 15:49:13,036 [connectionpool] http://127.0.0.1:32995 "GET /session/ed86c5677bcd070e6746788efe919e99/screenshot HTTP/1.1" 200 155858
+INFO    2019-03-05 15:49:13,038 [utils] Screenshot saved in /home/bonga/Desktop/Automation-Testing-Demo/Web Testing/output/screenshots/2019-03-05_154803_chrome/01_Process_of_buying_an_item.png
+DEBUG   2019-03-05 15:49:13,039 [connectionpool] http://127.0.0.1:32995 "GET /session/ed86c5677bcd070e6746788efe919e99/log/types HTTP/1.1" 200 88
+DEBUG   2019-03-05 15:49:13,039 [utils] Reading logs from 'browser, driver' and writing them to log files
+DEBUG   2019-03-05 15:49:13,042 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/log HTTP/1.1" 200 1166
+DEBUG   2019-03-05 15:49:13,044 [connectionpool] http://127.0.0.1:32995 "POST /session/ed86c5677bcd070e6746788efe919e99/log HTTP/1.1" 200 70
+DEBUG   2019-03-05 15:49:13,098 [connectionpool] http://127.0.0.1:32995 "DELETE /session/ed86c5677bcd070e6746788efe919e99 HTTP/1.1" 200 72

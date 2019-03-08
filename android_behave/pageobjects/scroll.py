@@ -24,16 +24,14 @@ from toolium.pageobjects.page_object import PageObject
 
 
 class ScrollPageObject(PageObject):
+  def view_btn(self):
+    self.view = self.driver.find_element(By.XPATH, '//*[@text="Views"]').click()
+    time.sleep(3)
 
-   def view_btn(self):
-		self.view = self.driver.find_element(By.XPATH, '//*[@text="Views"]').click()
-		time.sleep(3)
+  def scroll_btn(self):
+    self.scroll = self.driver.find_element(By.XPATH, '//*[@text="5. Scrollable"]').click()
+    time.sleep(3)
 
-
-   def scroll_btn(self):
-  	   self.scroll = self.driver.find_element(By.XPATH, '//*[@text="5. Scrollable"]').click()
-  	   time.sleep(3)
-
-   def scroll_right(self):
-   	   self.scroll = self.driver.find_element(By.XPATH, '//*[@text="TAB 2"]').click()
-  	   time.sleep(3)
+  def scroll_right(self):
+    self.scroll = self.driver.find_element(By.XPATH, '//*[@text="TAB 2"]').click()
+    time.sleep(3)
