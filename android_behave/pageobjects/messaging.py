@@ -39,7 +39,8 @@ class MessagingPageObject(PageObject):
 		time.sleep(2)
 
 	def msg_details(self):
-		self.recipient_lbl = self.driver.find_elements(By.XPATH, '//*/android.widget.EditText')[0].send_keys('0812348482')
-		self.msg_lbl = self.driver.find_elements(By.XPATH, '//*/android.widget.EditText')[1].send_keys('Hello there!')
-		self.button = self.driver.find_element(By.XPATH, '//*[@text="Send"]').click()
+		self.recipient_lbl = self.driver.find_elements(By.XPATH, '//*/android.widget.EditText')[0].send_keys('0614206270')
+		self.msg_lbl = self.driver.find_elements(By.XPATH, '//*/android.widget.EditText')[1].send_keys('Hello there! This an automated text, please feel free not to reply . Team (KS)')
+		#updated the click button to be able to click both on emulator and real device
+		self.button = self.driver.find_elements(By.XPATH, '//*/android.widget.Button')[0].click()
 		time.sleep(3)
