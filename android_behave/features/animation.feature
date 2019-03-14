@@ -6,4 +6,3 @@ Feature: Views
     When the user clicks animation button
     And clicks Loading button
     Then click button run
-#Hello world
