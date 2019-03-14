@@ -32,3 +32,14 @@ DEBUG   2019-03-14 12:33:33,290 [config_driver] Added Appium server capability: 
 DEBUG   2019-03-14 12:33:33,290 [config_driver] Added Appium server capability: automationName = Appium
 DEBUG   2019-03-14 12:33:33,290 [config_driver] Added Appium server capability: browserName = 
 DEBUG   2019-03-14 12:33:33,294 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-14 12:36:06,690 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-14 12:36:06,690 [config_parser] Reading properties from file: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-14 12:36:06,690 [config_parser] Properties config file not found: /home/kineticskunk/Desktop/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-14 12:36:06,694 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-14 12:36:06,694 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-14 12:36:06,694 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-14 12:36:06,694 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-14 12:36:06,695 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-14 12:36:06,695 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-14 12:36:06,695 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-14 12:36:06,699 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
