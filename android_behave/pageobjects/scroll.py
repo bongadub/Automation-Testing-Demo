@@ -35,3 +35,7 @@ class ScrollPageObject(PageObject):
   def scroll_right(self):
     self.scroll = self.driver.find_element(By.XPATH, '//*[@text="TAB 2"]').click()
     time.sleep(3)
+
+  def view_btn(self):
+       self.view = self.driver.find_element(By.XPATH, '//*[@text="Views"]').click()
+       time.sleep(3)
