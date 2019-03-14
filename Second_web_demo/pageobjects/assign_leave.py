@@ -67,6 +67,7 @@ class AssignLeavePageObject(PageObject):
         :returns: secure area page object instance
         """
         self.logger.debug("Login with user '%s'", user['username'])
+        time.sleep(5)
         self.username.text = user['username']
         self.password.text = user['password']
         self.login_button.click()
