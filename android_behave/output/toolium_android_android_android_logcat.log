@@ -1,5 +1,0 @@
-
-2018-09-27 20:04:31.084654 'Drag and drop element' test logs with driver = android
-
-2018-09-27 20:04:29.291000	ALL	09-27 14:04:29.294  2406  2406 D         : HostConnection::get() New Host Connection established 0xf671a240, tid 2406
-2018-09-27 20:04:29.302000	ALL	09-27 14:04:29.306   593   593 E EGL_emulation: tid 593: eglCreateSyncKHR(1215): error 0x3004 (EGL_BAD_ATTRIBUTE)
