@@ -22,18 +22,39 @@ from toolium.pageobjects.page_object import PageObject
 from toolium.pageelements import *
 
 
-class TabsPageObject(PageObject):
+class AnimationPageObject(PageObject):
 	def animation_btn(self):
-		self.animation = self.driver.find_element(By.XPATH, '//*[@text="Animation"]').click()
-		time.sleep(3)
+		try:
+		    self.animation = self.driver.find_element(By.XPATH, '//*[@text="Animation"]').click()
+		    time.sleep(3)
+
+		    return True
+		except NoSuchElementException:
+			self.auto_log("error", "Element {} does not exist".format(element))
+			return None
 
 	def loading_btn(self):
-		self.loading = self.driver.find_element(By.XPATH, '//*[@text="Loading"]').click()
-		time.sleep(3)
+		try:
+		    self.loading = self.driver.find_element(By.XPATH, '//*[@text="Loading"]').click()
+		    time.sleep(3)
+
+		    return True
+		except NoSuchElementException:
+			self.auto_log("error", "Element {} does not exist".format(element))
+			return None
 
 	def run_btn(self):
-		self.run = self.driver.find_element(By.XPATH, '//*[@text="Run"]').click()
-		time.sleep(3)
+		try:
+		    self.run = self.driver.find_element(By.XPATH, '//*[@text="Run"]').click()
+		    time.sleep(3)
+
+		    return True
+		except NoSuchElementException:
+			self.auto_log("error", "Element {} does not exist".format(element))
+			return None
+
+
+
 
 
 

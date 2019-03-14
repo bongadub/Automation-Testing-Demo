@@ -19,7 +19,7 @@ limitations under the License.
 from behave import given, when, then
 
 from android_behave.pageobjects.menu import MenuPageObject
-from android_behave.pageobjects.tabs import TabsPageObject
+from android_behave.pageobjects.animation import AnimationPageObject
 
 
 @given('the menu is open')
@@ -29,17 +29,17 @@ def step_impl(context):
 
 @when('the user clicks animation button')
 def step_impl(context):
-	context.current_page = TabsPageObject()
+	context.current_page = AnimationPageObject()
 	context.current_page.animation_btn()
 
 @when('clicks Loading button')
 def step_impl(context):
-	context.current_page = TabsPageObject()
+	context.current_page = AnimationPageObject()
 	context.current_page.loading_btn()
 
 @then('click button run')
 def step_impl(context):
-	context.current_page = TabsPageObject()
+	context.current_page = AnimationPageObject()
 	context.current_page.run_btn()
 
 

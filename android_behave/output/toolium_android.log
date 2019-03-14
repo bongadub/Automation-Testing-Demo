@@ -1,0 +1,23 @@
+DEBUG   2019-03-14 11:42:20,227 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-14 11:42:20,228 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-14 11:42:20,228 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-14 11:42:20,234 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-14 11:42:20,234 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-14 11:42:20,235 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-14 11:42:20,235 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-14 11:42:20,235 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-14 11:42:20,235 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-14 11:42:20,235 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-14 11:42:20,241 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-14 11:42:38,614 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-14 11:42:38,618 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-14 11:42:38,825 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/7afd50fc-b6a9-44a8-bc25-ef0d50170e17/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-14 11:42:38,830 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-14 11:42:38,853 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/7afd50fc-b6a9-44a8-bc25-ef0d50170e17/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-14 11:42:38,854 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-14 11:42:38,854 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-14 11:42:38,893 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/7afd50fc-b6a9-44a8-bc25-ef0d50170e17/log HTTP/1.1" 200 740590
+DEBUG   2019-03-14 11:42:38,937 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-14 11:42:38,961 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/7afd50fc-b6a9-44a8-bc25-ef0d50170e17/timeouts HTTP/1.1" 200 14
+INFO    2019-03-14 11:42:38,962 [environment] Running new scenario: Run animation
+INFO    2019-03-14 11:42:52,173 [environment] The scenario 'Run animation' has passed
