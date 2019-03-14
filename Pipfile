@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+behave-py3 = "1.2.5-r2014122202"
+toolium = "1.5.0"
+actions = "1.0.3"
+
+[requires]
+python_version = "3.7"
