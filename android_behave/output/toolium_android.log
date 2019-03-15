@@ -337,3 +337,189 @@ INFO    2019-03-14 17:09:13,809 [environment] Running new scenario: Run views an
 INFO    2019-03-14 17:09:26,561 [environment] The scenario 'Run views animation' has passed
 =======
 >>>>>>> 6320a8f8f90a2b43ff6936c988b19ca7af98dad4
+DEBUG   2019-03-15 09:14:07,445 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-15 09:14:07,446 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-15 09:14:07,446 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-15 09:14:07,450 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-15 09:14:07,450 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-15 09:14:07,451 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-15 09:14:07,451 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-15 09:14:07,451 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-15 09:14:07,451 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-15 09:14:07,451 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-15 09:14:07,457 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:14:22,832 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-15 09:14:22,837 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:14:23,099 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/48cfcb10-8c1e-4ce4-97fe-08ffd80de7a0/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-15 09:14:23,102 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:14:23,125 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/48cfcb10-8c1e-4ce4-97fe-08ffd80de7a0/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-15 09:14:23,126 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-15 09:14:23,127 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:14:23,186 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/48cfcb10-8c1e-4ce4-97fe-08ffd80de7a0/log HTTP/1.1" 200 529903
+DEBUG   2019-03-15 09:14:23,207 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:14:23,214 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/48cfcb10-8c1e-4ce4-97fe-08ffd80de7a0/timeouts HTTP/1.1" 200 14
+INFO    2019-03-15 09:14:23,215 [environment] Running new scenario: Start and stop alarm services
+INFO    2019-03-15 09:14:26,192 [alarmServices] 
+===============================Start Alarm Services=================================
+DEBUG   2019-03-15 09:14:26,192 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:14:26,192 [alarmServices] Atempting to start the alarm services 
+DEBUG   2019-03-15 09:14:26,192 [alarmServices] Checking if the button is present : <appium.webdriver.webelement.WebElement (session="48cfcb10-8c1e-4ce4-97fe-08ffd80de7a0", element="5")>
+DEBUG   2019-03-15 09:14:26,193 [alarmServices] Clicking alarm services : <appium.webdriver.webelement.WebElement (session="48cfcb10-8c1e-4ce4-97fe-08ffd80de7a0", element="5")>
+DEBUG   2019-03-15 09:14:26,193 [alarmServices] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-15 09:14:34,365 [alarmServices] 
+===============================Stop Alarm Services==================================
+DEBUG   2019-03-15 09:14:34,365 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:14:34,365 [alarmServices] Atempting to click the Stop Alarm 
+DEBUG   2019-03-15 09:14:34,365 [alarmServices] Checking if the button is present : Stop Alarm
+DEBUG   2019-03-15 09:14:34,365 [alarmServices] Clicking Stop Alarm : Stop Alarm
+DEBUG   2019-03-15 09:14:34,365 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:14:43,526 [alarmServices] 
+ The user goes back to main screen
+INFO    2019-03-15 09:14:52,594 [environment] The scenario 'Start and stop alarm services' has passed
+DEBUG   2019-03-15 09:14:54,374 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-15 09:14:54,375 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-15 09:14:54,376 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-15 09:14:54,379 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-15 09:14:54,379 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-15 09:14:54,380 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-15 09:14:54,380 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-15 09:14:54,380 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-15 09:14:54,380 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-15 09:14:54,380 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-15 09:14:54,382 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:09,070 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-15 09:15:09,072 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:09,225 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f78e9235-ac59-48e6-b514-b83604ef102a/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-15 09:15:09,228 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:09,238 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/f78e9235-ac59-48e6-b514-b83604ef102a/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-15 09:15:09,239 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-15 09:15:09,240 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:09,289 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f78e9235-ac59-48e6-b514-b83604ef102a/log HTTP/1.1" 200 596529
+DEBUG   2019-03-15 09:15:09,325 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:09,339 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f78e9235-ac59-48e6-b514-b83604ef102a/timeouts HTTP/1.1" 200 14
+INFO    2019-03-15 09:15:09,340 [environment] Running new scenario: Run animation
+INFO    2019-03-15 09:15:22,223 [environment] The scenario 'Run animation' has passed
+DEBUG   2019-03-15 09:15:24,077 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-15 09:15:24,078 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-15 09:15:24,078 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-15 09:15:24,081 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-15 09:15:24,081 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-15 09:15:24,081 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-15 09:15:24,081 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-15 09:15:24,081 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-15 09:15:24,082 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-15 09:15:24,082 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-15 09:15:24,083 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:39,425 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-15 09:15:39,428 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:39,656 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/6ddc16b4-181c-40e3-997a-3299f84f1217/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-15 09:15:39,658 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:39,671 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/6ddc16b4-181c-40e3-997a-3299f84f1217/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-15 09:15:39,672 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-15 09:15:39,672 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:39,723 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/6ddc16b4-181c-40e3-997a-3299f84f1217/log HTTP/1.1" 200 665680
+DEBUG   2019-03-15 09:15:39,755 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:15:39,766 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/6ddc16b4-181c-40e3-997a-3299f84f1217/timeouts HTTP/1.1" 200 14
+INFO    2019-03-15 09:15:39,767 [environment] Running new scenario: Drag and drop element
+INFO    2019-03-15 09:15:39,955 [dragAndDrop] 
+===============================Views Button=========================================
+DEBUG   2019-03-15 09:15:39,955 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:15:39,955 [dragAndDrop] Atempting to click the Views button 
+DEBUG   2019-03-15 09:15:39,955 [dragAndDrop] Checking if the button is present : viewsButton
+DEBUG   2019-03-15 09:15:39,955 [dragAndDrop] Clicking Views : viewsButton
+DEBUG   2019-03-15 09:15:39,956 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:15:39,956 [dragAndDrop] Scrolling Views into view.
+INFO    2019-03-15 09:15:47,985 [dragAndDrop] 
+===============================Drag and Drop Button=================================
+DEBUG   2019-03-15 09:15:47,985 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:15:47,985 [dragAndDrop] Atempting to click the Drag and Drop button 
+DEBUG   2019-03-15 09:15:47,985 [dragAndDrop] Checking if the button is present : Drag and Drop
+DEBUG   2019-03-15 09:15:47,986 [dragAndDrop] Clicking Drag and Drop : Drag and Drop
+DEBUG   2019-03-15 09:15:47,986 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-15 09:15:58,156 [dragAndDrop] 
+===============================Drag and Drop Button=================================
+DEBUG   2019-03-15 09:15:58,156 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-15 09:15:58,157 [dragAndDrop] Atempting to Drag and Drop bubble 
+DEBUG   2019-03-15 09:15:58,157 [dragAndDrop] Checking if the bubble is present : Drag and Drop
+DEBUG   2019-03-15 09:15:58,157 [dragAndDrop] Drag and Drop : Dragging bubble
+DEBUG   2019-03-15 09:15:58,157 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-15 09:16:04,764 [environment] The scenario 'Drag and drop element' has passed
+DEBUG   2019-03-15 09:16:06,584 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-15 09:16:06,586 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-15 09:16:06,586 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-15 09:16:06,590 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-15 09:16:06,591 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-15 09:16:06,591 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-15 09:16:06,592 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-15 09:16:06,592 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-15 09:16:06,592 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-15 09:16:06,593 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-15 09:16:06,595 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:22,266 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-15 09:16:22,269 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:22,445 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/0c5a1177-5468-454a-9f25-65f0c5d0d426/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-15 09:16:22,449 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:22,460 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/0c5a1177-5468-454a-9f25-65f0c5d0d426/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-15 09:16:22,461 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-15 09:16:22,462 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:22,487 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/0c5a1177-5468-454a-9f25-65f0c5d0d426/log HTTP/1.1" 200 643134
+DEBUG   2019-03-15 09:16:22,543 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:22,566 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/0c5a1177-5468-454a-9f25-65f0c5d0d426/timeouts HTTP/1.1" 200 14
+INFO    2019-03-15 09:16:22,568 [environment] Running new scenario: Run animation
+INFO    2019-03-15 09:16:40,999 [environment] The scenario 'Run animation' has passed
+DEBUG   2019-03-15 09:16:42,849 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-15 09:16:42,850 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-15 09:16:42,850 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-15 09:16:42,854 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-15 09:16:42,855 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-15 09:16:42,855 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-15 09:16:42,856 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-15 09:16:42,856 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-15 09:16:42,856 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-15 09:16:42,856 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-15 09:16:42,858 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:56,802 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-15 09:16:56,805 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:56,977 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/73505c4f-e81f-4f27-8c39-09a4dd6d5935/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-15 09:16:56,980 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:56,991 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/73505c4f-e81f-4f27-8c39-09a4dd6d5935/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-15 09:16:56,992 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-15 09:16:56,993 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:57,024 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/73505c4f-e81f-4f27-8c39-09a4dd6d5935/log HTTP/1.1" 200 693451
+DEBUG   2019-03-15 09:16:57,063 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:16:57,075 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/73505c4f-e81f-4f27-8c39-09a4dd6d5935/timeouts HTTP/1.1" 200 14
+INFO    2019-03-15 09:16:57,077 [environment] Running new scenario: scroll through tabs
+INFO    2019-03-15 09:17:12,435 [environment] The scenario 'scroll through tabs' has passed
+DEBUG   2019-03-15 09:17:14,386 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-15 09:17:14,387 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-15 09:17:14,388 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-15 09:17:14,393 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-15 09:17:14,394 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-15 09:17:14,394 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-15 09:17:14,395 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-15 09:17:14,395 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-15 09:17:14,395 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-15 09:17:14,396 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-15 09:17:14,398 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:17:28,456 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 1053
+DEBUG   2019-03-15 09:17:28,460 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:17:28,632 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/59355460-33ce-4fad-b5a5-a16c399d3e9a/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-15 09:17:28,635 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:17:28,645 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/59355460-33ce-4fad-b5a5-a16c399d3e9a/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-15 09:17:28,646 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-15 09:17:28,647 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:17:28,678 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/59355460-33ce-4fad-b5a5-a16c399d3e9a/log HTTP/1.1" 200 706551
+DEBUG   2019-03-15 09:17:28,709 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-15 09:17:28,721 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/59355460-33ce-4fad-b5a5-a16c399d3e9a/timeouts HTTP/1.1" 200 14
+INFO    2019-03-15 09:17:28,722 [environment] Running new scenario: Run views animation
+INFO    2019-03-15 09:17:41,532 [environment] The scenario 'Run views animation' has passed
