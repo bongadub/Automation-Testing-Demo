@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DEBUG   2019-03-14 11:42:20,227 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/properties.cfg
 DEBUG   2019-03-14 11:42:20,228 [config_parser] Reading properties from file: /home/bonga/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
 DEBUG   2019-03-14 11:42:20,228 [config_parser] Properties config file not found: /home/bonga/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
@@ -334,3 +335,5 @@ DEBUG   2019-03-14 17:09:13,801 [connectionpool] Starting new HTTP connection (1
 DEBUG   2019-03-14 17:09:13,808 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/c0312382-d41c-4efc-904f-17e0792d4437/timeouts HTTP/1.1" 200 14
 INFO    2019-03-14 17:09:13,809 [environment] Running new scenario: Run views animation
 INFO    2019-03-14 17:09:26,561 [environment] The scenario 'Run views animation' has passed
+=======
+>>>>>>> 6320a8f8f90a2b43ff6936c988b19ca7af98dad4
