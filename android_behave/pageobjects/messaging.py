@@ -34,7 +34,7 @@ class MessagingPageObject(PageObject):
 	def msg_details(self):
 		self.recipient_lbl = self.driver.find_elements(By.XPATH, '//*/android.widget.EditText')[0].send_keys('0812348482')
 		self.msg_lbl = self.driver.find_elements(By.XPATH, '//*/android.widget.EditText')[1].send_keys('Hello there!')
-		self.button = self.driver.find_element(By.XPATH, '//*[@text="Send"]').click()
+		self.button = self.driver.find_elements(By.XPATH, '//*/android.widget.Button')[0].click()
 		time.sleep(3)
 
      
