@@ -2699,3 +2699,333 @@ DEBUG   2019-03-19 11:59:58,248 [connectionpool] Starting new HTTP connection (1
 DEBUG   2019-03-19 11:59:58,257 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/6ddc692e-5d9c-4ffe-aa35-ae0e109e1e92/timeouts HTTP/1.1" 200 14
 INFO    2019-03-19 11:59:58,258 [environment] Running new scenario: Run views animation
 INFO    2019-03-19 12:00:11,105 [environment] The scenario 'Run views animation' has passed
+DEBUG   2019-03-19 14:26:13,181 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:26:13,214 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:26:13,215 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:26:13,221 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:26:13,222 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:26:13,222 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:26:13,222 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:26:13,222 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:26:13,222 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:26:13,222 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2019-03-19 14:26:13,223 [remote_connection] Could not connect to port 4723 on host 0.0.0.0
+INFO    2019-03-19 14:26:13,223 [remote_connection] Could not get IP address for host: 0.0.0.0
+DEBUG   2019-03-19 14:26:13,230 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,231 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,231 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6890a7a50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,231 [connectionpool] Starting new HTTP connection (2): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,232 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,232 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6890a7bd0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,232 [connectionpool] Starting new HTTP connection (3): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,233 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,233 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6890a7d10>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,233 [connectionpool] Starting new HTTP connection (4): 0.0.0.0:4723
+ERROR   2019-03-19 14:26:13,234 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6890a7e10>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR   2019-03-19 14:26:13,235 [environment] The scenario 'Start and stop alarm services' has failed
+DEBUG   2019-03-19 14:26:13,242 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:26:13,242 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:26:13,242 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:26:13,245 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:26:13,245 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:26:13,246 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:26:13,246 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:26:13,246 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:26:13,246 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:26:13,246 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2019-03-19 14:26:13,247 [remote_connection] Could not connect to port 4723 on host 0.0.0.0
+INFO    2019-03-19 14:26:13,247 [remote_connection] Could not get IP address for host: 0.0.0.0
+DEBUG   2019-03-19 14:26:13,248 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,248 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,248 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689029690>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,248 [connectionpool] Starting new HTTP connection (2): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,249 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,249 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689029910>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,249 [connectionpool] Starting new HTTP connection (3): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,249 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,249 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689029a50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,250 [connectionpool] Starting new HTTP connection (4): 0.0.0.0:4723
+ERROR   2019-03-19 14:26:13,250 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689029b50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR   2019-03-19 14:26:13,251 [environment] The scenario 'Run animation' has failed
+DEBUG   2019-03-19 14:26:13,254 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:26:13,255 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:26:13,255 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:26:13,258 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:26:13,258 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:26:13,258 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:26:13,258 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:26:13,258 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:26:13,258 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:26:13,258 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2019-03-19 14:26:13,259 [remote_connection] Could not connect to port 4723 on host 0.0.0.0
+INFO    2019-03-19 14:26:13,259 [remote_connection] Could not get IP address for host: 0.0.0.0
+DEBUG   2019-03-19 14:26:13,260 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,261 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,261 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6890462d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,261 [connectionpool] Starting new HTTP connection (2): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,262 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,262 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689046450>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,262 [connectionpool] Starting new HTTP connection (3): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,263 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,263 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689046590>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,263 [connectionpool] Starting new HTTP connection (4): 0.0.0.0:4723
+ERROR   2019-03-19 14:26:13,264 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689046690>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR   2019-03-19 14:26:13,264 [environment] The scenario 'Drag and drop element' has failed
+DEBUG   2019-03-19 14:26:13,269 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:26:13,270 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:26:13,270 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:26:13,274 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:26:13,274 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:26:13,275 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:26:13,275 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:26:13,275 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:26:13,275 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:26:13,275 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2019-03-19 14:26:13,276 [remote_connection] Could not connect to port 4723 on host 0.0.0.0
+INFO    2019-03-19 14:26:13,276 [remote_connection] Could not get IP address for host: 0.0.0.0
+DEBUG   2019-03-19 14:26:13,277 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,277 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,277 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689046cd0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,278 [connectionpool] Starting new HTTP connection (2): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,278 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,278 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689046f50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,278 [connectionpool] Starting new HTTP connection (3): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,279 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,279 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688fde0d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,279 [connectionpool] Starting new HTTP connection (4): 0.0.0.0:4723
+ERROR   2019-03-19 14:26:13,279 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688fde1d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR   2019-03-19 14:26:13,280 [environment] The scenario 'Run messaging' has failed
+DEBUG   2019-03-19 14:26:13,283 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:26:13,283 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:26:13,284 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:26:13,289 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:26:13,289 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:26:13,289 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:26:13,289 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:26:13,289 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:26:13,290 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:26:13,290 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2019-03-19 14:26:13,290 [remote_connection] Could not connect to port 4723 on host 0.0.0.0
+INFO    2019-03-19 14:26:13,290 [remote_connection] Could not get IP address for host: 0.0.0.0
+DEBUG   2019-03-19 14:26:13,291 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,291 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,292 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688fde990>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,292 [connectionpool] Starting new HTTP connection (2): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,292 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,292 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688fdea90>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,292 [connectionpool] Starting new HTTP connection (3): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,293 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,293 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688fdebd0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,293 [connectionpool] Starting new HTTP connection (4): 0.0.0.0:4723
+ERROR   2019-03-19 14:26:13,293 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688fdecd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR   2019-03-19 14:26:13,294 [environment] The scenario 'scroll through tabs' has failed
+DEBUG   2019-03-19 14:26:13,297 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:26:13,298 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:26:13,298 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:26:13,300 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:26:13,301 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:26:13,301 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:26:13,301 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:26:13,301 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:26:13,301 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:26:13,301 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+INFO    2019-03-19 14:26:13,301 [remote_connection] Could not connect to port 4723 on host 0.0.0.0
+INFO    2019-03-19 14:26:13,301 [remote_connection] Could not get IP address for host: 0.0.0.0
+DEBUG   2019-03-19 14:26:13,302 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,303 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,303 [connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc689046fd0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,303 [connectionpool] Starting new HTTP connection (2): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,303 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,303 [connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688ff95d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,304 [connectionpool] Starting new HTTP connection (3): 0.0.0.0:4723
+DEBUG   2019-03-19 14:26:13,304 [retry] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING 2019-03-19 14:26:13,304 [connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688ff9710>: Failed to establish a new connection: [Errno 111] Connection refused',)': /wd/hub/session
+DEBUG   2019-03-19 14:26:13,304 [connectionpool] Starting new HTTP connection (4): 0.0.0.0:4723
+ERROR   2019-03-19 14:26:13,304 [config_driver] Android driver can not be launched: HTTPConnectionPool(host='0.0.0.0', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc688ff9810>: Failed to establish a new connection: [Errno 111] Connection refused',))
+ERROR   2019-03-19 14:26:13,305 [environment] The scenario 'Run views animation' has failed
+DEBUG   2019-03-19 14:27:58,566 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:27:58,567 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:27:58,567 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:27:58,572 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:27:58,573 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:27:58,573 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:27:58,573 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:27:58,573 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:27:58,573 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:27:58,573 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 14:27:58,581 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:28:25,215 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 14:28:25,217 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:28:25,432 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/771edbda-6d40-4b46-989c-69beef2e55c1/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 14:28:25,436 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:28:25,460 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/771edbda-6d40-4b46-989c-69beef2e55c1/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 14:28:25,461 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 14:28:25,462 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:28:25,521 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/771edbda-6d40-4b46-989c-69beef2e55c1/log HTTP/1.1" 200 531641
+DEBUG   2019-03-19 14:28:25,555 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:28:25,563 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/771edbda-6d40-4b46-989c-69beef2e55c1/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 14:28:25,565 [environment] Running new scenario: Start and stop alarm services
+INFO    2019-03-19 14:28:29,826 [alarmServices] 
+===============================Start Alarm Services=================================
+DEBUG   2019-03-19 14:28:29,826 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:28:29,826 [alarmServices] Atempting to start the alarm services 
+DEBUG   2019-03-19 14:28:29,826 [alarmServices] Checking if the button is present : <appium.webdriver.webelement.WebElement (session="771edbda-6d40-4b46-989c-69beef2e55c1", element="5")>
+DEBUG   2019-03-19 14:28:29,827 [alarmServices] Clicking alarm services : <appium.webdriver.webelement.WebElement (session="771edbda-6d40-4b46-989c-69beef2e55c1", element="5")>
+DEBUG   2019-03-19 14:28:29,827 [alarmServices] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-19 14:28:38,069 [alarmServices] 
+===============================Stop Alarm Services==================================
+DEBUG   2019-03-19 14:28:38,069 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:28:38,069 [alarmServices] Atempting to click the Stop Alarm 
+DEBUG   2019-03-19 14:28:38,069 [alarmServices] Checking if the button is present : Stop Alarm
+DEBUG   2019-03-19 14:28:38,069 [alarmServices] Clicking Stop Alarm : Stop Alarm
+DEBUG   2019-03-19 14:28:38,069 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:28:47,297 [alarmServices] 
+ The user goes back to main screen
+INFO    2019-03-19 14:28:56,365 [environment] The scenario 'Start and stop alarm services' has passed
+DEBUG   2019-03-19 14:28:57,991 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:28:57,991 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:28:57,992 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:28:57,997 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:28:57,998 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:28:57,998 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:28:57,998 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:28:57,999 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:28:57,999 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:28:57,999 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 14:28:58,001 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:15,409 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 14:29:15,411 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:15,607 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/83894213-fe4a-45d8-bba7-9f143b9cc706/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 14:29:15,612 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:15,627 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/83894213-fe4a-45d8-bba7-9f143b9cc706/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 14:29:15,627 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 14:29:15,628 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:15,679 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/83894213-fe4a-45d8-bba7-9f143b9cc706/log HTTP/1.1" 200 616808
+DEBUG   2019-03-19 14:29:15,713 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:15,720 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/83894213-fe4a-45d8-bba7-9f143b9cc706/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 14:29:15,721 [environment] Running new scenario: Run animation
+INFO    2019-03-19 14:29:28,808 [environment] The scenario 'Run animation' has passed
+DEBUG   2019-03-19 14:29:30,726 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:29:30,727 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:29:30,727 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:29:30,730 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:29:30,731 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:29:30,731 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:29:30,731 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:29:30,731 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:29:30,731 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:29:30,731 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 14:29:30,733 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:49,215 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 14:29:49,218 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:49,388 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/3951a4e2-0e0b-4eeb-9930-83ca425017a2/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 14:29:49,393 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:49,410 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/3951a4e2-0e0b-4eeb-9930-83ca425017a2/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 14:29:49,411 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 14:29:49,412 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:49,453 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/3951a4e2-0e0b-4eeb-9930-83ca425017a2/log HTTP/1.1" 200 709607
+DEBUG   2019-03-19 14:29:49,491 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:29:49,503 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/3951a4e2-0e0b-4eeb-9930-83ca425017a2/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 14:29:49,505 [environment] Running new scenario: Drag and drop element
+INFO    2019-03-19 14:29:49,775 [dragAndDrop] 
+===============================Views Button=========================================
+DEBUG   2019-03-19 14:29:49,776 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:29:49,776 [dragAndDrop] Atempting to click the Views button 
+DEBUG   2019-03-19 14:29:49,776 [dragAndDrop] Checking if the button is present : viewsButton
+DEBUG   2019-03-19 14:29:49,776 [dragAndDrop] Clicking Views : viewsButton
+DEBUG   2019-03-19 14:29:49,776 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:29:49,776 [dragAndDrop] Scrolling Views into view.
+INFO    2019-03-19 14:29:58,012 [dragAndDrop] 
+===============================Drag and Drop Button=================================
+DEBUG   2019-03-19 14:29:58,012 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:29:58,013 [dragAndDrop] Atempting to click the Drag and Drop button 
+DEBUG   2019-03-19 14:29:58,013 [dragAndDrop] Checking if the button is present : Drag and Drop
+DEBUG   2019-03-19 14:29:58,013 [dragAndDrop] Clicking Drag and Drop : Drag and Drop
+DEBUG   2019-03-19 14:29:58,013 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-19 14:30:08,190 [dragAndDrop] 
+===============================Drag and Drop Button=================================
+DEBUG   2019-03-19 14:30:08,191 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 14:30:08,191 [dragAndDrop] Atempting to Drag and Drop bubble 
+DEBUG   2019-03-19 14:30:08,191 [dragAndDrop] Checking if the bubble is present : Drag and Drop
+DEBUG   2019-03-19 14:30:08,192 [dragAndDrop] Drag and Drop : Dragging bubble
+DEBUG   2019-03-19 14:30:08,192 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-19 14:30:14,641 [environment] The scenario 'Drag and drop element' has passed
+DEBUG   2019-03-19 14:30:16,801 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:30:16,802 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:30:16,802 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:30:16,809 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:30:16,811 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:30:16,811 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:30:16,811 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:30:16,811 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:30:16,812 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:30:16,812 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 14:30:16,815 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:30:35,199 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 14:30:35,201 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:30:35,382 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/cceac42d-ce4f-4933-b14a-0cac9e50cd49/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 14:30:35,385 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:30:35,402 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/cceac42d-ce4f-4933-b14a-0cac9e50cd49/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 14:30:35,403 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 14:30:35,404 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:30:35,444 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/cceac42d-ce4f-4933-b14a-0cac9e50cd49/log HTTP/1.1" 200 700781
+DEBUG   2019-03-19 14:30:35,535 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:30:35,541 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/cceac42d-ce4f-4933-b14a-0cac9e50cd49/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 14:30:35,543 [environment] Running new scenario: Run messaging
+INFO    2019-03-19 14:30:59,027 [environment] The scenario 'Run messaging' has passed
+DEBUG   2019-03-19 14:31:00,673 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:31:00,673 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:31:00,674 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:31:00,677 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:31:00,678 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:31:00,678 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:31:00,678 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:31:00,678 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:31:00,678 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:31:00,679 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 14:31:00,680 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:31:19,469 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 14:31:19,471 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:31:19,627 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/42093a43-53d1-4c39-bbf0-98dac531ae88/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 14:31:19,632 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:31:19,644 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/42093a43-53d1-4c39-bbf0-98dac531ae88/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 14:31:19,645 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 14:31:19,646 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:31:19,691 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/42093a43-53d1-4c39-bbf0-98dac531ae88/log HTTP/1.1" 200 754533
+DEBUG   2019-03-19 14:31:19,740 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:31:19,746 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/42093a43-53d1-4c39-bbf0-98dac531ae88/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 14:31:19,748 [environment] Running new scenario: scroll through tabs
+INFO    2019-03-19 14:31:38,176 [environment] The scenario 'scroll through tabs' has passed
+DEBUG   2019-03-19 14:31:39,942 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 14:31:39,942 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 14:31:39,942 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 14:31:39,945 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 14:31:39,945 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 14:31:39,945 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 14:31:39,945 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 14:31:39,945 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 14:31:39,945 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 14:31:39,946 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 14:31:39,947 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:32:07,093 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 14:32:07,095 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:32:07,274 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f5d7c28d-f969-4b16-ac09-d507b218a4c6/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 14:32:07,279 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:32:07,293 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/f5d7c28d-f969-4b16-ac09-d507b218a4c6/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 14:32:07,294 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 14:32:07,295 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:32:07,348 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f5d7c28d-f969-4b16-ac09-d507b218a4c6/log HTTP/1.1" 200 779759
+DEBUG   2019-03-19 14:32:07,405 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 14:32:07,410 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f5d7c28d-f969-4b16-ac09-d507b218a4c6/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 14:32:07,411 [environment] Running new scenario: Run views animation
+INFO    2019-03-19 14:32:20,624 [environment] The scenario 'Run views animation' has passed
