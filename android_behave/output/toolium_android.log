@@ -2404,3 +2404,100 @@ DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: 
 DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: platformName = Android
 DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
 DEBUG   2019-03-19 11:49:36,859 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:54,514 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 11:49:54,516 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:54,676 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f11c4ecb-c18f-4764-a447-10ce87ed7596/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 11:49:54,680 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:54,694 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/f11c4ecb-c18f-4764-a447-10ce87ed7596/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 11:49:54,695 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 11:49:54,696 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:54,732 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f11c4ecb-c18f-4764-a447-10ce87ed7596/log HTTP/1.1" 200 693290
+DEBUG   2019-03-19 11:49:54,770 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:54,777 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f11c4ecb-c18f-4764-a447-10ce87ed7596/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 11:49:54,778 [environment] Running new scenario: Drag and drop element
+INFO    2019-03-19 11:49:55,036 [dragAndDrop] 
+===============================Views Button=========================================
+DEBUG   2019-03-19 11:49:55,036 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:49:55,036 [dragAndDrop] Atempting to click the Views button 
+DEBUG   2019-03-19 11:49:55,036 [dragAndDrop] Checking if the button is present : viewsButton
+DEBUG   2019-03-19 11:49:55,037 [dragAndDrop] Clicking Views : viewsButton
+DEBUG   2019-03-19 11:49:55,037 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:49:55,037 [dragAndDrop] Scrolling Views into view.
+INFO    2019-03-19 11:50:03,161 [dragAndDrop] 
+===============================Drag and Drop Button=================================
+DEBUG   2019-03-19 11:50:03,161 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:50:03,161 [dragAndDrop] Atempting to click the Drag and Drop button 
+DEBUG   2019-03-19 11:50:03,161 [dragAndDrop] Checking if the button is present : Drag and Drop
+DEBUG   2019-03-19 11:50:03,161 [dragAndDrop] Clicking Drag and Drop : Drag and Drop
+DEBUG   2019-03-19 11:50:03,161 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-19 11:50:13,340 [dragAndDrop] 
+===============================Drag and Drop Button=================================
+DEBUG   2019-03-19 11:50:13,340 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:50:13,340 [dragAndDrop] Atempting to Drag and Drop bubble 
+DEBUG   2019-03-19 11:50:13,340 [dragAndDrop] Checking if the bubble is present : Drag and Drop
+DEBUG   2019-03-19 11:50:13,340 [dragAndDrop] Drag and Drop : Dragging bubble
+DEBUG   2019-03-19 11:50:13,340 [dragAndDrop] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-19 11:50:19,772 [environment] The scenario 'Drag and drop element' has passed
+DEBUG   2019-03-19 11:50:21,447 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 11:50:21,447 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 11:50:21,447 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 11:50:21,449 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 11:50:21,450 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 11:50:21,450 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 11:50:21,450 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 11:50:21,450 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 11:50:21,450 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 11:50:21,450 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 11:50:21,451 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:50:39,174 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 11:50:39,176 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:50:39,360 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/54e8b000-8cb7-46c8-afa2-b8cad5abf5d9/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 11:50:39,365 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:50:39,380 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/54e8b000-8cb7-46c8-afa2-b8cad5abf5d9/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 11:50:39,381 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 11:50:39,382 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:50:39,422 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/54e8b000-8cb7-46c8-afa2-b8cad5abf5d9/log HTTP/1.1" 200 682310
+DEBUG   2019-03-19 11:50:39,510 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:50:39,516 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/54e8b000-8cb7-46c8-afa2-b8cad5abf5d9/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 11:50:39,517 [environment] Running new scenario: Run messaging
+INFO    2019-03-19 11:51:01,195 [environment] The scenario 'Run messaging' has passed
+DEBUG   2019-03-19 11:51:02,813 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 11:51:02,813 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 11:51:02,813 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 11:51:02,816 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 11:51:02,816 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 11:51:02,816 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 11:51:02,816 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 11:51:02,817 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 11:51:02,817 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 11:51:02,817 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 11:51:02,818 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:51:22,205 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 11:51:22,208 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:51:22,372 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/45a8b7d1-48ad-4004-8ffd-908feae09f0d/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 11:51:22,375 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:51:22,389 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/45a8b7d1-48ad-4004-8ffd-908feae09f0d/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 11:51:22,390 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 11:51:22,391 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:51:22,435 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/45a8b7d1-48ad-4004-8ffd-908feae09f0d/log HTTP/1.1" 200 682081
+DEBUG   2019-03-19 11:51:22,481 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:51:22,487 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/45a8b7d1-48ad-4004-8ffd-908feae09f0d/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 11:51:22,490 [environment] Running new scenario: scroll through tabs
+INFO    2019-03-19 11:51:43,095 [environment] The scenario 'scroll through tabs' has passed
+DEBUG   2019-03-19 11:51:44,799 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 11:51:44,800 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 11:51:44,800 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 11:51:44,803 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 11:51:44,803 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 11:51:44,804 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 11:51:44,804 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 11:51:44,804 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 11:51:44,804 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 11:51:44,804 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 11:51:44,806 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
