@@ -2327,3 +2327,80 @@ DEBUG   2019-03-14 16:53:56,922 [config_driver] Added Appium server capability: 
 DEBUG   2019-03-14 16:53:56,922 [config_driver] Added Appium server capability: platformName = Android
 DEBUG   2019-03-14 16:53:56,922 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
 DEBUG   2019-03-14 16:53:56,923 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:48:03,457 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 11:48:03,465 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 11:48:03,465 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 11:48:03,473 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 11:48:03,474 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 11:48:03,474 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 11:48:03,474 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 11:48:03,474 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 11:48:03,474 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 11:48:03,474 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 11:48:03,495 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:48:30,732 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 11:48:30,735 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:48:30,956 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/c6635486-5ab9-4f0c-b8df-11443dbd4481/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 11:48:30,960 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:48:30,981 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/c6635486-5ab9-4f0c-b8df-11443dbd4481/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 11:48:30,982 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 11:48:30,983 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:48:31,042 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/c6635486-5ab9-4f0c-b8df-11443dbd4481/log HTTP/1.1" 200 534354
+DEBUG   2019-03-19 11:48:31,094 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:48:31,101 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/c6635486-5ab9-4f0c-b8df-11443dbd4481/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 11:48:31,102 [environment] Running new scenario: Start and stop alarm services
+INFO    2019-03-19 11:48:35,949 [alarmServices] 
+===============================Start Alarm Services=================================
+DEBUG   2019-03-19 11:48:35,950 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:48:35,950 [alarmServices] Atempting to start the alarm services 
+DEBUG   2019-03-19 11:48:35,950 [alarmServices] Checking if the button is present : <appium.webdriver.webelement.WebElement (session="c6635486-5ab9-4f0c-b8df-11443dbd4481", element="5")>
+DEBUG   2019-03-19 11:48:35,950 [alarmServices] Clicking alarm services : <appium.webdriver.webelement.WebElement (session="c6635486-5ab9-4f0c-b8df-11443dbd4481", element="5")>
+DEBUG   2019-03-19 11:48:35,951 [alarmServices] 
+-----------------------------------------------------------------------------------
+INFO    2019-03-19 11:48:44,151 [alarmServices] 
+===============================Stop Alarm Services==================================
+DEBUG   2019-03-19 11:48:44,151 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:48:44,151 [alarmServices] Atempting to click the Stop Alarm 
+DEBUG   2019-03-19 11:48:44,151 [alarmServices] Checking if the button is present : Stop Alarm
+DEBUG   2019-03-19 11:48:44,152 [alarmServices] Clicking Stop Alarm : Stop Alarm
+DEBUG   2019-03-19 11:48:44,152 [alarmServices] 
+-----------------------------------------------------------------------------------
+DEBUG   2019-03-19 11:48:53,359 [alarmServices] 
+ The user goes back to main screen
+INFO    2019-03-19 11:49:02,434 [environment] The scenario 'Start and stop alarm services' has passed
+DEBUG   2019-03-19 11:49:04,032 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 11:49:04,033 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 11:49:04,033 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 11:49:04,038 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 11:49:04,039 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 11:49:04,039 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 11:49:04,039 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 11:49:04,039 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 11:49:04,039 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 11:49:04,039 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 11:49:04,041 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:22,076 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+DEBUG   2019-03-19 11:49:22,078 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:22,255 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f8c68245-6515-4268-a9f8-a489cd9f2d86/appium/app/strings HTTP/1.1" 200 55826
+DEBUG   2019-03-19 11:49:22,259 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:22,274 [connectionpool] http://0.0.0.0:4723 "GET /wd/hub/session/f8c68245-6515-4268-a9f8-a489cd9f2d86/window/rect HTTP/1.1" 200 50
+DEBUG   2019-03-19 11:49:22,275 [driver_wrapper] Window size: 1440 x 2560
+DEBUG   2019-03-19 11:49:22,276 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:22,328 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f8c68245-6515-4268-a9f8-a489cd9f2d86/log HTTP/1.1" 200 613333
+DEBUG   2019-03-19 11:49:22,364 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
+DEBUG   2019-03-19 11:49:22,372 [connectionpool] http://0.0.0.0:4723 "POST /wd/hub/session/f8c68245-6515-4268-a9f8-a489cd9f2d86/timeouts HTTP/1.1" 200 14
+INFO    2019-03-19 11:49:22,373 [environment] Running new scenario: Run animation
+INFO    2019-03-19 11:49:35,194 [environment] The scenario 'Run animation' has passed
+DEBUG   2019-03-19 11:49:36,852 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/properties.cfg
+DEBUG   2019-03-19 11:49:36,853 [config_parser] Reading properties from file: /home/samkelo/Automation-Testing-Demo/android_behave/conf/android-properties.cfg
+DEBUG   2019-03-19 11:49:36,853 [config_parser] Properties config file not found: /home/samkelo/Automation-Testing-Demo/android_behave/conf/local-android-properties.cfg
+INFO    2019-03-19 11:49:36,856 [config_driver] Creating local driver (type = android)
+DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2019-03-19 11:49:36,857 [config_driver] Added Appium server capability: app = https://github.com/appium/javascript-workshop/blob/master/apps/ApiDemos.apk?raw=true&fake=.apk
+DEBUG   2019-03-19 11:49:36,859 [connectionpool] Starting new HTTP connection (1): 0.0.0.0:4723
