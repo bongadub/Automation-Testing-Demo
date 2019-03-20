@@ -23,8 +23,6 @@ from toolium.pageelements import *
 
 from random import randint
 
-# from pageobjects.synchronization import Synchronization
-# from android_behave.pageobjects.synchronization import Synchronization
 from android_behave.pageobjects.synchronization import Synchronization
 
 from appium.webdriver.common.touch_action import TouchAction

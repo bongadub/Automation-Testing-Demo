@@ -39,10 +39,6 @@ from android_behave.pageobjects.menu import MenuPageObject
 from android_behave.pageobjects.alarmServices import TabsPageObject
 
 
-# @given('the menu is open')
-# def step_impl(context):
-#     context.current_page = MenuPageObject()
-
 @when('the user goes to Alarm Services')
 def step_impl(context):
     context.current_page.open_option('App').open_option('Alarm').open_option('Alarm Service')

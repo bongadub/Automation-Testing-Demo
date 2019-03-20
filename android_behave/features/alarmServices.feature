@@ -6,5 +6,3 @@ Feature: Alarm Services
      When the user goes to Alarm Services
      And the user starts the alarm service
 	 And the user stops the alarm service
-
-    #Then the user clicks back button

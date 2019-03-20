@@ -18,8 +18,6 @@ limitations under the License.
 
 from random import randint
 
-# from pageobjects.synchronization import Synchronization
-# from android_behave.pageobjects.synchronization import Synchronization
 from android_behave.pageobjects.synchronization import Synchronization
 
 from appium.webdriver.common.touch_action import TouchAction
@@ -126,8 +124,6 @@ class TabsPageObject(PageObject):
 				return None
 			else:
 				self.auto_log("debug", "Clicking the " + str(element))
-				# element.wait_until_visible(int(self.config.get('Test', 'wait')))
-				# element.wait_until_clickable(int(self.config.get('Test', 'wait')))
 
 				elementType = type(element)
 				if "PageElement" in str(elementType):
@@ -152,7 +148,6 @@ class TabsPageObject(PageObject):
 				raise WebDriverException(errorMsg)
 				return None
 			else:
-				# element.wait_until_visible(int(self.config.get('Test', 'wait')))
 				return self
 		except NoSuchElementException:
 			self.auto_log("error", "Element {} does not exist".format(element))

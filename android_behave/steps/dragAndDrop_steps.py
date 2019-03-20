@@ -51,7 +51,6 @@ def step_impl(context):
  
 @then('the user clicks on drag and drop button')
 def step_impl(context):
-	# context.current_page.open_option('Drag and Drop')
 	context.current_page = TabsPageObject()
 	context.current_page.viewsDragAndDrop()
 
